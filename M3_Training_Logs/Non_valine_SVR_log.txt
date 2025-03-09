@@ -1,0 +1,4942 @@
+nohup: ignoring input
+Ml_type SVM
+CV: 10
+Normalize True
+Verbose False
+Verbose_plot False
+C 1
+epsilon 0
+model None
+────────────────────────────────────────────────────────────────────────────────
+model parameters :
+
+Ml_type SVM
+CV: 10
+Normalize True
+Verbose False
+Verbose_plot False
+C [0.1, 0.5, 1, 3, 5, 7, 8, 9, 9.5, 10, 10.5, 11, 12, 15, 20, 50, 100]
+epsilon [0, 0.001, 0.01, 0.03, 0.05, 0.075, 0.1, 0.2, 0.3, 0.4, 0.55]
+model None
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+initial model cv errors
+
+
+Best hyperparams with lowest CV error
+C 8.0 epsilon 0.0
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+rfe without hyp opt :
+
+Worst column fp_mqns_26
+RFE RMSE CV 0.70
+Worst column fp_o_desc_chi3v
+RFE RMSE CV 0.70
+Worst column fp_slogPVsa_5
+RFE RMSE CV 0.69
+Worst column fp_smrVsa_5
+RFE RMSE CV 0.69
+Worst column fp_slogPVsa_3
+RFE RMSE CV 0.68
+Worst column fp_slogPVsa_4
+RFE RMSE CV 0.68
+Worst column fp_slogPVsa_2
+RFE RMSE CV 0.67
+Worst column fp_o_desc_chi3n
+RFE RMSE CV 0.67
+Worst column fp_mqns_28
+RFE RMSE CV 0.67
+Worst column fp_smrVsa_4
+RFE RMSE CV 0.66
+Worst column fp_slogPVsa_6
+RFE RMSE CV 0.66
+Worst column fp_mqns_30
+RFE RMSE CV 0.65
+Worst column fp_mqns_36
+RFE RMSE CV 0.64
+Worst column fp_smrVsa_7
+RFE RMSE CV 0.64
+Worst column fp_mqns_17
+RFE RMSE CV 0.63
+Worst column fp_mqns_13
+RFE RMSE CV 0.63
+Worst column fp_o_desc_chi1
+RFE RMSE CV 0.63
+Worst column fp_o_desc_nRing
+RFE RMSE CV 0.62
+Worst column fp_mqns_12
+RFE RMSE CV 0.62
+Worst column fp_o_desc_chi1n
+RFE RMSE CV 0.62
+Worst column fp_smrVsa_6
+RFE RMSE CV 0.61
+Worst column fp_mqns_1
+RFE RMSE CV 0.61
+Worst column fp_mqns_16
+RFE RMSE CV 0.60
+Worst column fp_o_desc_chi0
+RFE RMSE CV 0.60
+Worst column fp_o_desc_chi0n
+RFE RMSE CV 0.60
+Worst column fp_o_desc_chi4n
+RFE RMSE CV 0.60
+Worst column fp_smrVsa_1
+RFE RMSE CV 0.59
+Worst column fp_o_desc_nAroRing
+RFE RMSE CV 0.59
+Worst column fp_mqns_10
+RFE RMSE CV 0.59
+Worst column fp_mqns_23
+RFE RMSE CV 0.58
+Worst column fp_o_desc_chi4v
+RFE RMSE CV 0.58
+Worst column fp_mqns_20
+RFE RMSE CV 0.58
+Worst column fp_o_desc_chi2n
+RFE RMSE CV 0.57
+Worst column fp_o_desc_chi0v
+RFE RMSE CV 0.57
+Worst column fp_o_desc_k1
+RFE RMSE CV 0.57
+Worst column fp_o_desc_chi1v
+RFE RMSE CV 0.57
+Worst column fp_mqns_31
+RFE RMSE CV 0.56
+Worst column fp_mqns_22
+RFE RMSE CV 0.56
+Worst column fp_o_desc_chi2v
+RFE RMSE CV 0.56
+Worst column fp_mqns_21
+RFE RMSE CV 0.55
+Worst column abs_chg
+RFE RMSE CV 0.55
+Worst column fp_smrVsa_3
+RFE RMSE CV 0.55
+Worst column fp_mqns_19
+RFE RMSE CV 0.55
+Worst column fp_slogPVsa_12
+RFE RMSE CV 0.55
+Worst column fp_o_desc_nRotBon
+RFE RMSE CV 0.55
+Worst column fp_o_desc_HallKierAlpha
+RFE RMSE CV 0.54
+Worst column fp_mqns_9
+RFE RMSE CV 0.54
+Worst column fp_smrVsa_9
+RFE RMSE CV 0.53
+Worst column fp_mqns_35
+RFE RMSE CV 0.52
+Worst column fp_mqns_11
+RFE RMSE CV 0.52
+Worst column fp_mqns_15
+RFE RMSE CV 0.52
+Worst column fp_slogPVsa_9
+RFE RMSE CV 0.52
+Worst column fp_mqns_29
+RFE RMSE CV 0.52
+Worst column fp_mqns_18
+RFE RMSE CV 0.52
+Worst column fp_smrVsa_8
+RFE RMSE CV 0.52
+Worst column fp_mqns_3
+RFE RMSE CV 0.52
+Worst column fp_mqns_32
+RFE RMSE CV 0.52
+Worst column fp_mqns_7
+RFE RMSE CV 0.52
+Worst column fp_slogPVsa_10
+RFE RMSE CV 0.52
+Worst column fp_mqns_2
+RFE RMSE CV 0.52
+Worst column fp_slogPVsa_7
+RFE RMSE CV 0.52
+Worst column fp_mqns_33
+RFE RMSE CV 0.52
+Worst column fp_mqns_5
+RFE RMSE CV 0.52
+Worst column fp_mqns_24
+RFE RMSE CV 0.52
+Worst column fp_mqns_34
+RFE RMSE CV 0.52
+Worst column fp_mqns_25
+RFE RMSE CV 0.52
+Worst column fp_mqns_37
+RFE RMSE CV 0.52
+Worst column fp_mqns_38
+RFE RMSE CV 0.52
+Worst column fp_mqns_39
+RFE RMSE CV 0.52
+Worst column fp_mqns_4
+RFE RMSE CV 0.52
+Worst column fp_mqns_40
+RFE RMSE CV 0.52
+Worst column fp_smrVsa_10
+RFE RMSE CV 0.52
+Worst column fp_mqns_8
+RFE RMSE CV 0.52
+Worst column fp_mqns_27
+RFE RMSE CV 0.53
+Worst column fp_slogPVsa_8
+RFE RMSE CV 0.53
+Worst column fp_o_desc_nAliRing
+RFE RMSE CV 0.53
+Worst column net_chg
+RFE RMSE CV 0.53
+Worst column fp_mqns_41
+RFE RMSE CV 0.54
+Worst column fp_smrVsa_2
+RFE RMSE CV 0.54
+Worst column norm_bscore
+RFE RMSE CV 0.54
+Worst column norm_logP
+RFE RMSE CV 0.53
+Worst column fp_mqns_42
+RFE RMSE CV 0.54
+Worst column fp_slogPVsa_1
+RFE RMSE CV 0.56
+Worst column norm_abs_logP
+RFE RMSE CV 0.58
+Worst column fp_mqns_6
+RFE RMSE CV 0.61
+Worst column fp_slogPVsa_11
+RFE RMSE CV 0.69
+Worst column fp_o_desc_k3
+RFE RMSE CV 0.71
+Worst column patterning
+RFE RMSE CV 0.87
+Worst column fp_o_desc_k2
+RFE RMSE CV 0.97
+────────────────────────────────────────────────────────────────────────────────
+
+
+rfe w/o hyp optimization RMSE CV errors:
+
+[0.7001120704083451, 0.6961132040250743, 0.6920140442243292, 0.6872462390781309, 0.6827339308993754, 0.6786589516029783, 0.6743830811569171, 0.6699709835304873, 0.6651131235184303, 0.6603312041121236, 0.6554986699170968, 0.6502460068933437, 0.6446993491994787, 0.6388788182978099, 0.6343560225037005, 0.6303644897620286, 0.6266254096092871, 0.6229916428110605, 0.6194894990348261, 0.6162468919103824, 0.6126854557495631, 0.6089588673304552, 0.6048527356458522, 0.601569393846642, 0.5984617079697432, 0.5955037840465022, 0.5932099696803801, 0.5903549199052759, 0.5868823891229604, 0.5833808993767413, 0.5796578959039376, 0.5772289715044603, 0.5747982684653845, 0.5719806618083346, 0.5693934453023484, 0.5662607739132924, 0.5622226185573351, 0.559795471137216, 0.5566476496460406, 0.5531739813366922, 0.5510037086253485, 0.5498899839926429, 0.5483023553813833, 0.5476371774823942, 0.5456907460151392, 0.5437654682297133, 0.5375360320084883, 0.5303853484414339, 0.5229563325611263, 0.5229563325611261, 0.5229563325611262, 0.5229563325611265, 0.5229563325611262, 0.5229563325611261, 0.5229563325611257, 0.5229563325611265, 0.5229563325611261, 0.5229563325611262, 0.5229563325611262, 0.5229563325611265, 0.5229563325611264, 0.5229563325611261, 0.5229563325611264, 0.5229563325611265, 0.5229563325611262, 0.522956332561127, 0.5229563325611272, 0.5229563325611266, 0.5229563325611257, 0.5229563325611265, 0.5229563325611268, 0.5231067751155627, 0.5249949782262989, 0.5251960805555669, 0.5263499709509794, 0.5296144534493163, 0.5337249711014471, 0.5388825798628182, 0.5443727835730643, 0.5381112907718235, 0.5256174685972107, 0.5436334942405117, 0.5555173005341711, 0.5779151383260982, 0.6067829562724738, 0.6905549943525247, 0.7070827091240638, 0.8697414075042765, 0.9685602892789452]
+
+
+minimum rfe error w/o hyp opt: 0.5229563325611257
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+rfe with hyp opt :
+
+RFE run 0 RFE col idx 0
+RFE run 0 RFE col idx 1
+RFE run 0 RFE col idx 2
+RFE run 0 RFE col idx 3
+RFE run 0 RFE col idx 4
+RFE run 0 RFE col idx 5
+RFE run 0 RFE col idx 6
+RFE run 0 RFE col idx 7
+RFE run 0 RFE col idx 8
+RFE run 0 RFE col idx 9
+RFE run 0 RFE col idx 10
+RFE run 0 RFE col idx 11
+RFE run 0 RFE col idx 12
+RFE run 0 RFE col idx 13
+RFE run 0 RFE col idx 14
+RFE run 0 RFE col idx 15
+RFE run 0 RFE col idx 16
+RFE run 0 RFE col idx 17
+RFE run 0 RFE col idx 18
+RFE run 0 RFE col idx 19
+RFE run 0 RFE col idx 20
+RFE run 0 RFE col idx 21
+RFE run 0 RFE col idx 22
+RFE run 0 RFE col idx 23
+RFE run 0 RFE col idx 24
+RFE run 0 RFE col idx 25
+RFE run 0 RFE col idx 26
+RFE run 0 RFE col idx 27
+RFE run 0 RFE col idx 28
+RFE run 0 RFE col idx 29
+RFE run 0 RFE col idx 30
+RFE run 0 RFE col idx 31
+RFE run 0 RFE col idx 32
+RFE run 0 RFE col idx 33
+RFE run 0 RFE col idx 34
+RFE run 0 RFE col idx 35
+RFE run 0 RFE col idx 36
+RFE run 0 RFE col idx 37
+RFE run 0 RFE col idx 38
+RFE run 0 RFE col idx 39
+RFE run 0 RFE col idx 40
+RFE run 0 RFE col idx 41
+RFE run 0 RFE col idx 42
+RFE run 0 RFE col idx 43
+RFE run 0 RFE col idx 44
+RFE run 0 RFE col idx 45
+RFE run 0 RFE col idx 46
+RFE run 0 RFE col idx 47
+RFE run 0 RFE col idx 48
+RFE run 0 RFE col idx 49
+RFE run 0 RFE col idx 50
+RFE run 0 RFE col idx 51
+RFE run 0 RFE col idx 52
+RFE run 0 RFE col idx 53
+RFE run 0 RFE col idx 54
+RFE run 0 RFE col idx 55
+RFE run 0 RFE col idx 56
+RFE run 0 RFE col idx 57
+RFE run 0 RFE col idx 58
+RFE run 0 RFE col idx 59
+RFE run 0 RFE col idx 60
+RFE run 0 RFE col idx 61
+RFE run 0 RFE col idx 62
+RFE run 0 RFE col idx 63
+RFE run 0 RFE col idx 64
+RFE run 0 RFE col idx 65
+RFE run 0 RFE col idx 66
+RFE run 0 RFE col idx 67
+RFE run 0 RFE col idx 68
+RFE run 0 RFE col idx 69
+RFE run 0 RFE col idx 70
+RFE run 0 RFE col idx 71
+RFE run 0 RFE col idx 72
+RFE run 0 RFE col idx 73
+RFE run 0 RFE col idx 74
+RFE run 0 RFE col idx 75
+RFE run 0 RFE col idx 76
+RFE run 0 RFE col idx 77
+RFE run 0 RFE col idx 78
+RFE run 0 RFE col idx 79
+RFE run 0 RFE col idx 80
+RFE run 0 RFE col idx 81
+RFE run 0 RFE col idx 82
+RFE run 0 RFE col idx 83
+RFE run 0 RFE col idx 84
+RFE run 0 RFE col idx 85
+RFE run 0 RFE col idx 86
+RFE run 0 RFE col idx 87
+RFE run 0 RFE col idx 88
+RFE run 0 RFE col idx 89
+Worst column fp_mqns_26
+RFE RMSE CV 0.70
+RFE run 1 RFE col idx 0
+RFE run 1 RFE col idx 1
+RFE run 1 RFE col idx 2
+RFE run 1 RFE col idx 3
+RFE run 1 RFE col idx 4
+RFE run 1 RFE col idx 5
+RFE run 1 RFE col idx 6
+RFE run 1 RFE col idx 7
+RFE run 1 RFE col idx 8
+RFE run 1 RFE col idx 9
+RFE run 1 RFE col idx 10
+RFE run 1 RFE col idx 11
+RFE run 1 RFE col idx 12
+RFE run 1 RFE col idx 13
+RFE run 1 RFE col idx 14
+RFE run 1 RFE col idx 15
+RFE run 1 RFE col idx 16
+RFE run 1 RFE col idx 17
+RFE run 1 RFE col idx 18
+RFE run 1 RFE col idx 19
+RFE run 1 RFE col idx 20
+RFE run 1 RFE col idx 21
+RFE run 1 RFE col idx 22
+RFE run 1 RFE col idx 23
+RFE run 1 RFE col idx 24
+RFE run 1 RFE col idx 25
+RFE run 1 RFE col idx 26
+RFE run 1 RFE col idx 27
+RFE run 1 RFE col idx 28
+RFE run 1 RFE col idx 29
+RFE run 1 RFE col idx 30
+RFE run 1 RFE col idx 31
+RFE run 1 RFE col idx 32
+RFE run 1 RFE col idx 33
+RFE run 1 RFE col idx 34
+RFE run 1 RFE col idx 35
+RFE run 1 RFE col idx 36
+RFE run 1 RFE col idx 37
+RFE run 1 RFE col idx 38
+RFE run 1 RFE col idx 39
+RFE run 1 RFE col idx 40
+RFE run 1 RFE col idx 41
+RFE run 1 RFE col idx 42
+RFE run 1 RFE col idx 43
+RFE run 1 RFE col idx 44
+RFE run 1 RFE col idx 45
+RFE run 1 RFE col idx 46
+RFE run 1 RFE col idx 47
+RFE run 1 RFE col idx 48
+RFE run 1 RFE col idx 49
+RFE run 1 RFE col idx 50
+RFE run 1 RFE col idx 51
+RFE run 1 RFE col idx 52
+RFE run 1 RFE col idx 53
+RFE run 1 RFE col idx 54
+RFE run 1 RFE col idx 55
+RFE run 1 RFE col idx 56
+RFE run 1 RFE col idx 57
+RFE run 1 RFE col idx 58
+RFE run 1 RFE col idx 59
+RFE run 1 RFE col idx 60
+RFE run 1 RFE col idx 61
+RFE run 1 RFE col idx 62
+RFE run 1 RFE col idx 63
+RFE run 1 RFE col idx 64
+RFE run 1 RFE col idx 65
+RFE run 1 RFE col idx 66
+RFE run 1 RFE col idx 67
+RFE run 1 RFE col idx 68
+RFE run 1 RFE col idx 69
+RFE run 1 RFE col idx 70
+RFE run 1 RFE col idx 71
+RFE run 1 RFE col idx 72
+RFE run 1 RFE col idx 73
+RFE run 1 RFE col idx 74
+RFE run 1 RFE col idx 75
+RFE run 1 RFE col idx 76
+RFE run 1 RFE col idx 77
+RFE run 1 RFE col idx 78
+RFE run 1 RFE col idx 79
+RFE run 1 RFE col idx 80
+RFE run 1 RFE col idx 81
+RFE run 1 RFE col idx 82
+RFE run 1 RFE col idx 83
+RFE run 1 RFE col idx 84
+RFE run 1 RFE col idx 85
+RFE run 1 RFE col idx 86
+RFE run 1 RFE col idx 87
+RFE run 1 RFE col idx 88
+Worst column fp_o_desc_chi3v
+RFE RMSE CV 0.70
+RFE run 2 RFE col idx 0
+RFE run 2 RFE col idx 1
+RFE run 2 RFE col idx 2
+RFE run 2 RFE col idx 3
+RFE run 2 RFE col idx 4
+RFE run 2 RFE col idx 5
+RFE run 2 RFE col idx 6
+RFE run 2 RFE col idx 7
+RFE run 2 RFE col idx 8
+RFE run 2 RFE col idx 9
+RFE run 2 RFE col idx 10
+RFE run 2 RFE col idx 11
+RFE run 2 RFE col idx 12
+RFE run 2 RFE col idx 13
+RFE run 2 RFE col idx 14
+RFE run 2 RFE col idx 15
+RFE run 2 RFE col idx 16
+RFE run 2 RFE col idx 17
+RFE run 2 RFE col idx 18
+RFE run 2 RFE col idx 19
+RFE run 2 RFE col idx 20
+RFE run 2 RFE col idx 21
+RFE run 2 RFE col idx 22
+RFE run 2 RFE col idx 23
+RFE run 2 RFE col idx 24
+RFE run 2 RFE col idx 25
+RFE run 2 RFE col idx 26
+RFE run 2 RFE col idx 27
+RFE run 2 RFE col idx 28
+RFE run 2 RFE col idx 29
+RFE run 2 RFE col idx 30
+RFE run 2 RFE col idx 31
+RFE run 2 RFE col idx 32
+RFE run 2 RFE col idx 33
+RFE run 2 RFE col idx 34
+RFE run 2 RFE col idx 35
+RFE run 2 RFE col idx 36
+RFE run 2 RFE col idx 37
+RFE run 2 RFE col idx 38
+RFE run 2 RFE col idx 39
+RFE run 2 RFE col idx 40
+RFE run 2 RFE col idx 41
+RFE run 2 RFE col idx 42
+RFE run 2 RFE col idx 43
+RFE run 2 RFE col idx 44
+RFE run 2 RFE col idx 45
+RFE run 2 RFE col idx 46
+RFE run 2 RFE col idx 47
+RFE run 2 RFE col idx 48
+RFE run 2 RFE col idx 49
+RFE run 2 RFE col idx 50
+RFE run 2 RFE col idx 51
+RFE run 2 RFE col idx 52
+RFE run 2 RFE col idx 53
+RFE run 2 RFE col idx 54
+RFE run 2 RFE col idx 55
+RFE run 2 RFE col idx 56
+RFE run 2 RFE col idx 57
+RFE run 2 RFE col idx 58
+RFE run 2 RFE col idx 59
+RFE run 2 RFE col idx 60
+RFE run 2 RFE col idx 61
+RFE run 2 RFE col idx 62
+RFE run 2 RFE col idx 63
+RFE run 2 RFE col idx 64
+RFE run 2 RFE col idx 65
+RFE run 2 RFE col idx 66
+RFE run 2 RFE col idx 67
+RFE run 2 RFE col idx 68
+RFE run 2 RFE col idx 69
+RFE run 2 RFE col idx 70
+RFE run 2 RFE col idx 71
+RFE run 2 RFE col idx 72
+RFE run 2 RFE col idx 73
+RFE run 2 RFE col idx 74
+RFE run 2 RFE col idx 75
+RFE run 2 RFE col idx 76
+RFE run 2 RFE col idx 77
+RFE run 2 RFE col idx 78
+RFE run 2 RFE col idx 79
+RFE run 2 RFE col idx 80
+RFE run 2 RFE col idx 81
+RFE run 2 RFE col idx 82
+RFE run 2 RFE col idx 83
+RFE run 2 RFE col idx 84
+RFE run 2 RFE col idx 85
+RFE run 2 RFE col idx 86
+RFE run 2 RFE col idx 87
+Worst column fp_slogPVsa_5
+RFE RMSE CV 0.69
+RFE run 3 RFE col idx 0
+RFE run 3 RFE col idx 1
+RFE run 3 RFE col idx 2
+RFE run 3 RFE col idx 3
+RFE run 3 RFE col idx 4
+RFE run 3 RFE col idx 5
+RFE run 3 RFE col idx 6
+RFE run 3 RFE col idx 7
+RFE run 3 RFE col idx 8
+RFE run 3 RFE col idx 9
+RFE run 3 RFE col idx 10
+RFE run 3 RFE col idx 11
+RFE run 3 RFE col idx 12
+RFE run 3 RFE col idx 13
+RFE run 3 RFE col idx 14
+RFE run 3 RFE col idx 15
+RFE run 3 RFE col idx 16
+RFE run 3 RFE col idx 17
+RFE run 3 RFE col idx 18
+RFE run 3 RFE col idx 19
+RFE run 3 RFE col idx 20
+RFE run 3 RFE col idx 21
+RFE run 3 RFE col idx 22
+RFE run 3 RFE col idx 23
+RFE run 3 RFE col idx 24
+RFE run 3 RFE col idx 25
+RFE run 3 RFE col idx 26
+RFE run 3 RFE col idx 27
+RFE run 3 RFE col idx 28
+RFE run 3 RFE col idx 29
+RFE run 3 RFE col idx 30
+RFE run 3 RFE col idx 31
+RFE run 3 RFE col idx 32
+RFE run 3 RFE col idx 33
+RFE run 3 RFE col idx 34
+RFE run 3 RFE col idx 35
+RFE run 3 RFE col idx 36
+RFE run 3 RFE col idx 37
+RFE run 3 RFE col idx 38
+RFE run 3 RFE col idx 39
+RFE run 3 RFE col idx 40
+RFE run 3 RFE col idx 41
+RFE run 3 RFE col idx 42
+RFE run 3 RFE col idx 43
+RFE run 3 RFE col idx 44
+RFE run 3 RFE col idx 45
+RFE run 3 RFE col idx 46
+RFE run 3 RFE col idx 47
+RFE run 3 RFE col idx 48
+RFE run 3 RFE col idx 49
+RFE run 3 RFE col idx 50
+RFE run 3 RFE col idx 51
+RFE run 3 RFE col idx 52
+RFE run 3 RFE col idx 53
+RFE run 3 RFE col idx 54
+RFE run 3 RFE col idx 55
+RFE run 3 RFE col idx 56
+RFE run 3 RFE col idx 57
+RFE run 3 RFE col idx 58
+RFE run 3 RFE col idx 59
+RFE run 3 RFE col idx 60
+RFE run 3 RFE col idx 61
+RFE run 3 RFE col idx 62
+RFE run 3 RFE col idx 63
+RFE run 3 RFE col idx 64
+RFE run 3 RFE col idx 65
+RFE run 3 RFE col idx 66
+RFE run 3 RFE col idx 67
+RFE run 3 RFE col idx 68
+RFE run 3 RFE col idx 69
+RFE run 3 RFE col idx 70
+RFE run 3 RFE col idx 71
+RFE run 3 RFE col idx 72
+RFE run 3 RFE col idx 73
+RFE run 3 RFE col idx 74
+RFE run 3 RFE col idx 75
+RFE run 3 RFE col idx 76
+RFE run 3 RFE col idx 77
+RFE run 3 RFE col idx 78
+RFE run 3 RFE col idx 79
+RFE run 3 RFE col idx 80
+RFE run 3 RFE col idx 81
+RFE run 3 RFE col idx 82
+RFE run 3 RFE col idx 83
+RFE run 3 RFE col idx 84
+RFE run 3 RFE col idx 85
+RFE run 3 RFE col idx 86
+Worst column fp_smrVsa_5
+RFE RMSE CV 0.69
+RFE run 4 RFE col idx 0
+RFE run 4 RFE col idx 1
+RFE run 4 RFE col idx 2
+RFE run 4 RFE col idx 3
+RFE run 4 RFE col idx 4
+RFE run 4 RFE col idx 5
+RFE run 4 RFE col idx 6
+RFE run 4 RFE col idx 7
+RFE run 4 RFE col idx 8
+RFE run 4 RFE col idx 9
+RFE run 4 RFE col idx 10
+RFE run 4 RFE col idx 11
+RFE run 4 RFE col idx 12
+RFE run 4 RFE col idx 13
+RFE run 4 RFE col idx 14
+RFE run 4 RFE col idx 15
+RFE run 4 RFE col idx 16
+RFE run 4 RFE col idx 17
+RFE run 4 RFE col idx 18
+RFE run 4 RFE col idx 19
+RFE run 4 RFE col idx 20
+RFE run 4 RFE col idx 21
+RFE run 4 RFE col idx 22
+RFE run 4 RFE col idx 23
+RFE run 4 RFE col idx 24
+RFE run 4 RFE col idx 25
+RFE run 4 RFE col idx 26
+RFE run 4 RFE col idx 27
+RFE run 4 RFE col idx 28
+RFE run 4 RFE col idx 29
+RFE run 4 RFE col idx 30
+RFE run 4 RFE col idx 31
+RFE run 4 RFE col idx 32
+RFE run 4 RFE col idx 33
+RFE run 4 RFE col idx 34
+RFE run 4 RFE col idx 35
+RFE run 4 RFE col idx 36
+RFE run 4 RFE col idx 37
+RFE run 4 RFE col idx 38
+RFE run 4 RFE col idx 39
+RFE run 4 RFE col idx 40
+RFE run 4 RFE col idx 41
+RFE run 4 RFE col idx 42
+RFE run 4 RFE col idx 43
+RFE run 4 RFE col idx 44
+RFE run 4 RFE col idx 45
+RFE run 4 RFE col idx 46
+RFE run 4 RFE col idx 47
+RFE run 4 RFE col idx 48
+RFE run 4 RFE col idx 49
+RFE run 4 RFE col idx 50
+RFE run 4 RFE col idx 51
+RFE run 4 RFE col idx 52
+RFE run 4 RFE col idx 53
+RFE run 4 RFE col idx 54
+RFE run 4 RFE col idx 55
+RFE run 4 RFE col idx 56
+RFE run 4 RFE col idx 57
+RFE run 4 RFE col idx 58
+RFE run 4 RFE col idx 59
+RFE run 4 RFE col idx 60
+RFE run 4 RFE col idx 61
+RFE run 4 RFE col idx 62
+RFE run 4 RFE col idx 63
+RFE run 4 RFE col idx 64
+RFE run 4 RFE col idx 65
+RFE run 4 RFE col idx 66
+RFE run 4 RFE col idx 67
+RFE run 4 RFE col idx 68
+RFE run 4 RFE col idx 69
+RFE run 4 RFE col idx 70
+RFE run 4 RFE col idx 71
+RFE run 4 RFE col idx 72
+RFE run 4 RFE col idx 73
+RFE run 4 RFE col idx 74
+RFE run 4 RFE col idx 75
+RFE run 4 RFE col idx 76
+RFE run 4 RFE col idx 77
+RFE run 4 RFE col idx 78
+RFE run 4 RFE col idx 79
+RFE run 4 RFE col idx 80
+RFE run 4 RFE col idx 81
+RFE run 4 RFE col idx 82
+RFE run 4 RFE col idx 83
+RFE run 4 RFE col idx 84
+RFE run 4 RFE col idx 85
+Worst column fp_slogPVsa_3
+RFE RMSE CV 0.68
+RFE run 5 RFE col idx 0
+RFE run 5 RFE col idx 1
+RFE run 5 RFE col idx 2
+RFE run 5 RFE col idx 3
+RFE run 5 RFE col idx 4
+RFE run 5 RFE col idx 5
+RFE run 5 RFE col idx 6
+RFE run 5 RFE col idx 7
+RFE run 5 RFE col idx 8
+RFE run 5 RFE col idx 9
+RFE run 5 RFE col idx 10
+RFE run 5 RFE col idx 11
+RFE run 5 RFE col idx 12
+RFE run 5 RFE col idx 13
+RFE run 5 RFE col idx 14
+RFE run 5 RFE col idx 15
+RFE run 5 RFE col idx 16
+RFE run 5 RFE col idx 17
+RFE run 5 RFE col idx 18
+RFE run 5 RFE col idx 19
+RFE run 5 RFE col idx 20
+RFE run 5 RFE col idx 21
+RFE run 5 RFE col idx 22
+RFE run 5 RFE col idx 23
+RFE run 5 RFE col idx 24
+RFE run 5 RFE col idx 25
+RFE run 5 RFE col idx 26
+RFE run 5 RFE col idx 27
+RFE run 5 RFE col idx 28
+RFE run 5 RFE col idx 29
+RFE run 5 RFE col idx 30
+RFE run 5 RFE col idx 31
+RFE run 5 RFE col idx 32
+RFE run 5 RFE col idx 33
+RFE run 5 RFE col idx 34
+RFE run 5 RFE col idx 35
+RFE run 5 RFE col idx 36
+RFE run 5 RFE col idx 37
+RFE run 5 RFE col idx 38
+RFE run 5 RFE col idx 39
+RFE run 5 RFE col idx 40
+RFE run 5 RFE col idx 41
+RFE run 5 RFE col idx 42
+RFE run 5 RFE col idx 43
+RFE run 5 RFE col idx 44
+RFE run 5 RFE col idx 45
+RFE run 5 RFE col idx 46
+RFE run 5 RFE col idx 47
+RFE run 5 RFE col idx 48
+RFE run 5 RFE col idx 49
+RFE run 5 RFE col idx 50
+RFE run 5 RFE col idx 51
+RFE run 5 RFE col idx 52
+RFE run 5 RFE col idx 53
+RFE run 5 RFE col idx 54
+RFE run 5 RFE col idx 55
+RFE run 5 RFE col idx 56
+RFE run 5 RFE col idx 57
+RFE run 5 RFE col idx 58
+RFE run 5 RFE col idx 59
+RFE run 5 RFE col idx 60
+RFE run 5 RFE col idx 61
+RFE run 5 RFE col idx 62
+RFE run 5 RFE col idx 63
+RFE run 5 RFE col idx 64
+RFE run 5 RFE col idx 65
+RFE run 5 RFE col idx 66
+RFE run 5 RFE col idx 67
+RFE run 5 RFE col idx 68
+RFE run 5 RFE col idx 69
+RFE run 5 RFE col idx 70
+RFE run 5 RFE col idx 71
+RFE run 5 RFE col idx 72
+RFE run 5 RFE col idx 73
+RFE run 5 RFE col idx 74
+RFE run 5 RFE col idx 75
+RFE run 5 RFE col idx 76
+RFE run 5 RFE col idx 77
+RFE run 5 RFE col idx 78
+RFE run 5 RFE col idx 79
+RFE run 5 RFE col idx 80
+RFE run 5 RFE col idx 81
+RFE run 5 RFE col idx 82
+RFE run 5 RFE col idx 83
+RFE run 5 RFE col idx 84
+Worst column fp_slogPVsa_4
+RFE RMSE CV 0.68
+RFE run 6 RFE col idx 0
+RFE run 6 RFE col idx 1
+RFE run 6 RFE col idx 2
+RFE run 6 RFE col idx 3
+RFE run 6 RFE col idx 4
+RFE run 6 RFE col idx 5
+RFE run 6 RFE col idx 6
+RFE run 6 RFE col idx 7
+RFE run 6 RFE col idx 8
+RFE run 6 RFE col idx 9
+RFE run 6 RFE col idx 10
+RFE run 6 RFE col idx 11
+RFE run 6 RFE col idx 12
+RFE run 6 RFE col idx 13
+RFE run 6 RFE col idx 14
+RFE run 6 RFE col idx 15
+RFE run 6 RFE col idx 16
+RFE run 6 RFE col idx 17
+RFE run 6 RFE col idx 18
+RFE run 6 RFE col idx 19
+RFE run 6 RFE col idx 20
+RFE run 6 RFE col idx 21
+RFE run 6 RFE col idx 22
+RFE run 6 RFE col idx 23
+RFE run 6 RFE col idx 24
+RFE run 6 RFE col idx 25
+RFE run 6 RFE col idx 26
+RFE run 6 RFE col idx 27
+RFE run 6 RFE col idx 28
+RFE run 6 RFE col idx 29
+RFE run 6 RFE col idx 30
+RFE run 6 RFE col idx 31
+RFE run 6 RFE col idx 32
+RFE run 6 RFE col idx 33
+RFE run 6 RFE col idx 34
+RFE run 6 RFE col idx 35
+RFE run 6 RFE col idx 36
+RFE run 6 RFE col idx 37
+RFE run 6 RFE col idx 38
+RFE run 6 RFE col idx 39
+RFE run 6 RFE col idx 40
+RFE run 6 RFE col idx 41
+RFE run 6 RFE col idx 42
+RFE run 6 RFE col idx 43
+RFE run 6 RFE col idx 44
+RFE run 6 RFE col idx 45
+RFE run 6 RFE col idx 46
+RFE run 6 RFE col idx 47
+RFE run 6 RFE col idx 48
+RFE run 6 RFE col idx 49
+RFE run 6 RFE col idx 50
+RFE run 6 RFE col idx 51
+RFE run 6 RFE col idx 52
+RFE run 6 RFE col idx 53
+RFE run 6 RFE col idx 54
+RFE run 6 RFE col idx 55
+RFE run 6 RFE col idx 56
+RFE run 6 RFE col idx 57
+RFE run 6 RFE col idx 58
+RFE run 6 RFE col idx 59
+RFE run 6 RFE col idx 60
+RFE run 6 RFE col idx 61
+RFE run 6 RFE col idx 62
+RFE run 6 RFE col idx 63
+RFE run 6 RFE col idx 64
+RFE run 6 RFE col idx 65
+RFE run 6 RFE col idx 66
+RFE run 6 RFE col idx 67
+RFE run 6 RFE col idx 68
+RFE run 6 RFE col idx 69
+RFE run 6 RFE col idx 70
+RFE run 6 RFE col idx 71
+RFE run 6 RFE col idx 72
+RFE run 6 RFE col idx 73
+RFE run 6 RFE col idx 74
+RFE run 6 RFE col idx 75
+RFE run 6 RFE col idx 76
+RFE run 6 RFE col idx 77
+RFE run 6 RFE col idx 78
+RFE run 6 RFE col idx 79
+RFE run 6 RFE col idx 80
+RFE run 6 RFE col idx 81
+RFE run 6 RFE col idx 82
+RFE run 6 RFE col idx 83
+Worst column fp_slogPVsa_2
+RFE RMSE CV 0.67
+RFE run 7 RFE col idx 0
+RFE run 7 RFE col idx 1
+RFE run 7 RFE col idx 2
+RFE run 7 RFE col idx 3
+RFE run 7 RFE col idx 4
+RFE run 7 RFE col idx 5
+RFE run 7 RFE col idx 6
+RFE run 7 RFE col idx 7
+RFE run 7 RFE col idx 8
+RFE run 7 RFE col idx 9
+RFE run 7 RFE col idx 10
+RFE run 7 RFE col idx 11
+RFE run 7 RFE col idx 12
+RFE run 7 RFE col idx 13
+RFE run 7 RFE col idx 14
+RFE run 7 RFE col idx 15
+RFE run 7 RFE col idx 16
+RFE run 7 RFE col idx 17
+RFE run 7 RFE col idx 18
+RFE run 7 RFE col idx 19
+RFE run 7 RFE col idx 20
+RFE run 7 RFE col idx 21
+RFE run 7 RFE col idx 22
+RFE run 7 RFE col idx 23
+RFE run 7 RFE col idx 24
+RFE run 7 RFE col idx 25
+RFE run 7 RFE col idx 26
+RFE run 7 RFE col idx 27
+RFE run 7 RFE col idx 28
+RFE run 7 RFE col idx 29
+RFE run 7 RFE col idx 30
+RFE run 7 RFE col idx 31
+RFE run 7 RFE col idx 32
+RFE run 7 RFE col idx 33
+RFE run 7 RFE col idx 34
+RFE run 7 RFE col idx 35
+RFE run 7 RFE col idx 36
+RFE run 7 RFE col idx 37
+RFE run 7 RFE col idx 38
+RFE run 7 RFE col idx 39
+RFE run 7 RFE col idx 40
+RFE run 7 RFE col idx 41
+RFE run 7 RFE col idx 42
+RFE run 7 RFE col idx 43
+RFE run 7 RFE col idx 44
+RFE run 7 RFE col idx 45
+RFE run 7 RFE col idx 46
+RFE run 7 RFE col idx 47
+RFE run 7 RFE col idx 48
+RFE run 7 RFE col idx 49
+RFE run 7 RFE col idx 50
+RFE run 7 RFE col idx 51
+RFE run 7 RFE col idx 52
+RFE run 7 RFE col idx 53
+RFE run 7 RFE col idx 54
+RFE run 7 RFE col idx 55
+RFE run 7 RFE col idx 56
+RFE run 7 RFE col idx 57
+RFE run 7 RFE col idx 58
+RFE run 7 RFE col idx 59
+RFE run 7 RFE col idx 60
+RFE run 7 RFE col idx 61
+RFE run 7 RFE col idx 62
+RFE run 7 RFE col idx 63
+RFE run 7 RFE col idx 64
+RFE run 7 RFE col idx 65
+RFE run 7 RFE col idx 66
+RFE run 7 RFE col idx 67
+RFE run 7 RFE col idx 68
+RFE run 7 RFE col idx 69
+RFE run 7 RFE col idx 70
+RFE run 7 RFE col idx 71
+RFE run 7 RFE col idx 72
+RFE run 7 RFE col idx 73
+RFE run 7 RFE col idx 74
+RFE run 7 RFE col idx 75
+RFE run 7 RFE col idx 76
+RFE run 7 RFE col idx 77
+RFE run 7 RFE col idx 78
+RFE run 7 RFE col idx 79
+RFE run 7 RFE col idx 80
+RFE run 7 RFE col idx 81
+RFE run 7 RFE col idx 82
+Worst column fp_o_desc_chi3n
+RFE RMSE CV 0.67
+RFE run 8 RFE col idx 0
+RFE run 8 RFE col idx 1
+RFE run 8 RFE col idx 2
+RFE run 8 RFE col idx 3
+RFE run 8 RFE col idx 4
+RFE run 8 RFE col idx 5
+RFE run 8 RFE col idx 6
+RFE run 8 RFE col idx 7
+RFE run 8 RFE col idx 8
+RFE run 8 RFE col idx 9
+RFE run 8 RFE col idx 10
+RFE run 8 RFE col idx 11
+RFE run 8 RFE col idx 12
+RFE run 8 RFE col idx 13
+RFE run 8 RFE col idx 14
+RFE run 8 RFE col idx 15
+RFE run 8 RFE col idx 16
+RFE run 8 RFE col idx 17
+RFE run 8 RFE col idx 18
+RFE run 8 RFE col idx 19
+RFE run 8 RFE col idx 20
+RFE run 8 RFE col idx 21
+RFE run 8 RFE col idx 22
+RFE run 8 RFE col idx 23
+RFE run 8 RFE col idx 24
+RFE run 8 RFE col idx 25
+RFE run 8 RFE col idx 26
+RFE run 8 RFE col idx 27
+RFE run 8 RFE col idx 28
+RFE run 8 RFE col idx 29
+RFE run 8 RFE col idx 30
+RFE run 8 RFE col idx 31
+RFE run 8 RFE col idx 32
+RFE run 8 RFE col idx 33
+RFE run 8 RFE col idx 34
+RFE run 8 RFE col idx 35
+RFE run 8 RFE col idx 36
+RFE run 8 RFE col idx 37
+RFE run 8 RFE col idx 38
+RFE run 8 RFE col idx 39
+RFE run 8 RFE col idx 40
+RFE run 8 RFE col idx 41
+RFE run 8 RFE col idx 42
+RFE run 8 RFE col idx 43
+RFE run 8 RFE col idx 44
+RFE run 8 RFE col idx 45
+RFE run 8 RFE col idx 46
+RFE run 8 RFE col idx 47
+RFE run 8 RFE col idx 48
+RFE run 8 RFE col idx 49
+RFE run 8 RFE col idx 50
+RFE run 8 RFE col idx 51
+RFE run 8 RFE col idx 52
+RFE run 8 RFE col idx 53
+RFE run 8 RFE col idx 54
+RFE run 8 RFE col idx 55
+RFE run 8 RFE col idx 56
+RFE run 8 RFE col idx 57
+RFE run 8 RFE col idx 58
+RFE run 8 RFE col idx 59
+RFE run 8 RFE col idx 60
+RFE run 8 RFE col idx 61
+RFE run 8 RFE col idx 62
+RFE run 8 RFE col idx 63
+RFE run 8 RFE col idx 64
+RFE run 8 RFE col idx 65
+RFE run 8 RFE col idx 66
+RFE run 8 RFE col idx 67
+RFE run 8 RFE col idx 68
+RFE run 8 RFE col idx 69
+RFE run 8 RFE col idx 70
+RFE run 8 RFE col idx 71
+RFE run 8 RFE col idx 72
+RFE run 8 RFE col idx 73
+RFE run 8 RFE col idx 74
+RFE run 8 RFE col idx 75
+RFE run 8 RFE col idx 76
+RFE run 8 RFE col idx 77
+RFE run 8 RFE col idx 78
+RFE run 8 RFE col idx 79
+RFE run 8 RFE col idx 80
+RFE run 8 RFE col idx 81
+Worst column fp_mqns_28
+RFE RMSE CV 0.67
+RFE run 9 RFE col idx 0
+RFE run 9 RFE col idx 1
+RFE run 9 RFE col idx 2
+RFE run 9 RFE col idx 3
+RFE run 9 RFE col idx 4
+RFE run 9 RFE col idx 5
+RFE run 9 RFE col idx 6
+RFE run 9 RFE col idx 7
+RFE run 9 RFE col idx 8
+RFE run 9 RFE col idx 9
+RFE run 9 RFE col idx 10
+RFE run 9 RFE col idx 11
+RFE run 9 RFE col idx 12
+RFE run 9 RFE col idx 13
+RFE run 9 RFE col idx 14
+RFE run 9 RFE col idx 15
+RFE run 9 RFE col idx 16
+RFE run 9 RFE col idx 17
+RFE run 9 RFE col idx 18
+RFE run 9 RFE col idx 19
+RFE run 9 RFE col idx 20
+RFE run 9 RFE col idx 21
+RFE run 9 RFE col idx 22
+RFE run 9 RFE col idx 23
+RFE run 9 RFE col idx 24
+RFE run 9 RFE col idx 25
+RFE run 9 RFE col idx 26
+RFE run 9 RFE col idx 27
+RFE run 9 RFE col idx 28
+RFE run 9 RFE col idx 29
+RFE run 9 RFE col idx 30
+RFE run 9 RFE col idx 31
+RFE run 9 RFE col idx 32
+RFE run 9 RFE col idx 33
+RFE run 9 RFE col idx 34
+RFE run 9 RFE col idx 35
+RFE run 9 RFE col idx 36
+RFE run 9 RFE col idx 37
+RFE run 9 RFE col idx 38
+RFE run 9 RFE col idx 39
+RFE run 9 RFE col idx 40
+RFE run 9 RFE col idx 41
+RFE run 9 RFE col idx 42
+RFE run 9 RFE col idx 43
+RFE run 9 RFE col idx 44
+RFE run 9 RFE col idx 45
+RFE run 9 RFE col idx 46
+RFE run 9 RFE col idx 47
+RFE run 9 RFE col idx 48
+RFE run 9 RFE col idx 49
+RFE run 9 RFE col idx 50
+RFE run 9 RFE col idx 51
+RFE run 9 RFE col idx 52
+RFE run 9 RFE col idx 53
+RFE run 9 RFE col idx 54
+RFE run 9 RFE col idx 55
+RFE run 9 RFE col idx 56
+RFE run 9 RFE col idx 57
+RFE run 9 RFE col idx 58
+RFE run 9 RFE col idx 59
+RFE run 9 RFE col idx 60
+RFE run 9 RFE col idx 61
+RFE run 9 RFE col idx 62
+RFE run 9 RFE col idx 63
+RFE run 9 RFE col idx 64
+RFE run 9 RFE col idx 65
+RFE run 9 RFE col idx 66
+RFE run 9 RFE col idx 67
+RFE run 9 RFE col idx 68
+RFE run 9 RFE col idx 69
+RFE run 9 RFE col idx 70
+RFE run 9 RFE col idx 71
+RFE run 9 RFE col idx 72
+RFE run 9 RFE col idx 73
+RFE run 9 RFE col idx 74
+RFE run 9 RFE col idx 75
+RFE run 9 RFE col idx 76
+RFE run 9 RFE col idx 77
+RFE run 9 RFE col idx 78
+RFE run 9 RFE col idx 79
+RFE run 9 RFE col idx 80
+Worst column fp_smrVsa_4
+RFE RMSE CV 0.66
+RFE run 10 RFE col idx 0
+RFE run 10 RFE col idx 1
+RFE run 10 RFE col idx 2
+RFE run 10 RFE col idx 3
+RFE run 10 RFE col idx 4
+RFE run 10 RFE col idx 5
+RFE run 10 RFE col idx 6
+RFE run 10 RFE col idx 7
+RFE run 10 RFE col idx 8
+RFE run 10 RFE col idx 9
+RFE run 10 RFE col idx 10
+RFE run 10 RFE col idx 11
+RFE run 10 RFE col idx 12
+RFE run 10 RFE col idx 13
+RFE run 10 RFE col idx 14
+RFE run 10 RFE col idx 15
+RFE run 10 RFE col idx 16
+RFE run 10 RFE col idx 17
+RFE run 10 RFE col idx 18
+RFE run 10 RFE col idx 19
+RFE run 10 RFE col idx 20
+RFE run 10 RFE col idx 21
+RFE run 10 RFE col idx 22
+RFE run 10 RFE col idx 23
+RFE run 10 RFE col idx 24
+RFE run 10 RFE col idx 25
+RFE run 10 RFE col idx 26
+RFE run 10 RFE col idx 27
+RFE run 10 RFE col idx 28
+RFE run 10 RFE col idx 29
+RFE run 10 RFE col idx 30
+RFE run 10 RFE col idx 31
+RFE run 10 RFE col idx 32
+RFE run 10 RFE col idx 33
+RFE run 10 RFE col idx 34
+RFE run 10 RFE col idx 35
+RFE run 10 RFE col idx 36
+RFE run 10 RFE col idx 37
+RFE run 10 RFE col idx 38
+RFE run 10 RFE col idx 39
+RFE run 10 RFE col idx 40
+RFE run 10 RFE col idx 41
+RFE run 10 RFE col idx 42
+RFE run 10 RFE col idx 43
+RFE run 10 RFE col idx 44
+RFE run 10 RFE col idx 45
+RFE run 10 RFE col idx 46
+RFE run 10 RFE col idx 47
+RFE run 10 RFE col idx 48
+RFE run 10 RFE col idx 49
+RFE run 10 RFE col idx 50
+RFE run 10 RFE col idx 51
+RFE run 10 RFE col idx 52
+RFE run 10 RFE col idx 53
+RFE run 10 RFE col idx 54
+RFE run 10 RFE col idx 55
+RFE run 10 RFE col idx 56
+RFE run 10 RFE col idx 57
+RFE run 10 RFE col idx 58
+RFE run 10 RFE col idx 59
+RFE run 10 RFE col idx 60
+RFE run 10 RFE col idx 61
+RFE run 10 RFE col idx 62
+RFE run 10 RFE col idx 63
+RFE run 10 RFE col idx 64
+RFE run 10 RFE col idx 65
+RFE run 10 RFE col idx 66
+RFE run 10 RFE col idx 67
+RFE run 10 RFE col idx 68
+RFE run 10 RFE col idx 69
+RFE run 10 RFE col idx 70
+RFE run 10 RFE col idx 71
+RFE run 10 RFE col idx 72
+RFE run 10 RFE col idx 73
+RFE run 10 RFE col idx 74
+RFE run 10 RFE col idx 75
+RFE run 10 RFE col idx 76
+RFE run 10 RFE col idx 77
+RFE run 10 RFE col idx 78
+RFE run 10 RFE col idx 79
+Worst column fp_slogPVsa_6
+RFE RMSE CV 0.66
+RFE run 11 RFE col idx 0
+RFE run 11 RFE col idx 1
+RFE run 11 RFE col idx 2
+RFE run 11 RFE col idx 3
+RFE run 11 RFE col idx 4
+RFE run 11 RFE col idx 5
+RFE run 11 RFE col idx 6
+RFE run 11 RFE col idx 7
+RFE run 11 RFE col idx 8
+RFE run 11 RFE col idx 9
+RFE run 11 RFE col idx 10
+RFE run 11 RFE col idx 11
+RFE run 11 RFE col idx 12
+RFE run 11 RFE col idx 13
+RFE run 11 RFE col idx 14
+RFE run 11 RFE col idx 15
+RFE run 11 RFE col idx 16
+RFE run 11 RFE col idx 17
+RFE run 11 RFE col idx 18
+RFE run 11 RFE col idx 19
+RFE run 11 RFE col idx 20
+RFE run 11 RFE col idx 21
+RFE run 11 RFE col idx 22
+RFE run 11 RFE col idx 23
+RFE run 11 RFE col idx 24
+RFE run 11 RFE col idx 25
+RFE run 11 RFE col idx 26
+RFE run 11 RFE col idx 27
+RFE run 11 RFE col idx 28
+RFE run 11 RFE col idx 29
+RFE run 11 RFE col idx 30
+RFE run 11 RFE col idx 31
+RFE run 11 RFE col idx 32
+RFE run 11 RFE col idx 33
+RFE run 11 RFE col idx 34
+RFE run 11 RFE col idx 35
+RFE run 11 RFE col idx 36
+RFE run 11 RFE col idx 37
+RFE run 11 RFE col idx 38
+RFE run 11 RFE col idx 39
+RFE run 11 RFE col idx 40
+RFE run 11 RFE col idx 41
+RFE run 11 RFE col idx 42
+RFE run 11 RFE col idx 43
+RFE run 11 RFE col idx 44
+RFE run 11 RFE col idx 45
+RFE run 11 RFE col idx 46
+RFE run 11 RFE col idx 47
+RFE run 11 RFE col idx 48
+RFE run 11 RFE col idx 49
+RFE run 11 RFE col idx 50
+RFE run 11 RFE col idx 51
+RFE run 11 RFE col idx 52
+RFE run 11 RFE col idx 53
+RFE run 11 RFE col idx 54
+RFE run 11 RFE col idx 55
+RFE run 11 RFE col idx 56
+RFE run 11 RFE col idx 57
+RFE run 11 RFE col idx 58
+RFE run 11 RFE col idx 59
+RFE run 11 RFE col idx 60
+RFE run 11 RFE col idx 61
+RFE run 11 RFE col idx 62
+RFE run 11 RFE col idx 63
+RFE run 11 RFE col idx 64
+RFE run 11 RFE col idx 65
+RFE run 11 RFE col idx 66
+RFE run 11 RFE col idx 67
+RFE run 11 RFE col idx 68
+RFE run 11 RFE col idx 69
+RFE run 11 RFE col idx 70
+RFE run 11 RFE col idx 71
+RFE run 11 RFE col idx 72
+RFE run 11 RFE col idx 73
+RFE run 11 RFE col idx 74
+RFE run 11 RFE col idx 75
+RFE run 11 RFE col idx 76
+RFE run 11 RFE col idx 77
+RFE run 11 RFE col idx 78
+Worst column fp_mqns_30
+RFE RMSE CV 0.65
+RFE run 12 RFE col idx 0
+RFE run 12 RFE col idx 1
+RFE run 12 RFE col idx 2
+RFE run 12 RFE col idx 3
+RFE run 12 RFE col idx 4
+RFE run 12 RFE col idx 5
+RFE run 12 RFE col idx 6
+RFE run 12 RFE col idx 7
+RFE run 12 RFE col idx 8
+RFE run 12 RFE col idx 9
+RFE run 12 RFE col idx 10
+RFE run 12 RFE col idx 11
+RFE run 12 RFE col idx 12
+RFE run 12 RFE col idx 13
+RFE run 12 RFE col idx 14
+RFE run 12 RFE col idx 15
+RFE run 12 RFE col idx 16
+RFE run 12 RFE col idx 17
+RFE run 12 RFE col idx 18
+RFE run 12 RFE col idx 19
+RFE run 12 RFE col idx 20
+RFE run 12 RFE col idx 21
+RFE run 12 RFE col idx 22
+RFE run 12 RFE col idx 23
+RFE run 12 RFE col idx 24
+RFE run 12 RFE col idx 25
+RFE run 12 RFE col idx 26
+RFE run 12 RFE col idx 27
+RFE run 12 RFE col idx 28
+RFE run 12 RFE col idx 29
+RFE run 12 RFE col idx 30
+RFE run 12 RFE col idx 31
+RFE run 12 RFE col idx 32
+RFE run 12 RFE col idx 33
+RFE run 12 RFE col idx 34
+RFE run 12 RFE col idx 35
+RFE run 12 RFE col idx 36
+RFE run 12 RFE col idx 37
+RFE run 12 RFE col idx 38
+RFE run 12 RFE col idx 39
+RFE run 12 RFE col idx 40
+RFE run 12 RFE col idx 41
+RFE run 12 RFE col idx 42
+RFE run 12 RFE col idx 43
+RFE run 12 RFE col idx 44
+RFE run 12 RFE col idx 45
+RFE run 12 RFE col idx 46
+RFE run 12 RFE col idx 47
+RFE run 12 RFE col idx 48
+RFE run 12 RFE col idx 49
+RFE run 12 RFE col idx 50
+RFE run 12 RFE col idx 51
+RFE run 12 RFE col idx 52
+RFE run 12 RFE col idx 53
+RFE run 12 RFE col idx 54
+RFE run 12 RFE col idx 55
+RFE run 12 RFE col idx 56
+RFE run 12 RFE col idx 57
+RFE run 12 RFE col idx 58
+RFE run 12 RFE col idx 59
+RFE run 12 RFE col idx 60
+RFE run 12 RFE col idx 61
+RFE run 12 RFE col idx 62
+RFE run 12 RFE col idx 63
+RFE run 12 RFE col idx 64
+RFE run 12 RFE col idx 65
+RFE run 12 RFE col idx 66
+RFE run 12 RFE col idx 67
+RFE run 12 RFE col idx 68
+RFE run 12 RFE col idx 69
+RFE run 12 RFE col idx 70
+RFE run 12 RFE col idx 71
+RFE run 12 RFE col idx 72
+RFE run 12 RFE col idx 73
+RFE run 12 RFE col idx 74
+RFE run 12 RFE col idx 75
+RFE run 12 RFE col idx 76
+RFE run 12 RFE col idx 77
+Worst column fp_mqns_36
+RFE RMSE CV 0.64
+RFE run 13 RFE col idx 0
+RFE run 13 RFE col idx 1
+RFE run 13 RFE col idx 2
+RFE run 13 RFE col idx 3
+RFE run 13 RFE col idx 4
+RFE run 13 RFE col idx 5
+RFE run 13 RFE col idx 6
+RFE run 13 RFE col idx 7
+RFE run 13 RFE col idx 8
+RFE run 13 RFE col idx 9
+RFE run 13 RFE col idx 10
+RFE run 13 RFE col idx 11
+RFE run 13 RFE col idx 12
+RFE run 13 RFE col idx 13
+RFE run 13 RFE col idx 14
+RFE run 13 RFE col idx 15
+RFE run 13 RFE col idx 16
+RFE run 13 RFE col idx 17
+RFE run 13 RFE col idx 18
+RFE run 13 RFE col idx 19
+RFE run 13 RFE col idx 20
+RFE run 13 RFE col idx 21
+RFE run 13 RFE col idx 22
+RFE run 13 RFE col idx 23
+RFE run 13 RFE col idx 24
+RFE run 13 RFE col idx 25
+RFE run 13 RFE col idx 26
+RFE run 13 RFE col idx 27
+RFE run 13 RFE col idx 28
+RFE run 13 RFE col idx 29
+RFE run 13 RFE col idx 30
+RFE run 13 RFE col idx 31
+RFE run 13 RFE col idx 32
+RFE run 13 RFE col idx 33
+RFE run 13 RFE col idx 34
+RFE run 13 RFE col idx 35
+RFE run 13 RFE col idx 36
+RFE run 13 RFE col idx 37
+RFE run 13 RFE col idx 38
+RFE run 13 RFE col idx 39
+RFE run 13 RFE col idx 40
+RFE run 13 RFE col idx 41
+RFE run 13 RFE col idx 42
+RFE run 13 RFE col idx 43
+RFE run 13 RFE col idx 44
+RFE run 13 RFE col idx 45
+RFE run 13 RFE col idx 46
+RFE run 13 RFE col idx 47
+RFE run 13 RFE col idx 48
+RFE run 13 RFE col idx 49
+RFE run 13 RFE col idx 50
+RFE run 13 RFE col idx 51
+RFE run 13 RFE col idx 52
+RFE run 13 RFE col idx 53
+RFE run 13 RFE col idx 54
+RFE run 13 RFE col idx 55
+RFE run 13 RFE col idx 56
+RFE run 13 RFE col idx 57
+RFE run 13 RFE col idx 58
+RFE run 13 RFE col idx 59
+RFE run 13 RFE col idx 60
+RFE run 13 RFE col idx 61
+RFE run 13 RFE col idx 62
+RFE run 13 RFE col idx 63
+RFE run 13 RFE col idx 64
+RFE run 13 RFE col idx 65
+RFE run 13 RFE col idx 66
+RFE run 13 RFE col idx 67
+RFE run 13 RFE col idx 68
+RFE run 13 RFE col idx 69
+RFE run 13 RFE col idx 70
+RFE run 13 RFE col idx 71
+RFE run 13 RFE col idx 72
+RFE run 13 RFE col idx 73
+RFE run 13 RFE col idx 74
+RFE run 13 RFE col idx 75
+RFE run 13 RFE col idx 76
+Worst column fp_smrVsa_7
+RFE RMSE CV 0.64
+RFE run 14 RFE col idx 0
+RFE run 14 RFE col idx 1
+RFE run 14 RFE col idx 2
+RFE run 14 RFE col idx 3
+RFE run 14 RFE col idx 4
+RFE run 14 RFE col idx 5
+RFE run 14 RFE col idx 6
+RFE run 14 RFE col idx 7
+RFE run 14 RFE col idx 8
+RFE run 14 RFE col idx 9
+RFE run 14 RFE col idx 10
+RFE run 14 RFE col idx 11
+RFE run 14 RFE col idx 12
+RFE run 14 RFE col idx 13
+RFE run 14 RFE col idx 14
+RFE run 14 RFE col idx 15
+RFE run 14 RFE col idx 16
+RFE run 14 RFE col idx 17
+RFE run 14 RFE col idx 18
+RFE run 14 RFE col idx 19
+RFE run 14 RFE col idx 20
+RFE run 14 RFE col idx 21
+RFE run 14 RFE col idx 22
+RFE run 14 RFE col idx 23
+RFE run 14 RFE col idx 24
+RFE run 14 RFE col idx 25
+RFE run 14 RFE col idx 26
+RFE run 14 RFE col idx 27
+RFE run 14 RFE col idx 28
+RFE run 14 RFE col idx 29
+RFE run 14 RFE col idx 30
+RFE run 14 RFE col idx 31
+RFE run 14 RFE col idx 32
+RFE run 14 RFE col idx 33
+RFE run 14 RFE col idx 34
+RFE run 14 RFE col idx 35
+RFE run 14 RFE col idx 36
+RFE run 14 RFE col idx 37
+RFE run 14 RFE col idx 38
+RFE run 14 RFE col idx 39
+RFE run 14 RFE col idx 40
+RFE run 14 RFE col idx 41
+RFE run 14 RFE col idx 42
+RFE run 14 RFE col idx 43
+RFE run 14 RFE col idx 44
+RFE run 14 RFE col idx 45
+RFE run 14 RFE col idx 46
+RFE run 14 RFE col idx 47
+RFE run 14 RFE col idx 48
+RFE run 14 RFE col idx 49
+RFE run 14 RFE col idx 50
+RFE run 14 RFE col idx 51
+RFE run 14 RFE col idx 52
+RFE run 14 RFE col idx 53
+RFE run 14 RFE col idx 54
+RFE run 14 RFE col idx 55
+RFE run 14 RFE col idx 56
+RFE run 14 RFE col idx 57
+RFE run 14 RFE col idx 58
+RFE run 14 RFE col idx 59
+RFE run 14 RFE col idx 60
+RFE run 14 RFE col idx 61
+RFE run 14 RFE col idx 62
+RFE run 14 RFE col idx 63
+RFE run 14 RFE col idx 64
+RFE run 14 RFE col idx 65
+RFE run 14 RFE col idx 66
+RFE run 14 RFE col idx 67
+RFE run 14 RFE col idx 68
+RFE run 14 RFE col idx 69
+RFE run 14 RFE col idx 70
+RFE run 14 RFE col idx 71
+RFE run 14 RFE col idx 72
+RFE run 14 RFE col idx 73
+RFE run 14 RFE col idx 74
+RFE run 14 RFE col idx 75
+Worst column fp_mqns_17
+RFE RMSE CV 0.63
+RFE run 15 RFE col idx 0
+RFE run 15 RFE col idx 1
+RFE run 15 RFE col idx 2
+RFE run 15 RFE col idx 3
+RFE run 15 RFE col idx 4
+RFE run 15 RFE col idx 5
+RFE run 15 RFE col idx 6
+RFE run 15 RFE col idx 7
+RFE run 15 RFE col idx 8
+RFE run 15 RFE col idx 9
+RFE run 15 RFE col idx 10
+RFE run 15 RFE col idx 11
+RFE run 15 RFE col idx 12
+RFE run 15 RFE col idx 13
+RFE run 15 RFE col idx 14
+RFE run 15 RFE col idx 15
+RFE run 15 RFE col idx 16
+RFE run 15 RFE col idx 17
+RFE run 15 RFE col idx 18
+RFE run 15 RFE col idx 19
+RFE run 15 RFE col idx 20
+RFE run 15 RFE col idx 21
+RFE run 15 RFE col idx 22
+RFE run 15 RFE col idx 23
+RFE run 15 RFE col idx 24
+RFE run 15 RFE col idx 25
+RFE run 15 RFE col idx 26
+RFE run 15 RFE col idx 27
+RFE run 15 RFE col idx 28
+RFE run 15 RFE col idx 29
+RFE run 15 RFE col idx 30
+RFE run 15 RFE col idx 31
+RFE run 15 RFE col idx 32
+RFE run 15 RFE col idx 33
+RFE run 15 RFE col idx 34
+RFE run 15 RFE col idx 35
+RFE run 15 RFE col idx 36
+RFE run 15 RFE col idx 37
+RFE run 15 RFE col idx 38
+RFE run 15 RFE col idx 39
+RFE run 15 RFE col idx 40
+RFE run 15 RFE col idx 41
+RFE run 15 RFE col idx 42
+RFE run 15 RFE col idx 43
+RFE run 15 RFE col idx 44
+RFE run 15 RFE col idx 45
+RFE run 15 RFE col idx 46
+RFE run 15 RFE col idx 47
+RFE run 15 RFE col idx 48
+RFE run 15 RFE col idx 49
+RFE run 15 RFE col idx 50
+RFE run 15 RFE col idx 51
+RFE run 15 RFE col idx 52
+RFE run 15 RFE col idx 53
+RFE run 15 RFE col idx 54
+RFE run 15 RFE col idx 55
+RFE run 15 RFE col idx 56
+RFE run 15 RFE col idx 57
+RFE run 15 RFE col idx 58
+RFE run 15 RFE col idx 59
+RFE run 15 RFE col idx 60
+RFE run 15 RFE col idx 61
+RFE run 15 RFE col idx 62
+RFE run 15 RFE col idx 63
+RFE run 15 RFE col idx 64
+RFE run 15 RFE col idx 65
+RFE run 15 RFE col idx 66
+RFE run 15 RFE col idx 67
+RFE run 15 RFE col idx 68
+RFE run 15 RFE col idx 69
+RFE run 15 RFE col idx 70
+RFE run 15 RFE col idx 71
+RFE run 15 RFE col idx 72
+RFE run 15 RFE col idx 73
+RFE run 15 RFE col idx 74
+Worst column fp_mqns_13
+RFE RMSE CV 0.63
+RFE run 16 RFE col idx 0
+RFE run 16 RFE col idx 1
+RFE run 16 RFE col idx 2
+RFE run 16 RFE col idx 3
+RFE run 16 RFE col idx 4
+RFE run 16 RFE col idx 5
+RFE run 16 RFE col idx 6
+RFE run 16 RFE col idx 7
+RFE run 16 RFE col idx 8
+RFE run 16 RFE col idx 9
+RFE run 16 RFE col idx 10
+RFE run 16 RFE col idx 11
+RFE run 16 RFE col idx 12
+RFE run 16 RFE col idx 13
+RFE run 16 RFE col idx 14
+RFE run 16 RFE col idx 15
+RFE run 16 RFE col idx 16
+RFE run 16 RFE col idx 17
+RFE run 16 RFE col idx 18
+RFE run 16 RFE col idx 19
+RFE run 16 RFE col idx 20
+RFE run 16 RFE col idx 21
+RFE run 16 RFE col idx 22
+RFE run 16 RFE col idx 23
+RFE run 16 RFE col idx 24
+RFE run 16 RFE col idx 25
+RFE run 16 RFE col idx 26
+RFE run 16 RFE col idx 27
+RFE run 16 RFE col idx 28
+RFE run 16 RFE col idx 29
+RFE run 16 RFE col idx 30
+RFE run 16 RFE col idx 31
+RFE run 16 RFE col idx 32
+RFE run 16 RFE col idx 33
+RFE run 16 RFE col idx 34
+RFE run 16 RFE col idx 35
+RFE run 16 RFE col idx 36
+RFE run 16 RFE col idx 37
+RFE run 16 RFE col idx 38
+RFE run 16 RFE col idx 39
+RFE run 16 RFE col idx 40
+RFE run 16 RFE col idx 41
+RFE run 16 RFE col idx 42
+RFE run 16 RFE col idx 43
+RFE run 16 RFE col idx 44
+RFE run 16 RFE col idx 45
+RFE run 16 RFE col idx 46
+RFE run 16 RFE col idx 47
+RFE run 16 RFE col idx 48
+RFE run 16 RFE col idx 49
+RFE run 16 RFE col idx 50
+RFE run 16 RFE col idx 51
+RFE run 16 RFE col idx 52
+RFE run 16 RFE col idx 53
+RFE run 16 RFE col idx 54
+RFE run 16 RFE col idx 55
+RFE run 16 RFE col idx 56
+RFE run 16 RFE col idx 57
+RFE run 16 RFE col idx 58
+RFE run 16 RFE col idx 59
+RFE run 16 RFE col idx 60
+RFE run 16 RFE col idx 61
+RFE run 16 RFE col idx 62
+RFE run 16 RFE col idx 63
+RFE run 16 RFE col idx 64
+RFE run 16 RFE col idx 65
+RFE run 16 RFE col idx 66
+RFE run 16 RFE col idx 67
+RFE run 16 RFE col idx 68
+RFE run 16 RFE col idx 69
+RFE run 16 RFE col idx 70
+RFE run 16 RFE col idx 71
+RFE run 16 RFE col idx 72
+RFE run 16 RFE col idx 73
+Worst column fp_o_desc_chi1
+RFE RMSE CV 0.63
+RFE run 17 RFE col idx 0
+RFE run 17 RFE col idx 1
+RFE run 17 RFE col idx 2
+RFE run 17 RFE col idx 3
+RFE run 17 RFE col idx 4
+RFE run 17 RFE col idx 5
+RFE run 17 RFE col idx 6
+RFE run 17 RFE col idx 7
+RFE run 17 RFE col idx 8
+RFE run 17 RFE col idx 9
+RFE run 17 RFE col idx 10
+RFE run 17 RFE col idx 11
+RFE run 17 RFE col idx 12
+RFE run 17 RFE col idx 13
+RFE run 17 RFE col idx 14
+RFE run 17 RFE col idx 15
+RFE run 17 RFE col idx 16
+RFE run 17 RFE col idx 17
+RFE run 17 RFE col idx 18
+RFE run 17 RFE col idx 19
+RFE run 17 RFE col idx 20
+RFE run 17 RFE col idx 21
+RFE run 17 RFE col idx 22
+RFE run 17 RFE col idx 23
+RFE run 17 RFE col idx 24
+RFE run 17 RFE col idx 25
+RFE run 17 RFE col idx 26
+RFE run 17 RFE col idx 27
+RFE run 17 RFE col idx 28
+RFE run 17 RFE col idx 29
+RFE run 17 RFE col idx 30
+RFE run 17 RFE col idx 31
+RFE run 17 RFE col idx 32
+RFE run 17 RFE col idx 33
+RFE run 17 RFE col idx 34
+RFE run 17 RFE col idx 35
+RFE run 17 RFE col idx 36
+RFE run 17 RFE col idx 37
+RFE run 17 RFE col idx 38
+RFE run 17 RFE col idx 39
+RFE run 17 RFE col idx 40
+RFE run 17 RFE col idx 41
+RFE run 17 RFE col idx 42
+RFE run 17 RFE col idx 43
+RFE run 17 RFE col idx 44
+RFE run 17 RFE col idx 45
+RFE run 17 RFE col idx 46
+RFE run 17 RFE col idx 47
+RFE run 17 RFE col idx 48
+RFE run 17 RFE col idx 49
+RFE run 17 RFE col idx 50
+RFE run 17 RFE col idx 51
+RFE run 17 RFE col idx 52
+RFE run 17 RFE col idx 53
+RFE run 17 RFE col idx 54
+RFE run 17 RFE col idx 55
+RFE run 17 RFE col idx 56
+RFE run 17 RFE col idx 57
+RFE run 17 RFE col idx 58
+RFE run 17 RFE col idx 59
+RFE run 17 RFE col idx 60
+RFE run 17 RFE col idx 61
+RFE run 17 RFE col idx 62
+RFE run 17 RFE col idx 63
+RFE run 17 RFE col idx 64
+RFE run 17 RFE col idx 65
+RFE run 17 RFE col idx 66
+RFE run 17 RFE col idx 67
+RFE run 17 RFE col idx 68
+RFE run 17 RFE col idx 69
+RFE run 17 RFE col idx 70
+RFE run 17 RFE col idx 71
+RFE run 17 RFE col idx 72
+Worst column fp_o_desc_nRing
+RFE RMSE CV 0.62
+RFE run 18 RFE col idx 0
+RFE run 18 RFE col idx 1
+RFE run 18 RFE col idx 2
+RFE run 18 RFE col idx 3
+RFE run 18 RFE col idx 4
+RFE run 18 RFE col idx 5
+RFE run 18 RFE col idx 6
+RFE run 18 RFE col idx 7
+RFE run 18 RFE col idx 8
+RFE run 18 RFE col idx 9
+RFE run 18 RFE col idx 10
+RFE run 18 RFE col idx 11
+RFE run 18 RFE col idx 12
+RFE run 18 RFE col idx 13
+RFE run 18 RFE col idx 14
+RFE run 18 RFE col idx 15
+RFE run 18 RFE col idx 16
+RFE run 18 RFE col idx 17
+RFE run 18 RFE col idx 18
+RFE run 18 RFE col idx 19
+RFE run 18 RFE col idx 20
+RFE run 18 RFE col idx 21
+RFE run 18 RFE col idx 22
+RFE run 18 RFE col idx 23
+RFE run 18 RFE col idx 24
+RFE run 18 RFE col idx 25
+RFE run 18 RFE col idx 26
+RFE run 18 RFE col idx 27
+RFE run 18 RFE col idx 28
+RFE run 18 RFE col idx 29
+RFE run 18 RFE col idx 30
+RFE run 18 RFE col idx 31
+RFE run 18 RFE col idx 32
+RFE run 18 RFE col idx 33
+RFE run 18 RFE col idx 34
+RFE run 18 RFE col idx 35
+RFE run 18 RFE col idx 36
+RFE run 18 RFE col idx 37
+RFE run 18 RFE col idx 38
+RFE run 18 RFE col idx 39
+RFE run 18 RFE col idx 40
+RFE run 18 RFE col idx 41
+RFE run 18 RFE col idx 42
+RFE run 18 RFE col idx 43
+RFE run 18 RFE col idx 44
+RFE run 18 RFE col idx 45
+RFE run 18 RFE col idx 46
+RFE run 18 RFE col idx 47
+RFE run 18 RFE col idx 48
+RFE run 18 RFE col idx 49
+RFE run 18 RFE col idx 50
+RFE run 18 RFE col idx 51
+RFE run 18 RFE col idx 52
+RFE run 18 RFE col idx 53
+RFE run 18 RFE col idx 54
+RFE run 18 RFE col idx 55
+RFE run 18 RFE col idx 56
+RFE run 18 RFE col idx 57
+RFE run 18 RFE col idx 58
+RFE run 18 RFE col idx 59
+RFE run 18 RFE col idx 60
+RFE run 18 RFE col idx 61
+RFE run 18 RFE col idx 62
+RFE run 18 RFE col idx 63
+RFE run 18 RFE col idx 64
+RFE run 18 RFE col idx 65
+RFE run 18 RFE col idx 66
+RFE run 18 RFE col idx 67
+RFE run 18 RFE col idx 68
+RFE run 18 RFE col idx 69
+RFE run 18 RFE col idx 70
+RFE run 18 RFE col idx 71
+Worst column fp_mqns_12
+RFE RMSE CV 0.62
+RFE run 19 RFE col idx 0
+RFE run 19 RFE col idx 1
+RFE run 19 RFE col idx 2
+RFE run 19 RFE col idx 3
+RFE run 19 RFE col idx 4
+RFE run 19 RFE col idx 5
+RFE run 19 RFE col idx 6
+RFE run 19 RFE col idx 7
+RFE run 19 RFE col idx 8
+RFE run 19 RFE col idx 9
+RFE run 19 RFE col idx 10
+RFE run 19 RFE col idx 11
+RFE run 19 RFE col idx 12
+RFE run 19 RFE col idx 13
+RFE run 19 RFE col idx 14
+RFE run 19 RFE col idx 15
+RFE run 19 RFE col idx 16
+RFE run 19 RFE col idx 17
+RFE run 19 RFE col idx 18
+RFE run 19 RFE col idx 19
+RFE run 19 RFE col idx 20
+RFE run 19 RFE col idx 21
+RFE run 19 RFE col idx 22
+RFE run 19 RFE col idx 23
+RFE run 19 RFE col idx 24
+RFE run 19 RFE col idx 25
+RFE run 19 RFE col idx 26
+RFE run 19 RFE col idx 27
+RFE run 19 RFE col idx 28
+RFE run 19 RFE col idx 29
+RFE run 19 RFE col idx 30
+RFE run 19 RFE col idx 31
+RFE run 19 RFE col idx 32
+RFE run 19 RFE col idx 33
+RFE run 19 RFE col idx 34
+RFE run 19 RFE col idx 35
+RFE run 19 RFE col idx 36
+RFE run 19 RFE col idx 37
+RFE run 19 RFE col idx 38
+RFE run 19 RFE col idx 39
+RFE run 19 RFE col idx 40
+RFE run 19 RFE col idx 41
+RFE run 19 RFE col idx 42
+RFE run 19 RFE col idx 43
+RFE run 19 RFE col idx 44
+RFE run 19 RFE col idx 45
+RFE run 19 RFE col idx 46
+RFE run 19 RFE col idx 47
+RFE run 19 RFE col idx 48
+RFE run 19 RFE col idx 49
+RFE run 19 RFE col idx 50
+RFE run 19 RFE col idx 51
+RFE run 19 RFE col idx 52
+RFE run 19 RFE col idx 53
+RFE run 19 RFE col idx 54
+RFE run 19 RFE col idx 55
+RFE run 19 RFE col idx 56
+RFE run 19 RFE col idx 57
+RFE run 19 RFE col idx 58
+RFE run 19 RFE col idx 59
+RFE run 19 RFE col idx 60
+RFE run 19 RFE col idx 61
+RFE run 19 RFE col idx 62
+RFE run 19 RFE col idx 63
+RFE run 19 RFE col idx 64
+RFE run 19 RFE col idx 65
+RFE run 19 RFE col idx 66
+RFE run 19 RFE col idx 67
+RFE run 19 RFE col idx 68
+RFE run 19 RFE col idx 69
+RFE run 19 RFE col idx 70
+Worst column fp_smrVsa_6
+RFE RMSE CV 0.62
+RFE run 20 RFE col idx 0
+RFE run 20 RFE col idx 1
+RFE run 20 RFE col idx 2
+RFE run 20 RFE col idx 3
+RFE run 20 RFE col idx 4
+RFE run 20 RFE col idx 5
+RFE run 20 RFE col idx 6
+RFE run 20 RFE col idx 7
+RFE run 20 RFE col idx 8
+RFE run 20 RFE col idx 9
+RFE run 20 RFE col idx 10
+RFE run 20 RFE col idx 11
+RFE run 20 RFE col idx 12
+RFE run 20 RFE col idx 13
+RFE run 20 RFE col idx 14
+RFE run 20 RFE col idx 15
+RFE run 20 RFE col idx 16
+RFE run 20 RFE col idx 17
+RFE run 20 RFE col idx 18
+RFE run 20 RFE col idx 19
+RFE run 20 RFE col idx 20
+RFE run 20 RFE col idx 21
+RFE run 20 RFE col idx 22
+RFE run 20 RFE col idx 23
+RFE run 20 RFE col idx 24
+RFE run 20 RFE col idx 25
+RFE run 20 RFE col idx 26
+RFE run 20 RFE col idx 27
+RFE run 20 RFE col idx 28
+RFE run 20 RFE col idx 29
+RFE run 20 RFE col idx 30
+RFE run 20 RFE col idx 31
+RFE run 20 RFE col idx 32
+RFE run 20 RFE col idx 33
+RFE run 20 RFE col idx 34
+RFE run 20 RFE col idx 35
+RFE run 20 RFE col idx 36
+RFE run 20 RFE col idx 37
+RFE run 20 RFE col idx 38
+RFE run 20 RFE col idx 39
+RFE run 20 RFE col idx 40
+RFE run 20 RFE col idx 41
+RFE run 20 RFE col idx 42
+RFE run 20 RFE col idx 43
+RFE run 20 RFE col idx 44
+RFE run 20 RFE col idx 45
+RFE run 20 RFE col idx 46
+RFE run 20 RFE col idx 47
+RFE run 20 RFE col idx 48
+RFE run 20 RFE col idx 49
+RFE run 20 RFE col idx 50
+RFE run 20 RFE col idx 51
+RFE run 20 RFE col idx 52
+RFE run 20 RFE col idx 53
+RFE run 20 RFE col idx 54
+RFE run 20 RFE col idx 55
+RFE run 20 RFE col idx 56
+RFE run 20 RFE col idx 57
+RFE run 20 RFE col idx 58
+RFE run 20 RFE col idx 59
+RFE run 20 RFE col idx 60
+RFE run 20 RFE col idx 61
+RFE run 20 RFE col idx 62
+RFE run 20 RFE col idx 63
+RFE run 20 RFE col idx 64
+RFE run 20 RFE col idx 65
+RFE run 20 RFE col idx 66
+RFE run 20 RFE col idx 67
+RFE run 20 RFE col idx 68
+RFE run 20 RFE col idx 69
+Worst column fp_mqns_1
+RFE RMSE CV 0.61
+RFE run 21 RFE col idx 0
+RFE run 21 RFE col idx 1
+RFE run 21 RFE col idx 2
+RFE run 21 RFE col idx 3
+RFE run 21 RFE col idx 4
+RFE run 21 RFE col idx 5
+RFE run 21 RFE col idx 6
+RFE run 21 RFE col idx 7
+RFE run 21 RFE col idx 8
+RFE run 21 RFE col idx 9
+RFE run 21 RFE col idx 10
+RFE run 21 RFE col idx 11
+RFE run 21 RFE col idx 12
+RFE run 21 RFE col idx 13
+RFE run 21 RFE col idx 14
+RFE run 21 RFE col idx 15
+RFE run 21 RFE col idx 16
+RFE run 21 RFE col idx 17
+RFE run 21 RFE col idx 18
+RFE run 21 RFE col idx 19
+RFE run 21 RFE col idx 20
+RFE run 21 RFE col idx 21
+RFE run 21 RFE col idx 22
+RFE run 21 RFE col idx 23
+RFE run 21 RFE col idx 24
+RFE run 21 RFE col idx 25
+RFE run 21 RFE col idx 26
+RFE run 21 RFE col idx 27
+RFE run 21 RFE col idx 28
+RFE run 21 RFE col idx 29
+RFE run 21 RFE col idx 30
+RFE run 21 RFE col idx 31
+RFE run 21 RFE col idx 32
+RFE run 21 RFE col idx 33
+RFE run 21 RFE col idx 34
+RFE run 21 RFE col idx 35
+RFE run 21 RFE col idx 36
+RFE run 21 RFE col idx 37
+RFE run 21 RFE col idx 38
+RFE run 21 RFE col idx 39
+RFE run 21 RFE col idx 40
+RFE run 21 RFE col idx 41
+RFE run 21 RFE col idx 42
+RFE run 21 RFE col idx 43
+RFE run 21 RFE col idx 44
+RFE run 21 RFE col idx 45
+RFE run 21 RFE col idx 46
+RFE run 21 RFE col idx 47
+RFE run 21 RFE col idx 48
+RFE run 21 RFE col idx 49
+RFE run 21 RFE col idx 50
+RFE run 21 RFE col idx 51
+RFE run 21 RFE col idx 52
+RFE run 21 RFE col idx 53
+RFE run 21 RFE col idx 54
+RFE run 21 RFE col idx 55
+RFE run 21 RFE col idx 56
+RFE run 21 RFE col idx 57
+RFE run 21 RFE col idx 58
+RFE run 21 RFE col idx 59
+RFE run 21 RFE col idx 60
+RFE run 21 RFE col idx 61
+RFE run 21 RFE col idx 62
+RFE run 21 RFE col idx 63
+RFE run 21 RFE col idx 64
+RFE run 21 RFE col idx 65
+RFE run 21 RFE col idx 66
+RFE run 21 RFE col idx 67
+RFE run 21 RFE col idx 68
+Worst column fp_o_desc_chi1n
+RFE RMSE CV 0.61
+RFE run 22 RFE col idx 0
+RFE run 22 RFE col idx 1
+RFE run 22 RFE col idx 2
+RFE run 22 RFE col idx 3
+RFE run 22 RFE col idx 4
+RFE run 22 RFE col idx 5
+RFE run 22 RFE col idx 6
+RFE run 22 RFE col idx 7
+RFE run 22 RFE col idx 8
+RFE run 22 RFE col idx 9
+RFE run 22 RFE col idx 10
+RFE run 22 RFE col idx 11
+RFE run 22 RFE col idx 12
+RFE run 22 RFE col idx 13
+RFE run 22 RFE col idx 14
+RFE run 22 RFE col idx 15
+RFE run 22 RFE col idx 16
+RFE run 22 RFE col idx 17
+RFE run 22 RFE col idx 18
+RFE run 22 RFE col idx 19
+RFE run 22 RFE col idx 20
+RFE run 22 RFE col idx 21
+RFE run 22 RFE col idx 22
+RFE run 22 RFE col idx 23
+RFE run 22 RFE col idx 24
+RFE run 22 RFE col idx 25
+RFE run 22 RFE col idx 26
+RFE run 22 RFE col idx 27
+RFE run 22 RFE col idx 28
+RFE run 22 RFE col idx 29
+RFE run 22 RFE col idx 30
+RFE run 22 RFE col idx 31
+RFE run 22 RFE col idx 32
+RFE run 22 RFE col idx 33
+RFE run 22 RFE col idx 34
+RFE run 22 RFE col idx 35
+RFE run 22 RFE col idx 36
+RFE run 22 RFE col idx 37
+RFE run 22 RFE col idx 38
+RFE run 22 RFE col idx 39
+RFE run 22 RFE col idx 40
+RFE run 22 RFE col idx 41
+RFE run 22 RFE col idx 42
+RFE run 22 RFE col idx 43
+RFE run 22 RFE col idx 44
+RFE run 22 RFE col idx 45
+RFE run 22 RFE col idx 46
+RFE run 22 RFE col idx 47
+RFE run 22 RFE col idx 48
+RFE run 22 RFE col idx 49
+RFE run 22 RFE col idx 50
+RFE run 22 RFE col idx 51
+RFE run 22 RFE col idx 52
+RFE run 22 RFE col idx 53
+RFE run 22 RFE col idx 54
+RFE run 22 RFE col idx 55
+RFE run 22 RFE col idx 56
+RFE run 22 RFE col idx 57
+RFE run 22 RFE col idx 58
+RFE run 22 RFE col idx 59
+RFE run 22 RFE col idx 60
+RFE run 22 RFE col idx 61
+RFE run 22 RFE col idx 62
+RFE run 22 RFE col idx 63
+RFE run 22 RFE col idx 64
+RFE run 22 RFE col idx 65
+RFE run 22 RFE col idx 66
+RFE run 22 RFE col idx 67
+Worst column fp_mqns_16
+RFE RMSE CV 0.60
+RFE run 23 RFE col idx 0
+RFE run 23 RFE col idx 1
+RFE run 23 RFE col idx 2
+RFE run 23 RFE col idx 3
+RFE run 23 RFE col idx 4
+RFE run 23 RFE col idx 5
+RFE run 23 RFE col idx 6
+RFE run 23 RFE col idx 7
+RFE run 23 RFE col idx 8
+RFE run 23 RFE col idx 9
+RFE run 23 RFE col idx 10
+RFE run 23 RFE col idx 11
+RFE run 23 RFE col idx 12
+RFE run 23 RFE col idx 13
+RFE run 23 RFE col idx 14
+RFE run 23 RFE col idx 15
+RFE run 23 RFE col idx 16
+RFE run 23 RFE col idx 17
+RFE run 23 RFE col idx 18
+RFE run 23 RFE col idx 19
+RFE run 23 RFE col idx 20
+RFE run 23 RFE col idx 21
+RFE run 23 RFE col idx 22
+RFE run 23 RFE col idx 23
+RFE run 23 RFE col idx 24
+RFE run 23 RFE col idx 25
+RFE run 23 RFE col idx 26
+RFE run 23 RFE col idx 27
+RFE run 23 RFE col idx 28
+RFE run 23 RFE col idx 29
+RFE run 23 RFE col idx 30
+RFE run 23 RFE col idx 31
+RFE run 23 RFE col idx 32
+RFE run 23 RFE col idx 33
+RFE run 23 RFE col idx 34
+RFE run 23 RFE col idx 35
+RFE run 23 RFE col idx 36
+RFE run 23 RFE col idx 37
+RFE run 23 RFE col idx 38
+RFE run 23 RFE col idx 39
+RFE run 23 RFE col idx 40
+RFE run 23 RFE col idx 41
+RFE run 23 RFE col idx 42
+RFE run 23 RFE col idx 43
+RFE run 23 RFE col idx 44
+RFE run 23 RFE col idx 45
+RFE run 23 RFE col idx 46
+RFE run 23 RFE col idx 47
+RFE run 23 RFE col idx 48
+RFE run 23 RFE col idx 49
+RFE run 23 RFE col idx 50
+RFE run 23 RFE col idx 51
+RFE run 23 RFE col idx 52
+RFE run 23 RFE col idx 53
+RFE run 23 RFE col idx 54
+RFE run 23 RFE col idx 55
+RFE run 23 RFE col idx 56
+RFE run 23 RFE col idx 57
+RFE run 23 RFE col idx 58
+RFE run 23 RFE col idx 59
+RFE run 23 RFE col idx 60
+RFE run 23 RFE col idx 61
+RFE run 23 RFE col idx 62
+RFE run 23 RFE col idx 63
+RFE run 23 RFE col idx 64
+RFE run 23 RFE col idx 65
+RFE run 23 RFE col idx 66
+Worst column fp_o_desc_chi0
+RFE RMSE CV 0.60
+RFE run 24 RFE col idx 0
+RFE run 24 RFE col idx 1
+RFE run 24 RFE col idx 2
+RFE run 24 RFE col idx 3
+RFE run 24 RFE col idx 4
+RFE run 24 RFE col idx 5
+RFE run 24 RFE col idx 6
+RFE run 24 RFE col idx 7
+RFE run 24 RFE col idx 8
+RFE run 24 RFE col idx 9
+RFE run 24 RFE col idx 10
+RFE run 24 RFE col idx 11
+RFE run 24 RFE col idx 12
+RFE run 24 RFE col idx 13
+RFE run 24 RFE col idx 14
+RFE run 24 RFE col idx 15
+RFE run 24 RFE col idx 16
+RFE run 24 RFE col idx 17
+RFE run 24 RFE col idx 18
+RFE run 24 RFE col idx 19
+RFE run 24 RFE col idx 20
+RFE run 24 RFE col idx 21
+RFE run 24 RFE col idx 22
+RFE run 24 RFE col idx 23
+RFE run 24 RFE col idx 24
+RFE run 24 RFE col idx 25
+RFE run 24 RFE col idx 26
+RFE run 24 RFE col idx 27
+RFE run 24 RFE col idx 28
+RFE run 24 RFE col idx 29
+RFE run 24 RFE col idx 30
+RFE run 24 RFE col idx 31
+RFE run 24 RFE col idx 32
+RFE run 24 RFE col idx 33
+RFE run 24 RFE col idx 34
+RFE run 24 RFE col idx 35
+RFE run 24 RFE col idx 36
+RFE run 24 RFE col idx 37
+RFE run 24 RFE col idx 38
+RFE run 24 RFE col idx 39
+RFE run 24 RFE col idx 40
+RFE run 24 RFE col idx 41
+RFE run 24 RFE col idx 42
+RFE run 24 RFE col idx 43
+RFE run 24 RFE col idx 44
+RFE run 24 RFE col idx 45
+RFE run 24 RFE col idx 46
+RFE run 24 RFE col idx 47
+RFE run 24 RFE col idx 48
+RFE run 24 RFE col idx 49
+RFE run 24 RFE col idx 50
+RFE run 24 RFE col idx 51
+RFE run 24 RFE col idx 52
+RFE run 24 RFE col idx 53
+RFE run 24 RFE col idx 54
+RFE run 24 RFE col idx 55
+RFE run 24 RFE col idx 56
+RFE run 24 RFE col idx 57
+RFE run 24 RFE col idx 58
+RFE run 24 RFE col idx 59
+RFE run 24 RFE col idx 60
+RFE run 24 RFE col idx 61
+RFE run 24 RFE col idx 62
+RFE run 24 RFE col idx 63
+RFE run 24 RFE col idx 64
+RFE run 24 RFE col idx 65
+Worst column fp_o_desc_chi0n
+RFE RMSE CV 0.60
+RFE run 25 RFE col idx 0
+RFE run 25 RFE col idx 1
+RFE run 25 RFE col idx 2
+RFE run 25 RFE col idx 3
+RFE run 25 RFE col idx 4
+RFE run 25 RFE col idx 5
+RFE run 25 RFE col idx 6
+RFE run 25 RFE col idx 7
+RFE run 25 RFE col idx 8
+RFE run 25 RFE col idx 9
+RFE run 25 RFE col idx 10
+RFE run 25 RFE col idx 11
+RFE run 25 RFE col idx 12
+RFE run 25 RFE col idx 13
+RFE run 25 RFE col idx 14
+RFE run 25 RFE col idx 15
+RFE run 25 RFE col idx 16
+RFE run 25 RFE col idx 17
+RFE run 25 RFE col idx 18
+RFE run 25 RFE col idx 19
+RFE run 25 RFE col idx 20
+RFE run 25 RFE col idx 21
+RFE run 25 RFE col idx 22
+RFE run 25 RFE col idx 23
+RFE run 25 RFE col idx 24
+RFE run 25 RFE col idx 25
+RFE run 25 RFE col idx 26
+RFE run 25 RFE col idx 27
+RFE run 25 RFE col idx 28
+RFE run 25 RFE col idx 29
+RFE run 25 RFE col idx 30
+RFE run 25 RFE col idx 31
+RFE run 25 RFE col idx 32
+RFE run 25 RFE col idx 33
+RFE run 25 RFE col idx 34
+RFE run 25 RFE col idx 35
+RFE run 25 RFE col idx 36
+RFE run 25 RFE col idx 37
+RFE run 25 RFE col idx 38
+RFE run 25 RFE col idx 39
+RFE run 25 RFE col idx 40
+RFE run 25 RFE col idx 41
+RFE run 25 RFE col idx 42
+RFE run 25 RFE col idx 43
+RFE run 25 RFE col idx 44
+RFE run 25 RFE col idx 45
+RFE run 25 RFE col idx 46
+RFE run 25 RFE col idx 47
+RFE run 25 RFE col idx 48
+RFE run 25 RFE col idx 49
+RFE run 25 RFE col idx 50
+RFE run 25 RFE col idx 51
+RFE run 25 RFE col idx 52
+RFE run 25 RFE col idx 53
+RFE run 25 RFE col idx 54
+RFE run 25 RFE col idx 55
+RFE run 25 RFE col idx 56
+RFE run 25 RFE col idx 57
+RFE run 25 RFE col idx 58
+RFE run 25 RFE col idx 59
+RFE run 25 RFE col idx 60
+RFE run 25 RFE col idx 61
+RFE run 25 RFE col idx 62
+RFE run 25 RFE col idx 63
+RFE run 25 RFE col idx 64
+Worst column fp_o_desc_chi4n
+RFE RMSE CV 0.60
+RFE run 26 RFE col idx 0
+RFE run 26 RFE col idx 1
+RFE run 26 RFE col idx 2
+RFE run 26 RFE col idx 3
+RFE run 26 RFE col idx 4
+RFE run 26 RFE col idx 5
+RFE run 26 RFE col idx 6
+RFE run 26 RFE col idx 7
+RFE run 26 RFE col idx 8
+RFE run 26 RFE col idx 9
+RFE run 26 RFE col idx 10
+RFE run 26 RFE col idx 11
+RFE run 26 RFE col idx 12
+RFE run 26 RFE col idx 13
+RFE run 26 RFE col idx 14
+RFE run 26 RFE col idx 15
+RFE run 26 RFE col idx 16
+RFE run 26 RFE col idx 17
+RFE run 26 RFE col idx 18
+RFE run 26 RFE col idx 19
+RFE run 26 RFE col idx 20
+RFE run 26 RFE col idx 21
+RFE run 26 RFE col idx 22
+RFE run 26 RFE col idx 23
+RFE run 26 RFE col idx 24
+RFE run 26 RFE col idx 25
+RFE run 26 RFE col idx 26
+RFE run 26 RFE col idx 27
+RFE run 26 RFE col idx 28
+RFE run 26 RFE col idx 29
+RFE run 26 RFE col idx 30
+RFE run 26 RFE col idx 31
+RFE run 26 RFE col idx 32
+RFE run 26 RFE col idx 33
+RFE run 26 RFE col idx 34
+RFE run 26 RFE col idx 35
+RFE run 26 RFE col idx 36
+RFE run 26 RFE col idx 37
+RFE run 26 RFE col idx 38
+RFE run 26 RFE col idx 39
+RFE run 26 RFE col idx 40
+RFE run 26 RFE col idx 41
+RFE run 26 RFE col idx 42
+RFE run 26 RFE col idx 43
+RFE run 26 RFE col idx 44
+RFE run 26 RFE col idx 45
+RFE run 26 RFE col idx 46
+RFE run 26 RFE col idx 47
+RFE run 26 RFE col idx 48
+RFE run 26 RFE col idx 49
+RFE run 26 RFE col idx 50
+RFE run 26 RFE col idx 51
+RFE run 26 RFE col idx 52
+RFE run 26 RFE col idx 53
+RFE run 26 RFE col idx 54
+RFE run 26 RFE col idx 55
+RFE run 26 RFE col idx 56
+RFE run 26 RFE col idx 57
+RFE run 26 RFE col idx 58
+RFE run 26 RFE col idx 59
+RFE run 26 RFE col idx 60
+RFE run 26 RFE col idx 61
+RFE run 26 RFE col idx 62
+RFE run 26 RFE col idx 63
+Worst column fp_smrVsa_1
+RFE RMSE CV 0.59
+RFE run 27 RFE col idx 0
+RFE run 27 RFE col idx 1
+RFE run 27 RFE col idx 2
+RFE run 27 RFE col idx 3
+RFE run 27 RFE col idx 4
+RFE run 27 RFE col idx 5
+RFE run 27 RFE col idx 6
+RFE run 27 RFE col idx 7
+RFE run 27 RFE col idx 8
+RFE run 27 RFE col idx 9
+RFE run 27 RFE col idx 10
+RFE run 27 RFE col idx 11
+RFE run 27 RFE col idx 12
+RFE run 27 RFE col idx 13
+RFE run 27 RFE col idx 14
+RFE run 27 RFE col idx 15
+RFE run 27 RFE col idx 16
+RFE run 27 RFE col idx 17
+RFE run 27 RFE col idx 18
+RFE run 27 RFE col idx 19
+RFE run 27 RFE col idx 20
+RFE run 27 RFE col idx 21
+RFE run 27 RFE col idx 22
+RFE run 27 RFE col idx 23
+RFE run 27 RFE col idx 24
+RFE run 27 RFE col idx 25
+RFE run 27 RFE col idx 26
+RFE run 27 RFE col idx 27
+RFE run 27 RFE col idx 28
+RFE run 27 RFE col idx 29
+RFE run 27 RFE col idx 30
+RFE run 27 RFE col idx 31
+RFE run 27 RFE col idx 32
+RFE run 27 RFE col idx 33
+RFE run 27 RFE col idx 34
+RFE run 27 RFE col idx 35
+RFE run 27 RFE col idx 36
+RFE run 27 RFE col idx 37
+RFE run 27 RFE col idx 38
+RFE run 27 RFE col idx 39
+RFE run 27 RFE col idx 40
+RFE run 27 RFE col idx 41
+RFE run 27 RFE col idx 42
+RFE run 27 RFE col idx 43
+RFE run 27 RFE col idx 44
+RFE run 27 RFE col idx 45
+RFE run 27 RFE col idx 46
+RFE run 27 RFE col idx 47
+RFE run 27 RFE col idx 48
+RFE run 27 RFE col idx 49
+RFE run 27 RFE col idx 50
+RFE run 27 RFE col idx 51
+RFE run 27 RFE col idx 52
+RFE run 27 RFE col idx 53
+RFE run 27 RFE col idx 54
+RFE run 27 RFE col idx 55
+RFE run 27 RFE col idx 56
+RFE run 27 RFE col idx 57
+RFE run 27 RFE col idx 58
+RFE run 27 RFE col idx 59
+RFE run 27 RFE col idx 60
+RFE run 27 RFE col idx 61
+RFE run 27 RFE col idx 62
+Worst column fp_o_desc_nAroRing
+RFE RMSE CV 0.59
+RFE run 28 RFE col idx 0
+RFE run 28 RFE col idx 1
+RFE run 28 RFE col idx 2
+RFE run 28 RFE col idx 3
+RFE run 28 RFE col idx 4
+RFE run 28 RFE col idx 5
+RFE run 28 RFE col idx 6
+RFE run 28 RFE col idx 7
+RFE run 28 RFE col idx 8
+RFE run 28 RFE col idx 9
+RFE run 28 RFE col idx 10
+RFE run 28 RFE col idx 11
+RFE run 28 RFE col idx 12
+RFE run 28 RFE col idx 13
+RFE run 28 RFE col idx 14
+RFE run 28 RFE col idx 15
+RFE run 28 RFE col idx 16
+RFE run 28 RFE col idx 17
+RFE run 28 RFE col idx 18
+RFE run 28 RFE col idx 19
+RFE run 28 RFE col idx 20
+RFE run 28 RFE col idx 21
+RFE run 28 RFE col idx 22
+RFE run 28 RFE col idx 23
+RFE run 28 RFE col idx 24
+RFE run 28 RFE col idx 25
+RFE run 28 RFE col idx 26
+RFE run 28 RFE col idx 27
+RFE run 28 RFE col idx 28
+RFE run 28 RFE col idx 29
+RFE run 28 RFE col idx 30
+RFE run 28 RFE col idx 31
+RFE run 28 RFE col idx 32
+RFE run 28 RFE col idx 33
+RFE run 28 RFE col idx 34
+RFE run 28 RFE col idx 35
+RFE run 28 RFE col idx 36
+RFE run 28 RFE col idx 37
+RFE run 28 RFE col idx 38
+RFE run 28 RFE col idx 39
+RFE run 28 RFE col idx 40
+RFE run 28 RFE col idx 41
+RFE run 28 RFE col idx 42
+RFE run 28 RFE col idx 43
+RFE run 28 RFE col idx 44
+RFE run 28 RFE col idx 45
+RFE run 28 RFE col idx 46
+RFE run 28 RFE col idx 47
+RFE run 28 RFE col idx 48
+RFE run 28 RFE col idx 49
+RFE run 28 RFE col idx 50
+RFE run 28 RFE col idx 51
+RFE run 28 RFE col idx 52
+RFE run 28 RFE col idx 53
+RFE run 28 RFE col idx 54
+RFE run 28 RFE col idx 55
+RFE run 28 RFE col idx 56
+RFE run 28 RFE col idx 57
+RFE run 28 RFE col idx 58
+RFE run 28 RFE col idx 59
+RFE run 28 RFE col idx 60
+RFE run 28 RFE col idx 61
+Worst column fp_mqns_10
+RFE RMSE CV 0.59
+RFE run 29 RFE col idx 0
+RFE run 29 RFE col idx 1
+RFE run 29 RFE col idx 2
+RFE run 29 RFE col idx 3
+RFE run 29 RFE col idx 4
+RFE run 29 RFE col idx 5
+RFE run 29 RFE col idx 6
+RFE run 29 RFE col idx 7
+RFE run 29 RFE col idx 8
+RFE run 29 RFE col idx 9
+RFE run 29 RFE col idx 10
+RFE run 29 RFE col idx 11
+RFE run 29 RFE col idx 12
+RFE run 29 RFE col idx 13
+RFE run 29 RFE col idx 14
+RFE run 29 RFE col idx 15
+RFE run 29 RFE col idx 16
+RFE run 29 RFE col idx 17
+RFE run 29 RFE col idx 18
+RFE run 29 RFE col idx 19
+RFE run 29 RFE col idx 20
+RFE run 29 RFE col idx 21
+RFE run 29 RFE col idx 22
+RFE run 29 RFE col idx 23
+RFE run 29 RFE col idx 24
+RFE run 29 RFE col idx 25
+RFE run 29 RFE col idx 26
+RFE run 29 RFE col idx 27
+RFE run 29 RFE col idx 28
+RFE run 29 RFE col idx 29
+RFE run 29 RFE col idx 30
+RFE run 29 RFE col idx 31
+RFE run 29 RFE col idx 32
+RFE run 29 RFE col idx 33
+RFE run 29 RFE col idx 34
+RFE run 29 RFE col idx 35
+RFE run 29 RFE col idx 36
+RFE run 29 RFE col idx 37
+RFE run 29 RFE col idx 38
+RFE run 29 RFE col idx 39
+RFE run 29 RFE col idx 40
+RFE run 29 RFE col idx 41
+RFE run 29 RFE col idx 42
+RFE run 29 RFE col idx 43
+RFE run 29 RFE col idx 44
+RFE run 29 RFE col idx 45
+RFE run 29 RFE col idx 46
+RFE run 29 RFE col idx 47
+RFE run 29 RFE col idx 48
+RFE run 29 RFE col idx 49
+RFE run 29 RFE col idx 50
+RFE run 29 RFE col idx 51
+RFE run 29 RFE col idx 52
+RFE run 29 RFE col idx 53
+RFE run 29 RFE col idx 54
+RFE run 29 RFE col idx 55
+RFE run 29 RFE col idx 56
+RFE run 29 RFE col idx 57
+RFE run 29 RFE col idx 58
+RFE run 29 RFE col idx 59
+RFE run 29 RFE col idx 60
+Worst column fp_mqns_23
+RFE RMSE CV 0.58
+RFE run 30 RFE col idx 0
+RFE run 30 RFE col idx 1
+RFE run 30 RFE col idx 2
+RFE run 30 RFE col idx 3
+RFE run 30 RFE col idx 4
+RFE run 30 RFE col idx 5
+RFE run 30 RFE col idx 6
+RFE run 30 RFE col idx 7
+RFE run 30 RFE col idx 8
+RFE run 30 RFE col idx 9
+RFE run 30 RFE col idx 10
+RFE run 30 RFE col idx 11
+RFE run 30 RFE col idx 12
+RFE run 30 RFE col idx 13
+RFE run 30 RFE col idx 14
+RFE run 30 RFE col idx 15
+RFE run 30 RFE col idx 16
+RFE run 30 RFE col idx 17
+RFE run 30 RFE col idx 18
+RFE run 30 RFE col idx 19
+RFE run 30 RFE col idx 20
+RFE run 30 RFE col idx 21
+RFE run 30 RFE col idx 22
+RFE run 30 RFE col idx 23
+RFE run 30 RFE col idx 24
+RFE run 30 RFE col idx 25
+RFE run 30 RFE col idx 26
+RFE run 30 RFE col idx 27
+RFE run 30 RFE col idx 28
+RFE run 30 RFE col idx 29
+RFE run 30 RFE col idx 30
+RFE run 30 RFE col idx 31
+RFE run 30 RFE col idx 32
+RFE run 30 RFE col idx 33
+RFE run 30 RFE col idx 34
+RFE run 30 RFE col idx 35
+RFE run 30 RFE col idx 36
+RFE run 30 RFE col idx 37
+RFE run 30 RFE col idx 38
+RFE run 30 RFE col idx 39
+RFE run 30 RFE col idx 40
+RFE run 30 RFE col idx 41
+RFE run 30 RFE col idx 42
+RFE run 30 RFE col idx 43
+RFE run 30 RFE col idx 44
+RFE run 30 RFE col idx 45
+RFE run 30 RFE col idx 46
+RFE run 30 RFE col idx 47
+RFE run 30 RFE col idx 48
+RFE run 30 RFE col idx 49
+RFE run 30 RFE col idx 50
+RFE run 30 RFE col idx 51
+RFE run 30 RFE col idx 52
+RFE run 30 RFE col idx 53
+RFE run 30 RFE col idx 54
+RFE run 30 RFE col idx 55
+RFE run 30 RFE col idx 56
+RFE run 30 RFE col idx 57
+RFE run 30 RFE col idx 58
+RFE run 30 RFE col idx 59
+Worst column fp_o_desc_chi4v
+RFE RMSE CV 0.58
+RFE run 31 RFE col idx 0
+RFE run 31 RFE col idx 1
+RFE run 31 RFE col idx 2
+RFE run 31 RFE col idx 3
+RFE run 31 RFE col idx 4
+RFE run 31 RFE col idx 5
+RFE run 31 RFE col idx 6
+RFE run 31 RFE col idx 7
+RFE run 31 RFE col idx 8
+RFE run 31 RFE col idx 9
+RFE run 31 RFE col idx 10
+RFE run 31 RFE col idx 11
+RFE run 31 RFE col idx 12
+RFE run 31 RFE col idx 13
+RFE run 31 RFE col idx 14
+RFE run 31 RFE col idx 15
+RFE run 31 RFE col idx 16
+RFE run 31 RFE col idx 17
+RFE run 31 RFE col idx 18
+RFE run 31 RFE col idx 19
+RFE run 31 RFE col idx 20
+RFE run 31 RFE col idx 21
+RFE run 31 RFE col idx 22
+RFE run 31 RFE col idx 23
+RFE run 31 RFE col idx 24
+RFE run 31 RFE col idx 25
+RFE run 31 RFE col idx 26
+RFE run 31 RFE col idx 27
+RFE run 31 RFE col idx 28
+RFE run 31 RFE col idx 29
+RFE run 31 RFE col idx 30
+RFE run 31 RFE col idx 31
+RFE run 31 RFE col idx 32
+RFE run 31 RFE col idx 33
+RFE run 31 RFE col idx 34
+RFE run 31 RFE col idx 35
+RFE run 31 RFE col idx 36
+RFE run 31 RFE col idx 37
+RFE run 31 RFE col idx 38
+RFE run 31 RFE col idx 39
+RFE run 31 RFE col idx 40
+RFE run 31 RFE col idx 41
+RFE run 31 RFE col idx 42
+RFE run 31 RFE col idx 43
+RFE run 31 RFE col idx 44
+RFE run 31 RFE col idx 45
+RFE run 31 RFE col idx 46
+RFE run 31 RFE col idx 47
+RFE run 31 RFE col idx 48
+RFE run 31 RFE col idx 49
+RFE run 31 RFE col idx 50
+RFE run 31 RFE col idx 51
+RFE run 31 RFE col idx 52
+RFE run 31 RFE col idx 53
+RFE run 31 RFE col idx 54
+RFE run 31 RFE col idx 55
+RFE run 31 RFE col idx 56
+RFE run 31 RFE col idx 57
+RFE run 31 RFE col idx 58
+Worst column fp_mqns_20
+RFE RMSE CV 0.58
+RFE run 32 RFE col idx 0
+RFE run 32 RFE col idx 1
+RFE run 32 RFE col idx 2
+RFE run 32 RFE col idx 3
+RFE run 32 RFE col idx 4
+RFE run 32 RFE col idx 5
+RFE run 32 RFE col idx 6
+RFE run 32 RFE col idx 7
+RFE run 32 RFE col idx 8
+RFE run 32 RFE col idx 9
+RFE run 32 RFE col idx 10
+RFE run 32 RFE col idx 11
+RFE run 32 RFE col idx 12
+RFE run 32 RFE col idx 13
+RFE run 32 RFE col idx 14
+RFE run 32 RFE col idx 15
+RFE run 32 RFE col idx 16
+RFE run 32 RFE col idx 17
+RFE run 32 RFE col idx 18
+RFE run 32 RFE col idx 19
+RFE run 32 RFE col idx 20
+RFE run 32 RFE col idx 21
+RFE run 32 RFE col idx 22
+RFE run 32 RFE col idx 23
+RFE run 32 RFE col idx 24
+RFE run 32 RFE col idx 25
+RFE run 32 RFE col idx 26
+RFE run 32 RFE col idx 27
+RFE run 32 RFE col idx 28
+RFE run 32 RFE col idx 29
+RFE run 32 RFE col idx 30
+RFE run 32 RFE col idx 31
+RFE run 32 RFE col idx 32
+RFE run 32 RFE col idx 33
+RFE run 32 RFE col idx 34
+RFE run 32 RFE col idx 35
+RFE run 32 RFE col idx 36
+RFE run 32 RFE col idx 37
+RFE run 32 RFE col idx 38
+RFE run 32 RFE col idx 39
+RFE run 32 RFE col idx 40
+RFE run 32 RFE col idx 41
+RFE run 32 RFE col idx 42
+RFE run 32 RFE col idx 43
+RFE run 32 RFE col idx 44
+RFE run 32 RFE col idx 45
+RFE run 32 RFE col idx 46
+RFE run 32 RFE col idx 47
+RFE run 32 RFE col idx 48
+RFE run 32 RFE col idx 49
+RFE run 32 RFE col idx 50
+RFE run 32 RFE col idx 51
+RFE run 32 RFE col idx 52
+RFE run 32 RFE col idx 53
+RFE run 32 RFE col idx 54
+RFE run 32 RFE col idx 55
+RFE run 32 RFE col idx 56
+RFE run 32 RFE col idx 57
+Worst column fp_o_desc_chi2n
+RFE RMSE CV 0.57
+RFE run 33 RFE col idx 0
+RFE run 33 RFE col idx 1
+RFE run 33 RFE col idx 2
+RFE run 33 RFE col idx 3
+RFE run 33 RFE col idx 4
+RFE run 33 RFE col idx 5
+RFE run 33 RFE col idx 6
+RFE run 33 RFE col idx 7
+RFE run 33 RFE col idx 8
+RFE run 33 RFE col idx 9
+RFE run 33 RFE col idx 10
+RFE run 33 RFE col idx 11
+RFE run 33 RFE col idx 12
+RFE run 33 RFE col idx 13
+RFE run 33 RFE col idx 14
+RFE run 33 RFE col idx 15
+RFE run 33 RFE col idx 16
+RFE run 33 RFE col idx 17
+RFE run 33 RFE col idx 18
+RFE run 33 RFE col idx 19
+RFE run 33 RFE col idx 20
+RFE run 33 RFE col idx 21
+RFE run 33 RFE col idx 22
+RFE run 33 RFE col idx 23
+RFE run 33 RFE col idx 24
+RFE run 33 RFE col idx 25
+RFE run 33 RFE col idx 26
+RFE run 33 RFE col idx 27
+RFE run 33 RFE col idx 28
+RFE run 33 RFE col idx 29
+RFE run 33 RFE col idx 30
+RFE run 33 RFE col idx 31
+RFE run 33 RFE col idx 32
+RFE run 33 RFE col idx 33
+RFE run 33 RFE col idx 34
+RFE run 33 RFE col idx 35
+RFE run 33 RFE col idx 36
+RFE run 33 RFE col idx 37
+RFE run 33 RFE col idx 38
+RFE run 33 RFE col idx 39
+RFE run 33 RFE col idx 40
+RFE run 33 RFE col idx 41
+RFE run 33 RFE col idx 42
+RFE run 33 RFE col idx 43
+RFE run 33 RFE col idx 44
+RFE run 33 RFE col idx 45
+RFE run 33 RFE col idx 46
+RFE run 33 RFE col idx 47
+RFE run 33 RFE col idx 48
+RFE run 33 RFE col idx 49
+RFE run 33 RFE col idx 50
+RFE run 33 RFE col idx 51
+RFE run 33 RFE col idx 52
+RFE run 33 RFE col idx 53
+RFE run 33 RFE col idx 54
+RFE run 33 RFE col idx 55
+RFE run 33 RFE col idx 56
+Worst column fp_o_desc_chi0v
+RFE RMSE CV 0.57
+RFE run 34 RFE col idx 0
+RFE run 34 RFE col idx 1
+RFE run 34 RFE col idx 2
+RFE run 34 RFE col idx 3
+RFE run 34 RFE col idx 4
+RFE run 34 RFE col idx 5
+RFE run 34 RFE col idx 6
+RFE run 34 RFE col idx 7
+RFE run 34 RFE col idx 8
+RFE run 34 RFE col idx 9
+RFE run 34 RFE col idx 10
+RFE run 34 RFE col idx 11
+RFE run 34 RFE col idx 12
+RFE run 34 RFE col idx 13
+RFE run 34 RFE col idx 14
+RFE run 34 RFE col idx 15
+RFE run 34 RFE col idx 16
+RFE run 34 RFE col idx 17
+RFE run 34 RFE col idx 18
+RFE run 34 RFE col idx 19
+RFE run 34 RFE col idx 20
+RFE run 34 RFE col idx 21
+RFE run 34 RFE col idx 22
+RFE run 34 RFE col idx 23
+RFE run 34 RFE col idx 24
+RFE run 34 RFE col idx 25
+RFE run 34 RFE col idx 26
+RFE run 34 RFE col idx 27
+RFE run 34 RFE col idx 28
+RFE run 34 RFE col idx 29
+RFE run 34 RFE col idx 30
+RFE run 34 RFE col idx 31
+RFE run 34 RFE col idx 32
+RFE run 34 RFE col idx 33
+RFE run 34 RFE col idx 34
+RFE run 34 RFE col idx 35
+RFE run 34 RFE col idx 36
+RFE run 34 RFE col idx 37
+RFE run 34 RFE col idx 38
+RFE run 34 RFE col idx 39
+RFE run 34 RFE col idx 40
+RFE run 34 RFE col idx 41
+RFE run 34 RFE col idx 42
+RFE run 34 RFE col idx 43
+RFE run 34 RFE col idx 44
+RFE run 34 RFE col idx 45
+RFE run 34 RFE col idx 46
+RFE run 34 RFE col idx 47
+RFE run 34 RFE col idx 48
+RFE run 34 RFE col idx 49
+RFE run 34 RFE col idx 50
+RFE run 34 RFE col idx 51
+RFE run 34 RFE col idx 52
+RFE run 34 RFE col idx 53
+RFE run 34 RFE col idx 54
+RFE run 34 RFE col idx 55
+Worst column fp_o_desc_k1
+RFE RMSE CV 0.57
+RFE run 35 RFE col idx 0
+RFE run 35 RFE col idx 1
+RFE run 35 RFE col idx 2
+RFE run 35 RFE col idx 3
+RFE run 35 RFE col idx 4
+RFE run 35 RFE col idx 5
+RFE run 35 RFE col idx 6
+RFE run 35 RFE col idx 7
+RFE run 35 RFE col idx 8
+RFE run 35 RFE col idx 9
+RFE run 35 RFE col idx 10
+RFE run 35 RFE col idx 11
+RFE run 35 RFE col idx 12
+RFE run 35 RFE col idx 13
+RFE run 35 RFE col idx 14
+RFE run 35 RFE col idx 15
+RFE run 35 RFE col idx 16
+RFE run 35 RFE col idx 17
+RFE run 35 RFE col idx 18
+RFE run 35 RFE col idx 19
+RFE run 35 RFE col idx 20
+RFE run 35 RFE col idx 21
+RFE run 35 RFE col idx 22
+RFE run 35 RFE col idx 23
+RFE run 35 RFE col idx 24
+RFE run 35 RFE col idx 25
+RFE run 35 RFE col idx 26
+RFE run 35 RFE col idx 27
+RFE run 35 RFE col idx 28
+RFE run 35 RFE col idx 29
+RFE run 35 RFE col idx 30
+RFE run 35 RFE col idx 31
+RFE run 35 RFE col idx 32
+RFE run 35 RFE col idx 33
+RFE run 35 RFE col idx 34
+RFE run 35 RFE col idx 35
+RFE run 35 RFE col idx 36
+RFE run 35 RFE col idx 37
+RFE run 35 RFE col idx 38
+RFE run 35 RFE col idx 39
+RFE run 35 RFE col idx 40
+RFE run 35 RFE col idx 41
+RFE run 35 RFE col idx 42
+RFE run 35 RFE col idx 43
+RFE run 35 RFE col idx 44
+RFE run 35 RFE col idx 45
+RFE run 35 RFE col idx 46
+RFE run 35 RFE col idx 47
+RFE run 35 RFE col idx 48
+RFE run 35 RFE col idx 49
+RFE run 35 RFE col idx 50
+RFE run 35 RFE col idx 51
+RFE run 35 RFE col idx 52
+RFE run 35 RFE col idx 53
+RFE run 35 RFE col idx 54
+Worst column norm_bscore
+RFE RMSE CV 0.56
+RFE run 36 RFE col idx 0
+RFE run 36 RFE col idx 1
+RFE run 36 RFE col idx 2
+RFE run 36 RFE col idx 3
+RFE run 36 RFE col idx 4
+RFE run 36 RFE col idx 5
+RFE run 36 RFE col idx 6
+RFE run 36 RFE col idx 7
+RFE run 36 RFE col idx 8
+RFE run 36 RFE col idx 9
+RFE run 36 RFE col idx 10
+RFE run 36 RFE col idx 11
+RFE run 36 RFE col idx 12
+RFE run 36 RFE col idx 13
+RFE run 36 RFE col idx 14
+RFE run 36 RFE col idx 15
+RFE run 36 RFE col idx 16
+RFE run 36 RFE col idx 17
+RFE run 36 RFE col idx 18
+RFE run 36 RFE col idx 19
+RFE run 36 RFE col idx 20
+RFE run 36 RFE col idx 21
+RFE run 36 RFE col idx 22
+RFE run 36 RFE col idx 23
+RFE run 36 RFE col idx 24
+RFE run 36 RFE col idx 25
+RFE run 36 RFE col idx 26
+RFE run 36 RFE col idx 27
+RFE run 36 RFE col idx 28
+RFE run 36 RFE col idx 29
+RFE run 36 RFE col idx 30
+RFE run 36 RFE col idx 31
+RFE run 36 RFE col idx 32
+RFE run 36 RFE col idx 33
+RFE run 36 RFE col idx 34
+RFE run 36 RFE col idx 35
+RFE run 36 RFE col idx 36
+RFE run 36 RFE col idx 37
+RFE run 36 RFE col idx 38
+RFE run 36 RFE col idx 39
+RFE run 36 RFE col idx 40
+RFE run 36 RFE col idx 41
+RFE run 36 RFE col idx 42
+RFE run 36 RFE col idx 43
+RFE run 36 RFE col idx 44
+RFE run 36 RFE col idx 45
+RFE run 36 RFE col idx 46
+RFE run 36 RFE col idx 47
+RFE run 36 RFE col idx 48
+RFE run 36 RFE col idx 49
+RFE run 36 RFE col idx 50
+RFE run 36 RFE col idx 51
+RFE run 36 RFE col idx 52
+RFE run 36 RFE col idx 53
+Worst column fp_mqns_22
+RFE RMSE CV 0.56
+RFE run 37 RFE col idx 0
+RFE run 37 RFE col idx 1
+RFE run 37 RFE col idx 2
+RFE run 37 RFE col idx 3
+RFE run 37 RFE col idx 4
+RFE run 37 RFE col idx 5
+RFE run 37 RFE col idx 6
+RFE run 37 RFE col idx 7
+RFE run 37 RFE col idx 8
+RFE run 37 RFE col idx 9
+RFE run 37 RFE col idx 10
+RFE run 37 RFE col idx 11
+RFE run 37 RFE col idx 12
+RFE run 37 RFE col idx 13
+RFE run 37 RFE col idx 14
+RFE run 37 RFE col idx 15
+RFE run 37 RFE col idx 16
+RFE run 37 RFE col idx 17
+RFE run 37 RFE col idx 18
+RFE run 37 RFE col idx 19
+RFE run 37 RFE col idx 20
+RFE run 37 RFE col idx 21
+RFE run 37 RFE col idx 22
+RFE run 37 RFE col idx 23
+RFE run 37 RFE col idx 24
+RFE run 37 RFE col idx 25
+RFE run 37 RFE col idx 26
+RFE run 37 RFE col idx 27
+RFE run 37 RFE col idx 28
+RFE run 37 RFE col idx 29
+RFE run 37 RFE col idx 30
+RFE run 37 RFE col idx 31
+RFE run 37 RFE col idx 32
+RFE run 37 RFE col idx 33
+RFE run 37 RFE col idx 34
+RFE run 37 RFE col idx 35
+RFE run 37 RFE col idx 36
+RFE run 37 RFE col idx 37
+RFE run 37 RFE col idx 38
+RFE run 37 RFE col idx 39
+RFE run 37 RFE col idx 40
+RFE run 37 RFE col idx 41
+RFE run 37 RFE col idx 42
+RFE run 37 RFE col idx 43
+RFE run 37 RFE col idx 44
+RFE run 37 RFE col idx 45
+RFE run 37 RFE col idx 46
+RFE run 37 RFE col idx 47
+RFE run 37 RFE col idx 48
+RFE run 37 RFE col idx 49
+RFE run 37 RFE col idx 50
+RFE run 37 RFE col idx 51
+RFE run 37 RFE col idx 52
+Worst column fp_mqns_21
+RFE RMSE CV 0.55
+RFE run 38 RFE col idx 0
+RFE run 38 RFE col idx 1
+RFE run 38 RFE col idx 2
+RFE run 38 RFE col idx 3
+RFE run 38 RFE col idx 4
+RFE run 38 RFE col idx 5
+RFE run 38 RFE col idx 6
+RFE run 38 RFE col idx 7
+RFE run 38 RFE col idx 8
+RFE run 38 RFE col idx 9
+RFE run 38 RFE col idx 10
+RFE run 38 RFE col idx 11
+RFE run 38 RFE col idx 12
+RFE run 38 RFE col idx 13
+RFE run 38 RFE col idx 14
+RFE run 38 RFE col idx 15
+RFE run 38 RFE col idx 16
+RFE run 38 RFE col idx 17
+RFE run 38 RFE col idx 18
+RFE run 38 RFE col idx 19
+RFE run 38 RFE col idx 20
+RFE run 38 RFE col idx 21
+RFE run 38 RFE col idx 22
+RFE run 38 RFE col idx 23
+RFE run 38 RFE col idx 24
+RFE run 38 RFE col idx 25
+RFE run 38 RFE col idx 26
+RFE run 38 RFE col idx 27
+RFE run 38 RFE col idx 28
+RFE run 38 RFE col idx 29
+RFE run 38 RFE col idx 30
+RFE run 38 RFE col idx 31
+RFE run 38 RFE col idx 32
+RFE run 38 RFE col idx 33
+RFE run 38 RFE col idx 34
+RFE run 38 RFE col idx 35
+RFE run 38 RFE col idx 36
+RFE run 38 RFE col idx 37
+RFE run 38 RFE col idx 38
+RFE run 38 RFE col idx 39
+RFE run 38 RFE col idx 40
+RFE run 38 RFE col idx 41
+RFE run 38 RFE col idx 42
+RFE run 38 RFE col idx 43
+RFE run 38 RFE col idx 44
+RFE run 38 RFE col idx 45
+RFE run 38 RFE col idx 46
+RFE run 38 RFE col idx 47
+RFE run 38 RFE col idx 48
+RFE run 38 RFE col idx 49
+RFE run 38 RFE col idx 50
+RFE run 38 RFE col idx 51
+Worst column fp_mqns_31
+RFE RMSE CV 0.55
+RFE run 39 RFE col idx 0
+RFE run 39 RFE col idx 1
+RFE run 39 RFE col idx 2
+RFE run 39 RFE col idx 3
+RFE run 39 RFE col idx 4
+RFE run 39 RFE col idx 5
+RFE run 39 RFE col idx 6
+RFE run 39 RFE col idx 7
+RFE run 39 RFE col idx 8
+RFE run 39 RFE col idx 9
+RFE run 39 RFE col idx 10
+RFE run 39 RFE col idx 11
+RFE run 39 RFE col idx 12
+RFE run 39 RFE col idx 13
+RFE run 39 RFE col idx 14
+RFE run 39 RFE col idx 15
+RFE run 39 RFE col idx 16
+RFE run 39 RFE col idx 17
+RFE run 39 RFE col idx 18
+RFE run 39 RFE col idx 19
+RFE run 39 RFE col idx 20
+RFE run 39 RFE col idx 21
+RFE run 39 RFE col idx 22
+RFE run 39 RFE col idx 23
+RFE run 39 RFE col idx 24
+RFE run 39 RFE col idx 25
+RFE run 39 RFE col idx 26
+RFE run 39 RFE col idx 27
+RFE run 39 RFE col idx 28
+RFE run 39 RFE col idx 29
+RFE run 39 RFE col idx 30
+RFE run 39 RFE col idx 31
+RFE run 39 RFE col idx 32
+RFE run 39 RFE col idx 33
+RFE run 39 RFE col idx 34
+RFE run 39 RFE col idx 35
+RFE run 39 RFE col idx 36
+RFE run 39 RFE col idx 37
+RFE run 39 RFE col idx 38
+RFE run 39 RFE col idx 39
+RFE run 39 RFE col idx 40
+RFE run 39 RFE col idx 41
+RFE run 39 RFE col idx 42
+RFE run 39 RFE col idx 43
+RFE run 39 RFE col idx 44
+RFE run 39 RFE col idx 45
+RFE run 39 RFE col idx 46
+RFE run 39 RFE col idx 47
+RFE run 39 RFE col idx 48
+RFE run 39 RFE col idx 49
+RFE run 39 RFE col idx 50
+Worst column fp_slogPVsa_12
+RFE RMSE CV 0.55
+RFE run 40 RFE col idx 0
+RFE run 40 RFE col idx 1
+RFE run 40 RFE col idx 2
+RFE run 40 RFE col idx 3
+RFE run 40 RFE col idx 4
+RFE run 40 RFE col idx 5
+RFE run 40 RFE col idx 6
+RFE run 40 RFE col idx 7
+RFE run 40 RFE col idx 8
+RFE run 40 RFE col idx 9
+RFE run 40 RFE col idx 10
+RFE run 40 RFE col idx 11
+RFE run 40 RFE col idx 12
+RFE run 40 RFE col idx 13
+RFE run 40 RFE col idx 14
+RFE run 40 RFE col idx 15
+RFE run 40 RFE col idx 16
+RFE run 40 RFE col idx 17
+RFE run 40 RFE col idx 18
+RFE run 40 RFE col idx 19
+RFE run 40 RFE col idx 20
+RFE run 40 RFE col idx 21
+RFE run 40 RFE col idx 22
+RFE run 40 RFE col idx 23
+RFE run 40 RFE col idx 24
+RFE run 40 RFE col idx 25
+RFE run 40 RFE col idx 26
+RFE run 40 RFE col idx 27
+RFE run 40 RFE col idx 28
+RFE run 40 RFE col idx 29
+RFE run 40 RFE col idx 30
+RFE run 40 RFE col idx 31
+RFE run 40 RFE col idx 32
+RFE run 40 RFE col idx 33
+RFE run 40 RFE col idx 34
+RFE run 40 RFE col idx 35
+RFE run 40 RFE col idx 36
+RFE run 40 RFE col idx 37
+RFE run 40 RFE col idx 38
+RFE run 40 RFE col idx 39
+RFE run 40 RFE col idx 40
+RFE run 40 RFE col idx 41
+RFE run 40 RFE col idx 42
+RFE run 40 RFE col idx 43
+RFE run 40 RFE col idx 44
+RFE run 40 RFE col idx 45
+RFE run 40 RFE col idx 46
+RFE run 40 RFE col idx 47
+RFE run 40 RFE col idx 48
+RFE run 40 RFE col idx 49
+Worst column abs_chg
+RFE RMSE CV 0.54
+RFE run 41 RFE col idx 0
+RFE run 41 RFE col idx 1
+RFE run 41 RFE col idx 2
+RFE run 41 RFE col idx 3
+RFE run 41 RFE col idx 4
+RFE run 41 RFE col idx 5
+RFE run 41 RFE col idx 6
+RFE run 41 RFE col idx 7
+RFE run 41 RFE col idx 8
+RFE run 41 RFE col idx 9
+RFE run 41 RFE col idx 10
+RFE run 41 RFE col idx 11
+RFE run 41 RFE col idx 12
+RFE run 41 RFE col idx 13
+RFE run 41 RFE col idx 14
+RFE run 41 RFE col idx 15
+RFE run 41 RFE col idx 16
+RFE run 41 RFE col idx 17
+RFE run 41 RFE col idx 18
+RFE run 41 RFE col idx 19
+RFE run 41 RFE col idx 20
+RFE run 41 RFE col idx 21
+RFE run 41 RFE col idx 22
+RFE run 41 RFE col idx 23
+RFE run 41 RFE col idx 24
+RFE run 41 RFE col idx 25
+RFE run 41 RFE col idx 26
+RFE run 41 RFE col idx 27
+RFE run 41 RFE col idx 28
+RFE run 41 RFE col idx 29
+RFE run 41 RFE col idx 30
+RFE run 41 RFE col idx 31
+RFE run 41 RFE col idx 32
+RFE run 41 RFE col idx 33
+RFE run 41 RFE col idx 34
+RFE run 41 RFE col idx 35
+RFE run 41 RFE col idx 36
+RFE run 41 RFE col idx 37
+RFE run 41 RFE col idx 38
+RFE run 41 RFE col idx 39
+RFE run 41 RFE col idx 40
+RFE run 41 RFE col idx 41
+RFE run 41 RFE col idx 42
+RFE run 41 RFE col idx 43
+RFE run 41 RFE col idx 44
+RFE run 41 RFE col idx 45
+RFE run 41 RFE col idx 46
+RFE run 41 RFE col idx 47
+RFE run 41 RFE col idx 48
+Worst column norm_abs_logP
+RFE RMSE CV 0.54
+RFE run 42 RFE col idx 0
+RFE run 42 RFE col idx 1
+RFE run 42 RFE col idx 2
+RFE run 42 RFE col idx 3
+RFE run 42 RFE col idx 4
+RFE run 42 RFE col idx 5
+RFE run 42 RFE col idx 6
+RFE run 42 RFE col idx 7
+RFE run 42 RFE col idx 8
+RFE run 42 RFE col idx 9
+RFE run 42 RFE col idx 10
+RFE run 42 RFE col idx 11
+RFE run 42 RFE col idx 12
+RFE run 42 RFE col idx 13
+RFE run 42 RFE col idx 14
+RFE run 42 RFE col idx 15
+RFE run 42 RFE col idx 16
+RFE run 42 RFE col idx 17
+RFE run 42 RFE col idx 18
+RFE run 42 RFE col idx 19
+RFE run 42 RFE col idx 20
+RFE run 42 RFE col idx 21
+RFE run 42 RFE col idx 22
+RFE run 42 RFE col idx 23
+RFE run 42 RFE col idx 24
+RFE run 42 RFE col idx 25
+RFE run 42 RFE col idx 26
+RFE run 42 RFE col idx 27
+RFE run 42 RFE col idx 28
+RFE run 42 RFE col idx 29
+RFE run 42 RFE col idx 30
+RFE run 42 RFE col idx 31
+RFE run 42 RFE col idx 32
+RFE run 42 RFE col idx 33
+RFE run 42 RFE col idx 34
+RFE run 42 RFE col idx 35
+RFE run 42 RFE col idx 36
+RFE run 42 RFE col idx 37
+RFE run 42 RFE col idx 38
+RFE run 42 RFE col idx 39
+RFE run 42 RFE col idx 40
+RFE run 42 RFE col idx 41
+RFE run 42 RFE col idx 42
+RFE run 42 RFE col idx 43
+RFE run 42 RFE col idx 44
+RFE run 42 RFE col idx 45
+RFE run 42 RFE col idx 46
+RFE run 42 RFE col idx 47
+Worst column fp_mqns_9
+RFE RMSE CV 0.54
+RFE run 43 RFE col idx 0
+RFE run 43 RFE col idx 1
+RFE run 43 RFE col idx 2
+RFE run 43 RFE col idx 3
+RFE run 43 RFE col idx 4
+RFE run 43 RFE col idx 5
+RFE run 43 RFE col idx 6
+RFE run 43 RFE col idx 7
+RFE run 43 RFE col idx 8
+RFE run 43 RFE col idx 9
+RFE run 43 RFE col idx 10
+RFE run 43 RFE col idx 11
+RFE run 43 RFE col idx 12
+RFE run 43 RFE col idx 13
+RFE run 43 RFE col idx 14
+RFE run 43 RFE col idx 15
+RFE run 43 RFE col idx 16
+RFE run 43 RFE col idx 17
+RFE run 43 RFE col idx 18
+RFE run 43 RFE col idx 19
+RFE run 43 RFE col idx 20
+RFE run 43 RFE col idx 21
+RFE run 43 RFE col idx 22
+RFE run 43 RFE col idx 23
+RFE run 43 RFE col idx 24
+RFE run 43 RFE col idx 25
+RFE run 43 RFE col idx 26
+RFE run 43 RFE col idx 27
+RFE run 43 RFE col idx 28
+RFE run 43 RFE col idx 29
+RFE run 43 RFE col idx 30
+RFE run 43 RFE col idx 31
+RFE run 43 RFE col idx 32
+RFE run 43 RFE col idx 33
+RFE run 43 RFE col idx 34
+RFE run 43 RFE col idx 35
+RFE run 43 RFE col idx 36
+RFE run 43 RFE col idx 37
+RFE run 43 RFE col idx 38
+RFE run 43 RFE col idx 39
+RFE run 43 RFE col idx 40
+RFE run 43 RFE col idx 41
+RFE run 43 RFE col idx 42
+RFE run 43 RFE col idx 43
+RFE run 43 RFE col idx 44
+RFE run 43 RFE col idx 45
+RFE run 43 RFE col idx 46
+Worst column fp_mqns_19
+RFE RMSE CV 0.54
+RFE run 44 RFE col idx 0
+RFE run 44 RFE col idx 1
+RFE run 44 RFE col idx 2
+RFE run 44 RFE col idx 3
+RFE run 44 RFE col idx 4
+RFE run 44 RFE col idx 5
+RFE run 44 RFE col idx 6
+RFE run 44 RFE col idx 7
+RFE run 44 RFE col idx 8
+RFE run 44 RFE col idx 9
+RFE run 44 RFE col idx 10
+RFE run 44 RFE col idx 11
+RFE run 44 RFE col idx 12
+RFE run 44 RFE col idx 13
+RFE run 44 RFE col idx 14
+RFE run 44 RFE col idx 15
+RFE run 44 RFE col idx 16
+RFE run 44 RFE col idx 17
+RFE run 44 RFE col idx 18
+RFE run 44 RFE col idx 19
+RFE run 44 RFE col idx 20
+RFE run 44 RFE col idx 21
+RFE run 44 RFE col idx 22
+RFE run 44 RFE col idx 23
+RFE run 44 RFE col idx 24
+RFE run 44 RFE col idx 25
+RFE run 44 RFE col idx 26
+RFE run 44 RFE col idx 27
+RFE run 44 RFE col idx 28
+RFE run 44 RFE col idx 29
+RFE run 44 RFE col idx 30
+RFE run 44 RFE col idx 31
+RFE run 44 RFE col idx 32
+RFE run 44 RFE col idx 33
+RFE run 44 RFE col idx 34
+RFE run 44 RFE col idx 35
+RFE run 44 RFE col idx 36
+RFE run 44 RFE col idx 37
+RFE run 44 RFE col idx 38
+RFE run 44 RFE col idx 39
+RFE run 44 RFE col idx 40
+RFE run 44 RFE col idx 41
+RFE run 44 RFE col idx 42
+RFE run 44 RFE col idx 43
+RFE run 44 RFE col idx 44
+RFE run 44 RFE col idx 45
+Worst column fp_mqns_8
+RFE RMSE CV 0.54
+RFE run 45 RFE col idx 0
+RFE run 45 RFE col idx 1
+RFE run 45 RFE col idx 2
+RFE run 45 RFE col idx 3
+RFE run 45 RFE col idx 4
+RFE run 45 RFE col idx 5
+RFE run 45 RFE col idx 6
+RFE run 45 RFE col idx 7
+RFE run 45 RFE col idx 8
+RFE run 45 RFE col idx 9
+RFE run 45 RFE col idx 10
+RFE run 45 RFE col idx 11
+RFE run 45 RFE col idx 12
+RFE run 45 RFE col idx 13
+RFE run 45 RFE col idx 14
+RFE run 45 RFE col idx 15
+RFE run 45 RFE col idx 16
+RFE run 45 RFE col idx 17
+RFE run 45 RFE col idx 18
+RFE run 45 RFE col idx 19
+RFE run 45 RFE col idx 20
+RFE run 45 RFE col idx 21
+RFE run 45 RFE col idx 22
+RFE run 45 RFE col idx 23
+RFE run 45 RFE col idx 24
+RFE run 45 RFE col idx 25
+RFE run 45 RFE col idx 26
+RFE run 45 RFE col idx 27
+RFE run 45 RFE col idx 28
+RFE run 45 RFE col idx 29
+RFE run 45 RFE col idx 30
+RFE run 45 RFE col idx 31
+RFE run 45 RFE col idx 32
+RFE run 45 RFE col idx 33
+RFE run 45 RFE col idx 34
+RFE run 45 RFE col idx 35
+RFE run 45 RFE col idx 36
+RFE run 45 RFE col idx 37
+RFE run 45 RFE col idx 38
+RFE run 45 RFE col idx 39
+RFE run 45 RFE col idx 40
+RFE run 45 RFE col idx 41
+RFE run 45 RFE col idx 42
+RFE run 45 RFE col idx 43
+RFE run 45 RFE col idx 44
+Worst column fp_smrVsa_3
+RFE RMSE CV 0.54
+RFE run 46 RFE col idx 0
+RFE run 46 RFE col idx 1
+RFE run 46 RFE col idx 2
+RFE run 46 RFE col idx 3
+RFE run 46 RFE col idx 4
+RFE run 46 RFE col idx 5
+RFE run 46 RFE col idx 6
+RFE run 46 RFE col idx 7
+RFE run 46 RFE col idx 8
+RFE run 46 RFE col idx 9
+RFE run 46 RFE col idx 10
+RFE run 46 RFE col idx 11
+RFE run 46 RFE col idx 12
+RFE run 46 RFE col idx 13
+RFE run 46 RFE col idx 14
+RFE run 46 RFE col idx 15
+RFE run 46 RFE col idx 16
+RFE run 46 RFE col idx 17
+RFE run 46 RFE col idx 18
+RFE run 46 RFE col idx 19
+RFE run 46 RFE col idx 20
+RFE run 46 RFE col idx 21
+RFE run 46 RFE col idx 22
+RFE run 46 RFE col idx 23
+RFE run 46 RFE col idx 24
+RFE run 46 RFE col idx 25
+RFE run 46 RFE col idx 26
+RFE run 46 RFE col idx 27
+RFE run 46 RFE col idx 28
+RFE run 46 RFE col idx 29
+RFE run 46 RFE col idx 30
+RFE run 46 RFE col idx 31
+RFE run 46 RFE col idx 32
+RFE run 46 RFE col idx 33
+RFE run 46 RFE col idx 34
+RFE run 46 RFE col idx 35
+RFE run 46 RFE col idx 36
+RFE run 46 RFE col idx 37
+RFE run 46 RFE col idx 38
+RFE run 46 RFE col idx 39
+RFE run 46 RFE col idx 40
+RFE run 46 RFE col idx 41
+RFE run 46 RFE col idx 42
+RFE run 46 RFE col idx 43
+Worst column fp_o_desc_nRotBon
+RFE RMSE CV 0.54
+RFE run 47 RFE col idx 0
+RFE run 47 RFE col idx 1
+RFE run 47 RFE col idx 2
+RFE run 47 RFE col idx 3
+RFE run 47 RFE col idx 4
+RFE run 47 RFE col idx 5
+RFE run 47 RFE col idx 6
+RFE run 47 RFE col idx 7
+RFE run 47 RFE col idx 8
+RFE run 47 RFE col idx 9
+RFE run 47 RFE col idx 10
+RFE run 47 RFE col idx 11
+RFE run 47 RFE col idx 12
+RFE run 47 RFE col idx 13
+RFE run 47 RFE col idx 14
+RFE run 47 RFE col idx 15
+RFE run 47 RFE col idx 16
+RFE run 47 RFE col idx 17
+RFE run 47 RFE col idx 18
+RFE run 47 RFE col idx 19
+RFE run 47 RFE col idx 20
+RFE run 47 RFE col idx 21
+RFE run 47 RFE col idx 22
+RFE run 47 RFE col idx 23
+RFE run 47 RFE col idx 24
+RFE run 47 RFE col idx 25
+RFE run 47 RFE col idx 26
+RFE run 47 RFE col idx 27
+RFE run 47 RFE col idx 28
+RFE run 47 RFE col idx 29
+RFE run 47 RFE col idx 30
+RFE run 47 RFE col idx 31
+RFE run 47 RFE col idx 32
+RFE run 47 RFE col idx 33
+RFE run 47 RFE col idx 34
+RFE run 47 RFE col idx 35
+RFE run 47 RFE col idx 36
+RFE run 47 RFE col idx 37
+RFE run 47 RFE col idx 38
+RFE run 47 RFE col idx 39
+RFE run 47 RFE col idx 40
+RFE run 47 RFE col idx 41
+RFE run 47 RFE col idx 42
+Worst column fp_mqns_41
+RFE RMSE CV 0.54
+RFE run 48 RFE col idx 0
+RFE run 48 RFE col idx 1
+RFE run 48 RFE col idx 2
+RFE run 48 RFE col idx 3
+RFE run 48 RFE col idx 4
+RFE run 48 RFE col idx 5
+RFE run 48 RFE col idx 6
+RFE run 48 RFE col idx 7
+RFE run 48 RFE col idx 8
+RFE run 48 RFE col idx 9
+RFE run 48 RFE col idx 10
+RFE run 48 RFE col idx 11
+RFE run 48 RFE col idx 12
+RFE run 48 RFE col idx 13
+RFE run 48 RFE col idx 14
+RFE run 48 RFE col idx 15
+RFE run 48 RFE col idx 16
+RFE run 48 RFE col idx 17
+RFE run 48 RFE col idx 18
+RFE run 48 RFE col idx 19
+RFE run 48 RFE col idx 20
+RFE run 48 RFE col idx 21
+RFE run 48 RFE col idx 22
+RFE run 48 RFE col idx 23
+RFE run 48 RFE col idx 24
+RFE run 48 RFE col idx 25
+RFE run 48 RFE col idx 26
+RFE run 48 RFE col idx 27
+RFE run 48 RFE col idx 28
+RFE run 48 RFE col idx 29
+RFE run 48 RFE col idx 30
+RFE run 48 RFE col idx 31
+RFE run 48 RFE col idx 32
+RFE run 48 RFE col idx 33
+RFE run 48 RFE col idx 34
+RFE run 48 RFE col idx 35
+RFE run 48 RFE col idx 36
+RFE run 48 RFE col idx 37
+RFE run 48 RFE col idx 38
+RFE run 48 RFE col idx 39
+RFE run 48 RFE col idx 40
+RFE run 48 RFE col idx 41
+Worst column fp_o_desc_HallKierAlpha
+RFE RMSE CV 0.54
+RFE run 49 RFE col idx 0
+RFE run 49 RFE col idx 1
+RFE run 49 RFE col idx 2
+RFE run 49 RFE col idx 3
+RFE run 49 RFE col idx 4
+RFE run 49 RFE col idx 5
+RFE run 49 RFE col idx 6
+RFE run 49 RFE col idx 7
+RFE run 49 RFE col idx 8
+RFE run 49 RFE col idx 9
+RFE run 49 RFE col idx 10
+RFE run 49 RFE col idx 11
+RFE run 49 RFE col idx 12
+RFE run 49 RFE col idx 13
+RFE run 49 RFE col idx 14
+RFE run 49 RFE col idx 15
+RFE run 49 RFE col idx 16
+RFE run 49 RFE col idx 17
+RFE run 49 RFE col idx 18
+RFE run 49 RFE col idx 19
+RFE run 49 RFE col idx 20
+RFE run 49 RFE col idx 21
+RFE run 49 RFE col idx 22
+RFE run 49 RFE col idx 23
+RFE run 49 RFE col idx 24
+RFE run 49 RFE col idx 25
+RFE run 49 RFE col idx 26
+RFE run 49 RFE col idx 27
+RFE run 49 RFE col idx 28
+RFE run 49 RFE col idx 29
+RFE run 49 RFE col idx 30
+RFE run 49 RFE col idx 31
+RFE run 49 RFE col idx 32
+RFE run 49 RFE col idx 33
+RFE run 49 RFE col idx 34
+RFE run 49 RFE col idx 35
+RFE run 49 RFE col idx 36
+RFE run 49 RFE col idx 37
+RFE run 49 RFE col idx 38
+RFE run 49 RFE col idx 39
+RFE run 49 RFE col idx 40
+Worst column fp_smrVsa_2
+RFE RMSE CV 0.54
+RFE run 50 RFE col idx 0
+RFE run 50 RFE col idx 1
+RFE run 50 RFE col idx 2
+RFE run 50 RFE col idx 3
+RFE run 50 RFE col idx 4
+RFE run 50 RFE col idx 5
+RFE run 50 RFE col idx 6
+RFE run 50 RFE col idx 7
+RFE run 50 RFE col idx 8
+RFE run 50 RFE col idx 9
+RFE run 50 RFE col idx 10
+RFE run 50 RFE col idx 11
+RFE run 50 RFE col idx 12
+RFE run 50 RFE col idx 13
+RFE run 50 RFE col idx 14
+RFE run 50 RFE col idx 15
+RFE run 50 RFE col idx 16
+RFE run 50 RFE col idx 17
+RFE run 50 RFE col idx 18
+RFE run 50 RFE col idx 19
+RFE run 50 RFE col idx 20
+RFE run 50 RFE col idx 21
+RFE run 50 RFE col idx 22
+RFE run 50 RFE col idx 23
+RFE run 50 RFE col idx 24
+RFE run 50 RFE col idx 25
+RFE run 50 RFE col idx 26
+RFE run 50 RFE col idx 27
+RFE run 50 RFE col idx 28
+RFE run 50 RFE col idx 29
+RFE run 50 RFE col idx 30
+RFE run 50 RFE col idx 31
+RFE run 50 RFE col idx 32
+RFE run 50 RFE col idx 33
+RFE run 50 RFE col idx 34
+RFE run 50 RFE col idx 35
+RFE run 50 RFE col idx 36
+RFE run 50 RFE col idx 37
+RFE run 50 RFE col idx 38
+RFE run 50 RFE col idx 39
+Worst column norm_logP
+RFE RMSE CV 0.53
+RFE run 51 RFE col idx 0
+RFE run 51 RFE col idx 1
+RFE run 51 RFE col idx 2
+RFE run 51 RFE col idx 3
+RFE run 51 RFE col idx 4
+RFE run 51 RFE col idx 5
+RFE run 51 RFE col idx 6
+RFE run 51 RFE col idx 7
+RFE run 51 RFE col idx 8
+RFE run 51 RFE col idx 9
+RFE run 51 RFE col idx 10
+RFE run 51 RFE col idx 11
+RFE run 51 RFE col idx 12
+RFE run 51 RFE col idx 13
+RFE run 51 RFE col idx 14
+RFE run 51 RFE col idx 15
+RFE run 51 RFE col idx 16
+RFE run 51 RFE col idx 17
+RFE run 51 RFE col idx 18
+RFE run 51 RFE col idx 19
+RFE run 51 RFE col idx 20
+RFE run 51 RFE col idx 21
+RFE run 51 RFE col idx 22
+RFE run 51 RFE col idx 23
+RFE run 51 RFE col idx 24
+RFE run 51 RFE col idx 25
+RFE run 51 RFE col idx 26
+RFE run 51 RFE col idx 27
+RFE run 51 RFE col idx 28
+RFE run 51 RFE col idx 29
+RFE run 51 RFE col idx 30
+RFE run 51 RFE col idx 31
+RFE run 51 RFE col idx 32
+RFE run 51 RFE col idx 33
+RFE run 51 RFE col idx 34
+RFE run 51 RFE col idx 35
+RFE run 51 RFE col idx 36
+RFE run 51 RFE col idx 37
+RFE run 51 RFE col idx 38
+Worst column fp_mqns_42
+RFE RMSE CV 0.53
+RFE run 52 RFE col idx 0
+RFE run 52 RFE col idx 1
+RFE run 52 RFE col idx 2
+RFE run 52 RFE col idx 3
+RFE run 52 RFE col idx 4
+RFE run 52 RFE col idx 5
+RFE run 52 RFE col idx 6
+RFE run 52 RFE col idx 7
+RFE run 52 RFE col idx 8
+RFE run 52 RFE col idx 9
+RFE run 52 RFE col idx 10
+RFE run 52 RFE col idx 11
+RFE run 52 RFE col idx 12
+RFE run 52 RFE col idx 13
+RFE run 52 RFE col idx 14
+RFE run 52 RFE col idx 15
+RFE run 52 RFE col idx 16
+RFE run 52 RFE col idx 17
+RFE run 52 RFE col idx 18
+RFE run 52 RFE col idx 19
+RFE run 52 RFE col idx 20
+RFE run 52 RFE col idx 21
+RFE run 52 RFE col idx 22
+RFE run 52 RFE col idx 23
+RFE run 52 RFE col idx 24
+RFE run 52 RFE col idx 25
+RFE run 52 RFE col idx 26
+RFE run 52 RFE col idx 27
+RFE run 52 RFE col idx 28
+RFE run 52 RFE col idx 29
+RFE run 52 RFE col idx 30
+RFE run 52 RFE col idx 31
+RFE run 52 RFE col idx 32
+RFE run 52 RFE col idx 33
+RFE run 52 RFE col idx 34
+RFE run 52 RFE col idx 35
+RFE run 52 RFE col idx 36
+RFE run 52 RFE col idx 37
+Worst column net_chg
+RFE RMSE CV 0.53
+RFE run 53 RFE col idx 0
+RFE run 53 RFE col idx 1
+RFE run 53 RFE col idx 2
+RFE run 53 RFE col idx 3
+RFE run 53 RFE col idx 4
+RFE run 53 RFE col idx 5
+RFE run 53 RFE col idx 6
+RFE run 53 RFE col idx 7
+RFE run 53 RFE col idx 8
+RFE run 53 RFE col idx 9
+RFE run 53 RFE col idx 10
+RFE run 53 RFE col idx 11
+RFE run 53 RFE col idx 12
+RFE run 53 RFE col idx 13
+RFE run 53 RFE col idx 14
+RFE run 53 RFE col idx 15
+RFE run 53 RFE col idx 16
+RFE run 53 RFE col idx 17
+RFE run 53 RFE col idx 18
+RFE run 53 RFE col idx 19
+RFE run 53 RFE col idx 20
+RFE run 53 RFE col idx 21
+RFE run 53 RFE col idx 22
+RFE run 53 RFE col idx 23
+RFE run 53 RFE col idx 24
+RFE run 53 RFE col idx 25
+RFE run 53 RFE col idx 26
+RFE run 53 RFE col idx 27
+RFE run 53 RFE col idx 28
+RFE run 53 RFE col idx 29
+RFE run 53 RFE col idx 30
+RFE run 53 RFE col idx 31
+RFE run 53 RFE col idx 32
+RFE run 53 RFE col idx 33
+RFE run 53 RFE col idx 34
+RFE run 53 RFE col idx 35
+RFE run 53 RFE col idx 36
+Worst column fp_o_desc_nAliRing
+RFE RMSE CV 0.53
+RFE run 54 RFE col idx 0
+RFE run 54 RFE col idx 1
+RFE run 54 RFE col idx 2
+RFE run 54 RFE col idx 3
+RFE run 54 RFE col idx 4
+RFE run 54 RFE col idx 5
+RFE run 54 RFE col idx 6
+RFE run 54 RFE col idx 7
+RFE run 54 RFE col idx 8
+RFE run 54 RFE col idx 9
+RFE run 54 RFE col idx 10
+RFE run 54 RFE col idx 11
+RFE run 54 RFE col idx 12
+RFE run 54 RFE col idx 13
+RFE run 54 RFE col idx 14
+RFE run 54 RFE col idx 15
+RFE run 54 RFE col idx 16
+RFE run 54 RFE col idx 17
+RFE run 54 RFE col idx 18
+RFE run 54 RFE col idx 19
+RFE run 54 RFE col idx 20
+RFE run 54 RFE col idx 21
+RFE run 54 RFE col idx 22
+RFE run 54 RFE col idx 23
+RFE run 54 RFE col idx 24
+RFE run 54 RFE col idx 25
+RFE run 54 RFE col idx 26
+RFE run 54 RFE col idx 27
+RFE run 54 RFE col idx 28
+RFE run 54 RFE col idx 29
+RFE run 54 RFE col idx 30
+RFE run 54 RFE col idx 31
+RFE run 54 RFE col idx 32
+RFE run 54 RFE col idx 33
+RFE run 54 RFE col idx 34
+RFE run 54 RFE col idx 35
+Worst column fp_slogPVsa_8
+RFE RMSE CV 0.52
+RFE run 55 RFE col idx 0
+RFE run 55 RFE col idx 1
+RFE run 55 RFE col idx 2
+RFE run 55 RFE col idx 3
+RFE run 55 RFE col idx 4
+RFE run 55 RFE col idx 5
+RFE run 55 RFE col idx 6
+RFE run 55 RFE col idx 7
+RFE run 55 RFE col idx 8
+RFE run 55 RFE col idx 9
+RFE run 55 RFE col idx 10
+RFE run 55 RFE col idx 11
+RFE run 55 RFE col idx 12
+RFE run 55 RFE col idx 13
+RFE run 55 RFE col idx 14
+RFE run 55 RFE col idx 15
+RFE run 55 RFE col idx 16
+RFE run 55 RFE col idx 17
+RFE run 55 RFE col idx 18
+RFE run 55 RFE col idx 19
+RFE run 55 RFE col idx 20
+RFE run 55 RFE col idx 21
+RFE run 55 RFE col idx 22
+RFE run 55 RFE col idx 23
+RFE run 55 RFE col idx 24
+RFE run 55 RFE col idx 25
+RFE run 55 RFE col idx 26
+RFE run 55 RFE col idx 27
+RFE run 55 RFE col idx 28
+RFE run 55 RFE col idx 29
+RFE run 55 RFE col idx 30
+RFE run 55 RFE col idx 31
+RFE run 55 RFE col idx 32
+RFE run 55 RFE col idx 33
+RFE run 55 RFE col idx 34
+Worst column fp_mqns_6
+RFE RMSE CV 0.52
+RFE run 56 RFE col idx 0
+RFE run 56 RFE col idx 1
+RFE run 56 RFE col idx 2
+RFE run 56 RFE col idx 3
+RFE run 56 RFE col idx 4
+RFE run 56 RFE col idx 5
+RFE run 56 RFE col idx 6
+RFE run 56 RFE col idx 7
+RFE run 56 RFE col idx 8
+RFE run 56 RFE col idx 9
+RFE run 56 RFE col idx 10
+RFE run 56 RFE col idx 11
+RFE run 56 RFE col idx 12
+RFE run 56 RFE col idx 13
+RFE run 56 RFE col idx 14
+RFE run 56 RFE col idx 15
+RFE run 56 RFE col idx 16
+RFE run 56 RFE col idx 17
+RFE run 56 RFE col idx 18
+RFE run 56 RFE col idx 19
+RFE run 56 RFE col idx 20
+RFE run 56 RFE col idx 21
+RFE run 56 RFE col idx 22
+RFE run 56 RFE col idx 23
+RFE run 56 RFE col idx 24
+RFE run 56 RFE col idx 25
+RFE run 56 RFE col idx 26
+RFE run 56 RFE col idx 27
+RFE run 56 RFE col idx 28
+RFE run 56 RFE col idx 29
+RFE run 56 RFE col idx 30
+RFE run 56 RFE col idx 31
+RFE run 56 RFE col idx 32
+RFE run 56 RFE col idx 33
+Worst column fp_o_desc_k2
+RFE RMSE CV 0.51
+RFE run 57 RFE col idx 0
+RFE run 57 RFE col idx 1
+RFE run 57 RFE col idx 2
+RFE run 57 RFE col idx 3
+RFE run 57 RFE col idx 4
+RFE run 57 RFE col idx 5
+RFE run 57 RFE col idx 6
+RFE run 57 RFE col idx 7
+RFE run 57 RFE col idx 8
+RFE run 57 RFE col idx 9
+RFE run 57 RFE col idx 10
+RFE run 57 RFE col idx 11
+RFE run 57 RFE col idx 12
+RFE run 57 RFE col idx 13
+RFE run 57 RFE col idx 14
+RFE run 57 RFE col idx 15
+RFE run 57 RFE col idx 16
+RFE run 57 RFE col idx 17
+RFE run 57 RFE col idx 18
+RFE run 57 RFE col idx 19
+RFE run 57 RFE col idx 20
+RFE run 57 RFE col idx 21
+RFE run 57 RFE col idx 22
+RFE run 57 RFE col idx 23
+RFE run 57 RFE col idx 24
+RFE run 57 RFE col idx 25
+RFE run 57 RFE col idx 26
+RFE run 57 RFE col idx 27
+RFE run 57 RFE col idx 28
+RFE run 57 RFE col idx 29
+RFE run 57 RFE col idx 30
+RFE run 57 RFE col idx 31
+RFE run 57 RFE col idx 32
+Worst column fp_smrVsa_9
+RFE RMSE CV 0.50
+RFE run 58 RFE col idx 0
+RFE run 58 RFE col idx 1
+RFE run 58 RFE col idx 2
+RFE run 58 RFE col idx 3
+RFE run 58 RFE col idx 4
+RFE run 58 RFE col idx 5
+RFE run 58 RFE col idx 6
+RFE run 58 RFE col idx 7
+RFE run 58 RFE col idx 8
+RFE run 58 RFE col idx 9
+RFE run 58 RFE col idx 10
+RFE run 58 RFE col idx 11
+RFE run 58 RFE col idx 12
+RFE run 58 RFE col idx 13
+RFE run 58 RFE col idx 14
+RFE run 58 RFE col idx 15
+RFE run 58 RFE col idx 16
+RFE run 58 RFE col idx 17
+RFE run 58 RFE col idx 18
+RFE run 58 RFE col idx 19
+RFE run 58 RFE col idx 20
+RFE run 58 RFE col idx 21
+RFE run 58 RFE col idx 22
+RFE run 58 RFE col idx 23
+RFE run 58 RFE col idx 24
+RFE run 58 RFE col idx 25
+RFE run 58 RFE col idx 26
+RFE run 58 RFE col idx 27
+RFE run 58 RFE col idx 28
+RFE run 58 RFE col idx 29
+RFE run 58 RFE col idx 30
+RFE run 58 RFE col idx 31
+Worst column fp_slogPVsa_1
+RFE RMSE CV 0.50
+RFE run 59 RFE col idx 0
+RFE run 59 RFE col idx 1
+RFE run 59 RFE col idx 2
+RFE run 59 RFE col idx 3
+RFE run 59 RFE col idx 4
+RFE run 59 RFE col idx 5
+RFE run 59 RFE col idx 6
+RFE run 59 RFE col idx 7
+RFE run 59 RFE col idx 8
+RFE run 59 RFE col idx 9
+RFE run 59 RFE col idx 10
+RFE run 59 RFE col idx 11
+RFE run 59 RFE col idx 12
+RFE run 59 RFE col idx 13
+RFE run 59 RFE col idx 14
+RFE run 59 RFE col idx 15
+RFE run 59 RFE col idx 16
+RFE run 59 RFE col idx 17
+RFE run 59 RFE col idx 18
+RFE run 59 RFE col idx 19
+RFE run 59 RFE col idx 20
+RFE run 59 RFE col idx 21
+RFE run 59 RFE col idx 22
+RFE run 59 RFE col idx 23
+RFE run 59 RFE col idx 24
+RFE run 59 RFE col idx 25
+RFE run 59 RFE col idx 26
+RFE run 59 RFE col idx 27
+RFE run 59 RFE col idx 28
+RFE run 59 RFE col idx 29
+RFE run 59 RFE col idx 30
+Worst column fp_mqns_15
+RFE RMSE CV 0.50
+RFE run 60 RFE col idx 0
+RFE run 60 RFE col idx 1
+RFE run 60 RFE col idx 2
+RFE run 60 RFE col idx 3
+RFE run 60 RFE col idx 4
+RFE run 60 RFE col idx 5
+RFE run 60 RFE col idx 6
+RFE run 60 RFE col idx 7
+RFE run 60 RFE col idx 8
+RFE run 60 RFE col idx 9
+RFE run 60 RFE col idx 10
+RFE run 60 RFE col idx 11
+RFE run 60 RFE col idx 12
+RFE run 60 RFE col idx 13
+RFE run 60 RFE col idx 14
+RFE run 60 RFE col idx 15
+RFE run 60 RFE col idx 16
+RFE run 60 RFE col idx 17
+RFE run 60 RFE col idx 18
+RFE run 60 RFE col idx 19
+RFE run 60 RFE col idx 20
+RFE run 60 RFE col idx 21
+RFE run 60 RFE col idx 22
+RFE run 60 RFE col idx 23
+RFE run 60 RFE col idx 24
+RFE run 60 RFE col idx 25
+RFE run 60 RFE col idx 26
+RFE run 60 RFE col idx 27
+RFE run 60 RFE col idx 28
+RFE run 60 RFE col idx 29
+Worst column fp_mqns_11
+RFE RMSE CV 0.50
+RFE run 61 RFE col idx 0
+RFE run 61 RFE col idx 1
+RFE run 61 RFE col idx 2
+RFE run 61 RFE col idx 3
+RFE run 61 RFE col idx 4
+RFE run 61 RFE col idx 5
+RFE run 61 RFE col idx 6
+RFE run 61 RFE col idx 7
+RFE run 61 RFE col idx 8
+RFE run 61 RFE col idx 9
+RFE run 61 RFE col idx 10
+RFE run 61 RFE col idx 11
+RFE run 61 RFE col idx 12
+RFE run 61 RFE col idx 13
+RFE run 61 RFE col idx 14
+RFE run 61 RFE col idx 15
+RFE run 61 RFE col idx 16
+RFE run 61 RFE col idx 17
+RFE run 61 RFE col idx 18
+RFE run 61 RFE col idx 19
+RFE run 61 RFE col idx 20
+RFE run 61 RFE col idx 21
+RFE run 61 RFE col idx 22
+RFE run 61 RFE col idx 23
+RFE run 61 RFE col idx 24
+RFE run 61 RFE col idx 25
+RFE run 61 RFE col idx 26
+RFE run 61 RFE col idx 27
+RFE run 61 RFE col idx 28
+Worst column fp_mqns_18
+RFE RMSE CV 0.50
+RFE run 62 RFE col idx 0
+RFE run 62 RFE col idx 1
+RFE run 62 RFE col idx 2
+RFE run 62 RFE col idx 3
+RFE run 62 RFE col idx 4
+RFE run 62 RFE col idx 5
+RFE run 62 RFE col idx 6
+RFE run 62 RFE col idx 7
+RFE run 62 RFE col idx 8
+RFE run 62 RFE col idx 9
+RFE run 62 RFE col idx 10
+RFE run 62 RFE col idx 11
+RFE run 62 RFE col idx 12
+RFE run 62 RFE col idx 13
+RFE run 62 RFE col idx 14
+RFE run 62 RFE col idx 15
+RFE run 62 RFE col idx 16
+RFE run 62 RFE col idx 17
+RFE run 62 RFE col idx 18
+RFE run 62 RFE col idx 19
+RFE run 62 RFE col idx 20
+RFE run 62 RFE col idx 21
+RFE run 62 RFE col idx 22
+RFE run 62 RFE col idx 23
+RFE run 62 RFE col idx 24
+RFE run 62 RFE col idx 25
+RFE run 62 RFE col idx 26
+RFE run 62 RFE col idx 27
+Worst column fp_slogPVsa_10
+RFE RMSE CV 0.50
+RFE run 63 RFE col idx 0
+RFE run 63 RFE col idx 1
+RFE run 63 RFE col idx 2
+RFE run 63 RFE col idx 3
+RFE run 63 RFE col idx 4
+RFE run 63 RFE col idx 5
+RFE run 63 RFE col idx 6
+RFE run 63 RFE col idx 7
+RFE run 63 RFE col idx 8
+RFE run 63 RFE col idx 9
+RFE run 63 RFE col idx 10
+RFE run 63 RFE col idx 11
+RFE run 63 RFE col idx 12
+RFE run 63 RFE col idx 13
+RFE run 63 RFE col idx 14
+RFE run 63 RFE col idx 15
+RFE run 63 RFE col idx 16
+RFE run 63 RFE col idx 17
+RFE run 63 RFE col idx 18
+RFE run 63 RFE col idx 19
+RFE run 63 RFE col idx 20
+RFE run 63 RFE col idx 21
+RFE run 63 RFE col idx 22
+RFE run 63 RFE col idx 23
+RFE run 63 RFE col idx 24
+RFE run 63 RFE col idx 25
+RFE run 63 RFE col idx 26
+Worst column fp_smrVsa_8
+RFE RMSE CV 0.50
+RFE run 64 RFE col idx 0
+RFE run 64 RFE col idx 1
+RFE run 64 RFE col idx 2
+RFE run 64 RFE col idx 3
+RFE run 64 RFE col idx 4
+RFE run 64 RFE col idx 5
+RFE run 64 RFE col idx 6
+RFE run 64 RFE col idx 7
+RFE run 64 RFE col idx 8
+RFE run 64 RFE col idx 9
+RFE run 64 RFE col idx 10
+RFE run 64 RFE col idx 11
+RFE run 64 RFE col idx 12
+RFE run 64 RFE col idx 13
+RFE run 64 RFE col idx 14
+RFE run 64 RFE col idx 15
+RFE run 64 RFE col idx 16
+RFE run 64 RFE col idx 17
+RFE run 64 RFE col idx 18
+RFE run 64 RFE col idx 19
+RFE run 64 RFE col idx 20
+RFE run 64 RFE col idx 21
+RFE run 64 RFE col idx 22
+RFE run 64 RFE col idx 23
+RFE run 64 RFE col idx 24
+RFE run 64 RFE col idx 25
+Worst column fp_mqns_2
+RFE RMSE CV 0.50
+RFE run 65 RFE col idx 0
+RFE run 65 RFE col idx 1
+RFE run 65 RFE col idx 2
+RFE run 65 RFE col idx 3
+RFE run 65 RFE col idx 4
+RFE run 65 RFE col idx 5
+RFE run 65 RFE col idx 6
+RFE run 65 RFE col idx 7
+RFE run 65 RFE col idx 8
+RFE run 65 RFE col idx 9
+RFE run 65 RFE col idx 10
+RFE run 65 RFE col idx 11
+RFE run 65 RFE col idx 12
+RFE run 65 RFE col idx 13
+RFE run 65 RFE col idx 14
+RFE run 65 RFE col idx 15
+RFE run 65 RFE col idx 16
+RFE run 65 RFE col idx 17
+RFE run 65 RFE col idx 18
+RFE run 65 RFE col idx 19
+RFE run 65 RFE col idx 20
+RFE run 65 RFE col idx 21
+RFE run 65 RFE col idx 22
+RFE run 65 RFE col idx 23
+RFE run 65 RFE col idx 24
+Worst column fp_mqns_29
+RFE RMSE CV 0.50
+RFE run 66 RFE col idx 0
+RFE run 66 RFE col idx 1
+RFE run 66 RFE col idx 2
+RFE run 66 RFE col idx 3
+RFE run 66 RFE col idx 4
+RFE run 66 RFE col idx 5
+RFE run 66 RFE col idx 6
+RFE run 66 RFE col idx 7
+RFE run 66 RFE col idx 8
+RFE run 66 RFE col idx 9
+RFE run 66 RFE col idx 10
+RFE run 66 RFE col idx 11
+RFE run 66 RFE col idx 12
+RFE run 66 RFE col idx 13
+RFE run 66 RFE col idx 14
+RFE run 66 RFE col idx 15
+RFE run 66 RFE col idx 16
+RFE run 66 RFE col idx 17
+RFE run 66 RFE col idx 18
+RFE run 66 RFE col idx 19
+RFE run 66 RFE col idx 20
+RFE run 66 RFE col idx 21
+RFE run 66 RFE col idx 22
+RFE run 66 RFE col idx 23
+Worst column fp_mqns_24
+RFE RMSE CV 0.50
+RFE run 67 RFE col idx 0
+RFE run 67 RFE col idx 1
+RFE run 67 RFE col idx 2
+RFE run 67 RFE col idx 3
+RFE run 67 RFE col idx 4
+RFE run 67 RFE col idx 5
+RFE run 67 RFE col idx 6
+RFE run 67 RFE col idx 7
+RFE run 67 RFE col idx 8
+RFE run 67 RFE col idx 9
+RFE run 67 RFE col idx 10
+RFE run 67 RFE col idx 11
+RFE run 67 RFE col idx 12
+RFE run 67 RFE col idx 13
+RFE run 67 RFE col idx 14
+RFE run 67 RFE col idx 15
+RFE run 67 RFE col idx 16
+RFE run 67 RFE col idx 17
+RFE run 67 RFE col idx 18
+RFE run 67 RFE col idx 19
+RFE run 67 RFE col idx 20
+RFE run 67 RFE col idx 21
+RFE run 67 RFE col idx 22
+Worst column fp_mqns_25
+RFE RMSE CV 0.50
+RFE run 68 RFE col idx 0
+RFE run 68 RFE col idx 1
+RFE run 68 RFE col idx 2
+RFE run 68 RFE col idx 3
+RFE run 68 RFE col idx 4
+RFE run 68 RFE col idx 5
+RFE run 68 RFE col idx 6
+RFE run 68 RFE col idx 7
+RFE run 68 RFE col idx 8
+RFE run 68 RFE col idx 9
+RFE run 68 RFE col idx 10
+RFE run 68 RFE col idx 11
+RFE run 68 RFE col idx 12
+RFE run 68 RFE col idx 13
+RFE run 68 RFE col idx 14
+RFE run 68 RFE col idx 15
+RFE run 68 RFE col idx 16
+RFE run 68 RFE col idx 17
+RFE run 68 RFE col idx 18
+RFE run 68 RFE col idx 19
+RFE run 68 RFE col idx 20
+RFE run 68 RFE col idx 21
+Worst column fp_slogPVsa_7
+RFE RMSE CV 0.50
+RFE run 69 RFE col idx 0
+RFE run 69 RFE col idx 1
+RFE run 69 RFE col idx 2
+RFE run 69 RFE col idx 3
+RFE run 69 RFE col idx 4
+RFE run 69 RFE col idx 5
+RFE run 69 RFE col idx 6
+RFE run 69 RFE col idx 7
+RFE run 69 RFE col idx 8
+RFE run 69 RFE col idx 9
+RFE run 69 RFE col idx 10
+RFE run 69 RFE col idx 11
+RFE run 69 RFE col idx 12
+RFE run 69 RFE col idx 13
+RFE run 69 RFE col idx 14
+RFE run 69 RFE col idx 15
+RFE run 69 RFE col idx 16
+RFE run 69 RFE col idx 17
+RFE run 69 RFE col idx 18
+RFE run 69 RFE col idx 19
+RFE run 69 RFE col idx 20
+Worst column fp_slogPVsa_9
+RFE RMSE CV 0.50
+RFE run 70 RFE col idx 0
+RFE run 70 RFE col idx 1
+RFE run 70 RFE col idx 2
+RFE run 70 RFE col idx 3
+RFE run 70 RFE col idx 4
+RFE run 70 RFE col idx 5
+RFE run 70 RFE col idx 6
+RFE run 70 RFE col idx 7
+RFE run 70 RFE col idx 8
+RFE run 70 RFE col idx 9
+RFE run 70 RFE col idx 10
+RFE run 70 RFE col idx 11
+RFE run 70 RFE col idx 12
+RFE run 70 RFE col idx 13
+RFE run 70 RFE col idx 14
+RFE run 70 RFE col idx 15
+RFE run 70 RFE col idx 16
+RFE run 70 RFE col idx 17
+RFE run 70 RFE col idx 18
+RFE run 70 RFE col idx 19
+Worst column fp_mqns_3
+RFE RMSE CV 0.50
+RFE run 71 RFE col idx 0
+RFE run 71 RFE col idx 1
+RFE run 71 RFE col idx 2
+RFE run 71 RFE col idx 3
+RFE run 71 RFE col idx 4
+RFE run 71 RFE col idx 5
+RFE run 71 RFE col idx 6
+RFE run 71 RFE col idx 7
+RFE run 71 RFE col idx 8
+RFE run 71 RFE col idx 9
+RFE run 71 RFE col idx 10
+RFE run 71 RFE col idx 11
+RFE run 71 RFE col idx 12
+RFE run 71 RFE col idx 13
+RFE run 71 RFE col idx 14
+RFE run 71 RFE col idx 15
+RFE run 71 RFE col idx 16
+RFE run 71 RFE col idx 17
+RFE run 71 RFE col idx 18
+Worst column fp_mqns_32
+RFE RMSE CV 0.50
+RFE run 72 RFE col idx 0
+RFE run 72 RFE col idx 1
+RFE run 72 RFE col idx 2
+RFE run 72 RFE col idx 3
+RFE run 72 RFE col idx 4
+RFE run 72 RFE col idx 5
+RFE run 72 RFE col idx 6
+RFE run 72 RFE col idx 7
+RFE run 72 RFE col idx 8
+RFE run 72 RFE col idx 9
+RFE run 72 RFE col idx 10
+RFE run 72 RFE col idx 11
+RFE run 72 RFE col idx 12
+RFE run 72 RFE col idx 13
+RFE run 72 RFE col idx 14
+RFE run 72 RFE col idx 15
+RFE run 72 RFE col idx 16
+RFE run 72 RFE col idx 17
+Worst column fp_mqns_37
+RFE RMSE CV 0.50
+RFE run 73 RFE col idx 0
+RFE run 73 RFE col idx 1
+RFE run 73 RFE col idx 2
+RFE run 73 RFE col idx 3
+RFE run 73 RFE col idx 4
+RFE run 73 RFE col idx 5
+RFE run 73 RFE col idx 6
+RFE run 73 RFE col idx 7
+RFE run 73 RFE col idx 8
+RFE run 73 RFE col idx 9
+RFE run 73 RFE col idx 10
+RFE run 73 RFE col idx 11
+RFE run 73 RFE col idx 12
+RFE run 73 RFE col idx 13
+RFE run 73 RFE col idx 14
+RFE run 73 RFE col idx 15
+RFE run 73 RFE col idx 16
+Worst column fp_mqns_38
+RFE RMSE CV 0.50
+RFE run 74 RFE col idx 0
+RFE run 74 RFE col idx 1
+RFE run 74 RFE col idx 2
+RFE run 74 RFE col idx 3
+RFE run 74 RFE col idx 4
+RFE run 74 RFE col idx 5
+RFE run 74 RFE col idx 6
+RFE run 74 RFE col idx 7
+RFE run 74 RFE col idx 8
+RFE run 74 RFE col idx 9
+RFE run 74 RFE col idx 10
+RFE run 74 RFE col idx 11
+RFE run 74 RFE col idx 12
+RFE run 74 RFE col idx 13
+RFE run 74 RFE col idx 14
+RFE run 74 RFE col idx 15
+Worst column fp_mqns_39
+RFE RMSE CV 0.50
+RFE run 75 RFE col idx 0
+RFE run 75 RFE col idx 1
+RFE run 75 RFE col idx 2
+RFE run 75 RFE col idx 3
+RFE run 75 RFE col idx 4
+RFE run 75 RFE col idx 5
+RFE run 75 RFE col idx 6
+RFE run 75 RFE col idx 7
+RFE run 75 RFE col idx 8
+RFE run 75 RFE col idx 9
+RFE run 75 RFE col idx 10
+RFE run 75 RFE col idx 11
+RFE run 75 RFE col idx 12
+RFE run 75 RFE col idx 13
+RFE run 75 RFE col idx 14
+Worst column fp_mqns_33
+RFE RMSE CV 0.50
+RFE run 76 RFE col idx 0
+RFE run 76 RFE col idx 1
+RFE run 76 RFE col idx 2
+RFE run 76 RFE col idx 3
+RFE run 76 RFE col idx 4
+RFE run 76 RFE col idx 5
+RFE run 76 RFE col idx 6
+RFE run 76 RFE col idx 7
+RFE run 76 RFE col idx 8
+RFE run 76 RFE col idx 9
+RFE run 76 RFE col idx 10
+RFE run 76 RFE col idx 11
+RFE run 76 RFE col idx 12
+RFE run 76 RFE col idx 13
+Worst column fp_mqns_34
+RFE RMSE CV 0.50
+RFE run 77 RFE col idx 0
+RFE run 77 RFE col idx 1
+RFE run 77 RFE col idx 2
+RFE run 77 RFE col idx 3
+RFE run 77 RFE col idx 4
+RFE run 77 RFE col idx 5
+RFE run 77 RFE col idx 6
+RFE run 77 RFE col idx 7
+RFE run 77 RFE col idx 8
+RFE run 77 RFE col idx 9
+RFE run 77 RFE col idx 10
+RFE run 77 RFE col idx 11
+RFE run 77 RFE col idx 12
+Worst column fp_mqns_4
+RFE RMSE CV 0.50
+RFE run 78 RFE col idx 0
+RFE run 78 RFE col idx 1
+RFE run 78 RFE col idx 2
+RFE run 78 RFE col idx 3
+RFE run 78 RFE col idx 4
+RFE run 78 RFE col idx 5
+RFE run 78 RFE col idx 6
+RFE run 78 RFE col idx 7
+RFE run 78 RFE col idx 8
+RFE run 78 RFE col idx 9
+RFE run 78 RFE col idx 10
+RFE run 78 RFE col idx 11
+Worst column fp_mqns_40
+RFE RMSE CV 0.50
+RFE run 79 RFE col idx 0
+RFE run 79 RFE col idx 1
+RFE run 79 RFE col idx 2
+RFE run 79 RFE col idx 3
+RFE run 79 RFE col idx 4
+RFE run 79 RFE col idx 5
+RFE run 79 RFE col idx 6
+RFE run 79 RFE col idx 7
+RFE run 79 RFE col idx 8
+RFE run 79 RFE col idx 9
+RFE run 79 RFE col idx 10
+Worst column fp_mqns_5
+RFE RMSE CV 0.50
+RFE run 80 RFE col idx 0
+RFE run 80 RFE col idx 1
+RFE run 80 RFE col idx 2
+RFE run 80 RFE col idx 3
+RFE run 80 RFE col idx 4
+RFE run 80 RFE col idx 5
+RFE run 80 RFE col idx 6
+RFE run 80 RFE col idx 7
+RFE run 80 RFE col idx 8
+RFE run 80 RFE col idx 9
+Worst column fp_mqns_7
+RFE RMSE CV 0.50
+RFE run 81 RFE col idx 0
+RFE run 81 RFE col idx 1
+RFE run 81 RFE col idx 2
+RFE run 81 RFE col idx 3
+RFE run 81 RFE col idx 4
+RFE run 81 RFE col idx 5
+RFE run 81 RFE col idx 6
+RFE run 81 RFE col idx 7
+RFE run 81 RFE col idx 8
+Worst column fp_o_desc_chi2v
+RFE RMSE CV 0.50
+RFE run 82 RFE col idx 0
+RFE run 82 RFE col idx 1
+RFE run 82 RFE col idx 2
+RFE run 82 RFE col idx 3
+RFE run 82 RFE col idx 4
+RFE run 82 RFE col idx 5
+RFE run 82 RFE col idx 6
+RFE run 82 RFE col idx 7
+Worst column fp_mqns_27
+RFE RMSE CV 0.52
+RFE run 83 RFE col idx 0
+RFE run 83 RFE col idx 1
+RFE run 83 RFE col idx 2
+RFE run 83 RFE col idx 3
+RFE run 83 RFE col idx 4
+RFE run 83 RFE col idx 5
+RFE run 83 RFE col idx 6
+Worst column fp_smrVsa_10
+RFE RMSE CV 0.58
+RFE run 84 RFE col idx 0
+RFE run 84 RFE col idx 1
+RFE run 84 RFE col idx 2
+RFE run 84 RFE col idx 3
+RFE run 84 RFE col idx 4
+RFE run 84 RFE col idx 5
+Worst column fp_mqns_35
+RFE RMSE CV 0.63
+RFE run 85 RFE col idx 0
+RFE run 85 RFE col idx 1
+RFE run 85 RFE col idx 2
+RFE run 85 RFE col idx 3
+RFE run 85 RFE col idx 4
+Worst column fp_o_desc_chi1v
+RFE RMSE CV 0.70
+RFE run 86 RFE col idx 0
+RFE run 86 RFE col idx 1
+RFE run 86 RFE col idx 2
+RFE run 86 RFE col idx 3
+Worst column fp_slogPVsa_11
+RFE RMSE CV 0.73
+RFE run 87 RFE col idx 0
+RFE run 87 RFE col idx 1
+RFE run 87 RFE col idx 2
+Worst column fp_o_desc_k3
+RFE RMSE CV 0.87
+RFE run 88 RFE col idx 0
+RFE run 88 RFE col idx 1
+Worst column fp_mqns_14
+RFE RMSE CV 0.93
+────────────────────────────────────────────────────────────────────────────────
+
+
+rfe with hyp optimization RMSE CV errors:
+
+[0.7001120704083451, 0.6961132040250743, 0.6920140442243292, 0.6872462390781309, 0.6827339308993754, 0.6786589516029783, 0.6743830811569171, 0.6699709835304873, 0.6651131235184303, 0.6603312041121236, 0.6554986699170968, 0.6502460068933437, 0.6446993491994787, 0.6388788182978099, 0.6343560225037005, 0.6303644897620286, 0.6266254096092871, 0.6229916428110605, 0.6194894990348261, 0.6162303835321092, 0.6124377343210038, 0.6089588673304552, 0.6048527356458522, 0.601569393846642, 0.5984617079697432, 0.5955037840465022, 0.5932099696803801, 0.5903549199052759, 0.5868823891229604, 0.5833808993767413, 0.5796578959039376, 0.5772289715044603, 0.5747982684653845, 0.5719806618083346, 0.5693934453023484, 0.5638655617478746, 0.558365416653707, 0.5529887017542087, 0.549469375043685, 0.5462535562334185, 0.5437758428549435, 0.5398045287581953, 0.5393048372841622, 0.5388807897331609, 0.5385556093410744, 0.5383866342122745, 0.5380069247620717, 0.5374443668599457, 0.5362114164781351, 0.5358608494769357, 0.5339343646739896, 0.5308439415722359, 0.530457838686109, 0.5283271007197906, 0.519594411840747, 0.5158607521004817, 0.5065489709336692, 0.49804576130503364, 0.4953781858760514, 0.4953781858760512, 0.4953781858760514, 0.495378185876051, 0.49537818587605065, 0.4953781858760502, 0.49537818587605065, 0.4953781858760518, 0.4953781858760511, 0.49537818587605037, 0.4953781858760505, 0.49537818587605037, 0.4953781858760511, 0.49537818587605154, 0.49537818587605037, 0.495378185876051, 0.495378185876051, 0.49537818587605076, 0.49537818587605187, 0.495378185876051, 0.4953781858760511, 0.49537818587605076, 0.4953781858760509, 0.5009010227811296, 0.5176946186142235, 0.579323841989283, 0.6279646371556915, 0.6976832253830649, 0.7297824268251398, 0.8740709363969804, 0.9332203606885155]
+
+
+minimum rfe error with hyp opt: 0.4953781858760502
+────────────────────────────────────────────────────────────────────────────────
+
+
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+sel_features:
+
+Index(['fp_mqns_14', 'fp_mqns_2', 'fp_mqns_24', 'fp_mqns_25', 'fp_mqns_27',
+       'fp_mqns_3', 'fp_mqns_32', 'fp_mqns_33', 'fp_mqns_34', 'fp_mqns_37',
+       'fp_mqns_38', 'fp_mqns_39', 'fp_mqns_4', 'fp_mqns_40', 'fp_mqns_41',
+       'fp_mqns_42', 'fp_mqns_5', 'fp_mqns_6', 'fp_mqns_7', 'fp_mqns_8',
+       'fp_o_desc_k2', 'fp_o_desc_k3', 'fp_o_desc_nAliRing', 'fp_slogPVsa_1',
+       'fp_slogPVsa_10', 'fp_slogPVsa_11', 'fp_slogPVsa_7', 'fp_slogPVsa_8',
+       'fp_smrVsa_10', 'fp_smrVsa_2', 'net_chg', 'norm_abs_logP',
+       'norm_bscore', 'norm_logP', 'patterning'],
+      dtype='object')
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+sel_features2:
+
+Index(['fp_mqns_14', 'fp_mqns_2', 'fp_mqns_24', 'fp_mqns_25', 'fp_mqns_27',
+       'fp_mqns_29', 'fp_mqns_3', 'fp_mqns_32', 'fp_mqns_33', 'fp_mqns_34',
+       'fp_mqns_35', 'fp_mqns_37', 'fp_mqns_38', 'fp_mqns_39', 'fp_mqns_4',
+       'fp_mqns_40', 'fp_mqns_5', 'fp_mqns_7', 'fp_o_desc_chi1v',
+       'fp_o_desc_chi2v', 'fp_o_desc_k3', 'fp_slogPVsa_11', 'fp_slogPVsa_7',
+       'fp_slogPVsa_9', 'fp_smrVsa_10', 'patterning'],
+      dtype='object')
+Ml_type SVM
+CV: 10
+Normalize True
+Verbose False
+Verbose_plot False
+C [0.1, 0.5, 1, 3, 5, 7, 8, 9, 9.5, 10, 10.5, 11, 12, 15, 20, 50, 100]
+epsilon [0, 0.001, 0.01, 0.03, 0.05, 0.075, 0.1, 0.2, 0.3, 0.4, 0.55]
+model Pipeline(steps=[('scaler', StandardScaler()),
+                ('regressor', SVR(C=8.0, epsilon=0.0))])
+
+
+────────────────────────────────────────────────────────────────────────────────
+model rfe w/o hyp opt:
+
+[[8.00000000e+00 0.00000000e+00 5.22956333e-01]
+ [8.00000000e+00 1.00000000e-03 5.23163890e-01]
+ [9.00000000e+00 0.00000000e+00 5.24084647e-01]
+ [9.00000000e+00 1.00000000e-03 5.24284177e-01]
+ [9.50000000e+00 0.00000000e+00 5.25130660e-01]
+ [8.00000000e+00 1.00000000e-02 5.25217224e-01]
+ [9.50000000e+00 1.00000000e-03 5.25354048e-01]
+ [1.00000000e+01 0.00000000e+00 5.25941230e-01]
+ [1.00000000e+01 1.00000000e-03 5.26122285e-01]
+ [9.00000000e+00 1.00000000e-02 5.26421270e-01]
+ [7.00000000e+00 0.00000000e+00 5.26478273e-01]
+ [1.05000000e+01 0.00000000e+00 5.26530774e-01]
+ [7.00000000e+00 1.00000000e-03 5.26579246e-01]
+ [1.05000000e+01 1.00000000e-03 5.26668348e-01]
+ [1.10000000e+01 0.00000000e+00 5.27116365e-01]
+ [1.10000000e+01 1.00000000e-03 5.27284641e-01]
+ [9.50000000e+00 1.00000000e-02 5.27539641e-01]
+ [1.20000000e+01 0.00000000e+00 5.27970331e-01]
+ [7.00000000e+00 1.00000000e-02 5.28027824e-01]
+ [1.20000000e+01 1.00000000e-03 5.28134790e-01]
+ [1.00000000e+01 1.00000000e-02 5.28140300e-01]
+ [1.05000000e+01 1.00000000e-02 5.28614570e-01]
+ [1.10000000e+01 1.00000000e-02 5.29058029e-01]
+ [1.20000000e+01 1.00000000e-02 5.30159244e-01]
+ [8.00000000e+00 3.00000000e-02 5.30924717e-01]
+ [1.50000000e+01 0.00000000e+00 5.31706931e-01]
+ [1.50000000e+01 1.00000000e-03 5.32013169e-01]
+ [9.00000000e+00 3.00000000e-02 5.32047693e-01]
+ [9.50000000e+00 3.00000000e-02 5.32420331e-01]
+ [7.00000000e+00 3.00000000e-02 5.32515586e-01]
+ [1.00000000e+01 3.00000000e-02 5.33059634e-01]
+ [1.05000000e+01 3.00000000e-02 5.33613336e-01]
+ [1.10000000e+01 3.00000000e-02 5.34244916e-01]
+ [1.50000000e+01 1.00000000e-02 5.34281387e-01]
+ [8.00000000e+00 5.00000000e-02 5.35316345e-01]
+ [1.20000000e+01 3.00000000e-02 5.35837628e-01]
+ [9.00000000e+00 5.00000000e-02 5.36170481e-01]
+ [7.00000000e+00 5.00000000e-02 5.36521489e-01]
+ [2.00000000e+01 0.00000000e+00 5.37100588e-01]
+ [2.00000000e+01 1.00000000e-03 5.37103132e-01]
+ [9.50000000e+00 5.00000000e-02 5.37238914e-01]
+ [2.00000000e+01 1.00000000e-02 5.37588098e-01]
+ [1.00000000e+01 5.00000000e-02 5.37956882e-01]
+ [1.50000000e+01 3.00000000e-02 5.38006315e-01]
+ [1.05000000e+01 5.00000000e-02 5.38732277e-01]
+ [2.00000000e+01 3.00000000e-02 5.38766914e-01]
+ [1.10000000e+01 5.00000000e-02 5.39453449e-01]
+ [5.00000000e+00 0.00000000e+00 5.40498626e-01]
+ [5.00000000e+00 1.00000000e-03 5.40570650e-01]
+ [8.00000000e+00 7.50000000e-02 5.40749245e-01]
+ [1.20000000e+01 5.00000000e-02 5.41074306e-01]
+ [2.00000000e+01 5.00000000e-02 5.41365847e-01]
+ [5.00000000e+00 1.00000000e-02 5.41383732e-01]
+ [1.50000000e+01 5.00000000e-02 5.41627941e-01]
+ [7.00000000e+00 7.50000000e-02 5.41970334e-01]
+ [9.00000000e+00 7.50000000e-02 5.42247914e-01]
+ [9.50000000e+00 7.50000000e-02 5.43355970e-01]
+ [1.00000000e+01 7.50000000e-02 5.44020054e-01]
+ [5.00000000e+00 3.00000000e-02 5.44329414e-01]
+ [1.05000000e+01 7.50000000e-02 5.44778689e-01]
+ [2.00000000e+01 7.50000000e-02 5.45392625e-01]
+ [1.10000000e+01 7.50000000e-02 5.45878751e-01]
+ [1.50000000e+01 7.50000000e-02 5.46011082e-01]
+ [8.00000000e+00 1.00000000e-01 5.46793746e-01]
+ [7.00000000e+00 1.00000000e-01 5.47206645e-01]
+ [1.20000000e+01 7.50000000e-02 5.47549172e-01]
+ [9.00000000e+00 1.00000000e-01 5.47944795e-01]
+ [9.50000000e+00 1.00000000e-01 5.48515438e-01]
+ [5.00000000e+00 5.00000000e-02 5.49383790e-01]
+ [1.00000000e+01 1.00000000e-01 5.49691032e-01]
+ [1.05000000e+01 1.00000000e-01 5.51193180e-01]
+ [2.00000000e+01 1.00000000e-01 5.51933743e-01]
+ [1.50000000e+01 1.00000000e-01 5.51961440e-01]
+ [1.10000000e+01 1.00000000e-01 5.52117450e-01]
+ [1.20000000e+01 1.00000000e-01 5.52943634e-01]
+ [5.00000000e+00 7.50000000e-02 5.55729004e-01]
+ [5.00000000e+00 1.00000000e-01 5.61465114e-01]
+ [7.00000000e+00 2.00000000e-01 5.69659639e-01]
+ [8.00000000e+00 2.00000000e-01 5.71990352e-01]
+ [9.00000000e+00 2.00000000e-01 5.74371794e-01]
+ [5.00000000e+01 0.00000000e+00 5.74953448e-01]
+ [5.00000000e+01 1.00000000e-03 5.75099868e-01]
+ [9.50000000e+00 2.00000000e-01 5.75584789e-01]
+ [5.00000000e+00 2.00000000e-01 5.75722179e-01]
+ [1.20000000e+01 2.00000000e-01 5.76128258e-01]
+ [1.00000000e+01 2.00000000e-01 5.76262327e-01]
+ [1.05000000e+01 2.00000000e-01 5.76793556e-01]
+ [5.00000000e+01 1.00000000e-02 5.76877451e-01]
+ [1.10000000e+01 2.00000000e-01 5.77419607e-01]
+ [1.50000000e+01 2.00000000e-01 5.77686673e-01]
+ [3.00000000e+00 1.00000000e-02 5.78497150e-01]
+ [3.00000000e+00 0.00000000e+00 5.78709723e-01]
+ [3.00000000e+00 1.00000000e-03 5.78738271e-01]
+ [2.00000000e+01 2.00000000e-01 5.78880833e-01]
+ [3.00000000e+00 3.00000000e-02 5.79024945e-01]
+ [3.00000000e+00 5.00000000e-02 5.80501534e-01]
+ [5.00000000e+01 3.00000000e-02 5.80580021e-01]
+ [3.00000000e+00 7.50000000e-02 5.81649941e-01]
+ [3.00000000e+00 1.00000000e-01 5.82368693e-01]
+ [5.00000000e+01 5.00000000e-02 5.83623375e-01]
+ [5.00000000e+01 7.50000000e-02 5.89133410e-01]
+ [5.00000000e+01 1.00000000e-01 5.97136406e-01]
+ [3.00000000e+00 2.00000000e-01 5.99005067e-01]
+ [5.00000000e+00 3.00000000e-01 6.03534963e-01]
+ [3.00000000e+00 3.00000000e-01 6.13457595e-01]
+ [7.00000000e+00 3.00000000e-01 6.14147629e-01]
+ [1.05000000e+01 3.00000000e-01 6.14822580e-01]
+ [1.10000000e+01 3.00000000e-01 6.15010301e-01]
+ [1.20000000e+01 3.00000000e-01 6.15234938e-01]
+ [9.00000000e+00 3.00000000e-01 6.15318578e-01]
+ [1.00000000e+01 3.00000000e-01 6.15570159e-01]
+ [8.00000000e+00 3.00000000e-01 6.15901498e-01]
+ [9.50000000e+00 3.00000000e-01 6.16009108e-01]
+ [2.00000000e+01 3.00000000e-01 6.17625654e-01]
+ [1.50000000e+01 3.00000000e-01 6.17645279e-01]
+ [5.00000000e+01 2.00000000e-01 6.32383914e-01]
+ [3.00000000e+00 4.00000000e-01 6.35727268e-01]
+ [5.00000000e+00 4.00000000e-01 6.36940181e-01]
+ [7.00000000e+00 4.00000000e-01 6.49292183e-01]
+ [1.50000000e+01 4.00000000e-01 6.53087575e-01]
+ [1.20000000e+01 4.00000000e-01 6.55508706e-01]
+ [8.00000000e+00 4.00000000e-01 6.55890319e-01]
+ [9.00000000e+00 4.00000000e-01 6.58066463e-01]
+ [1.10000000e+01 4.00000000e-01 6.58236875e-01]
+ [9.50000000e+00 4.00000000e-01 6.58256314e-01]
+ [1.05000000e+01 4.00000000e-01 6.58912809e-01]
+ [1.00000000e+01 4.00000000e-01 6.59199829e-01]
+ [2.00000000e+01 4.00000000e-01 6.60796795e-01]
+ [1.00000000e+00 2.00000000e-01 6.68751846e-01]
+ [1.00000000e+02 0.00000000e+00 6.71102195e-01]
+ [1.00000000e+02 1.00000000e-03 6.71206317e-01]
+ [1.00000000e+02 1.00000000e-02 6.72834279e-01]
+ [1.00000000e+00 1.00000000e-01 6.74118481e-01]
+ [5.00000000e+01 3.00000000e-01 6.74905991e-01]
+ [1.00000000e+02 3.00000000e-02 6.76288419e-01]
+ [1.00000000e+02 5.00000000e-02 6.77441418e-01]
+ [1.00000000e+00 3.00000000e-01 6.78399144e-01]
+ [1.00000000e+00 7.50000000e-02 6.78433854e-01]
+ [1.00000000e+02 7.50000000e-02 6.80728457e-01]
+ [1.00000000e+00 5.00000000e-02 6.81497918e-01]
+ [1.00000000e+00 3.00000000e-02 6.84366671e-01]
+ [1.00000000e+02 1.00000000e-01 6.84761324e-01]
+ [3.00000000e+00 5.50000000e-01 6.86534625e-01]
+ [5.00000000e+00 5.50000000e-01 6.87492709e-01]
+ [1.00000000e+00 1.00000000e-02 6.87527507e-01]
+ [1.00000000e+00 4.00000000e-01 6.87963051e-01]
+ [1.00000000e+00 1.00000000e-03 6.88860164e-01]
+ [1.00000000e+00 0.00000000e+00 6.89021748e-01]
+ [1.20000000e+01 5.50000000e-01 6.91323701e-01]
+ [1.10000000e+01 5.50000000e-01 6.93160472e-01]
+ [1.50000000e+01 5.50000000e-01 6.93837603e-01]
+ [1.05000000e+01 5.50000000e-01 6.94351235e-01]
+ [1.00000000e+01 5.50000000e-01 6.96325118e-01]
+ [9.50000000e+00 5.50000000e-01 6.99231876e-01]
+ [9.00000000e+00 5.50000000e-01 7.02140226e-01]
+ [8.00000000e+00 5.50000000e-01 7.04871482e-01]
+ [7.00000000e+00 5.50000000e-01 7.05448580e-01]
+ [2.00000000e+01 5.50000000e-01 7.06716592e-01]
+ [5.00000000e+01 4.00000000e-01 7.13775580e-01]
+ [1.00000000e+02 2.00000000e-01 7.19808889e-01]
+ [1.00000000e+00 5.50000000e-01 7.32016621e-01]
+ [5.00000000e-01 4.00000000e-01 7.36495371e-01]
+ [5.00000000e-01 2.00000000e-01 7.37391536e-01]
+ [5.00000000e-01 3.00000000e-01 7.40425336e-01]
+ [5.00000000e-01 1.00000000e-01 7.53131610e-01]
+ [5.00000000e+01 5.50000000e-01 7.53546911e-01]
+ [5.00000000e-01 7.50000000e-02 7.56305871e-01]
+ [1.00000000e+02 3.00000000e-01 7.59479259e-01]
+ [5.00000000e-01 5.00000000e-02 7.59681365e-01]
+ [5.00000000e-01 3.00000000e-02 7.62613890e-01]
+ [5.00000000e-01 1.00000000e-02 7.64473539e-01]
+ [5.00000000e-01 1.00000000e-03 7.64820313e-01]
+ [5.00000000e-01 0.00000000e+00 7.64830654e-01]
+ [5.00000000e-01 5.50000000e-01 7.77620289e-01]
+ [1.00000000e+02 4.00000000e-01 7.91739918e-01]
+ [1.00000000e+02 5.50000000e-01 8.23968015e-01]
+ [1.00000000e-01 3.00000000e-01 8.74260407e-01]
+ [1.00000000e-01 4.00000000e-01 8.78354028e-01]
+ [1.00000000e-01 2.00000000e-01 8.81744711e-01]
+ [1.00000000e-01 1.00000000e-01 8.95117989e-01]
+ [1.00000000e-01 3.00000000e-02 8.95153636e-01]
+ [1.00000000e-01 5.00000000e-02 8.95265843e-01]
+ [1.00000000e-01 1.00000000e-02 8.96503068e-01]
+ [1.00000000e-01 1.00000000e-03 8.96556086e-01]
+ [1.00000000e-01 0.00000000e+00 8.96620223e-01]
+ [1.00000000e-01 7.50000000e-02 8.98432804e-01]
+ [1.00000000e-01 5.50000000e-01 9.00293916e-01]]
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+
+
+model rfe w hyp opt:
+
+[[1.10000000e+01 0.00000000e+00 4.95378186e-01]
+ [1.20000000e+01 0.00000000e+00 4.95575002e-01]
+ [1.10000000e+01 1.00000000e-03 4.95592267e-01]
+ [1.20000000e+01 1.00000000e-03 4.95754332e-01]
+ [1.05000000e+01 0.00000000e+00 4.95984056e-01]
+ [1.05000000e+01 1.00000000e-03 4.96193666e-01]
+ [1.00000000e+01 0.00000000e+00 4.96788119e-01]
+ [1.00000000e+01 1.00000000e-03 4.97021813e-01]
+ [9.50000000e+00 0.00000000e+00 4.97771497e-01]
+ [1.10000000e+01 1.00000000e-02 4.97944774e-01]
+ [1.20000000e+01 1.00000000e-02 4.97983649e-01]
+ [9.50000000e+00 1.00000000e-03 4.98036372e-01]
+ [1.05000000e+01 1.00000000e-02 4.98358137e-01]
+ [9.00000000e+00 0.00000000e+00 4.98921644e-01]
+ [9.00000000e+00 1.00000000e-03 4.99183365e-01]
+ [1.00000000e+01 1.00000000e-02 4.99455972e-01]
+ [1.50000000e+01 0.00000000e+00 4.99715698e-01]
+ [1.50000000e+01 1.00000000e-03 4.99965644e-01]
+ [9.50000000e+00 1.00000000e-02 5.00668601e-01]
+ [9.00000000e+00 1.00000000e-02 5.02091439e-01]
+ [1.50000000e+01 1.00000000e-02 5.02523731e-01]
+ [8.00000000e+00 0.00000000e+00 5.03053679e-01]
+ [1.10000000e+01 3.00000000e-02 5.03127775e-01]
+ [1.05000000e+01 3.00000000e-02 5.03209696e-01]
+ [8.00000000e+00 1.00000000e-03 5.03238529e-01]
+ [1.20000000e+01 3.00000000e-02 5.03458230e-01]
+ [1.00000000e+01 3.00000000e-02 5.04229250e-01]
+ [8.00000000e+00 1.00000000e-02 5.05479192e-01]
+ [9.50000000e+00 3.00000000e-02 5.06415538e-01]
+ [9.00000000e+00 3.00000000e-02 5.07893819e-01]
+ [1.00000000e+01 5.00000000e-02 5.08805506e-01]
+ [1.05000000e+01 5.00000000e-02 5.08829923e-01]
+ [1.10000000e+01 5.00000000e-02 5.09112727e-01]
+ [1.20000000e+01 5.00000000e-02 5.09448109e-01]
+ [1.50000000e+01 3.00000000e-02 5.09732074e-01]
+ [9.50000000e+00 5.00000000e-02 5.09947432e-01]
+ [8.00000000e+00 3.00000000e-02 5.10344121e-01]
+ [7.00000000e+00 0.00000000e+00 5.12025745e-01]
+ [7.00000000e+00 1.00000000e-03 5.12051990e-01]
+ [9.00000000e+00 5.00000000e-02 5.12424843e-01]
+ [7.00000000e+00 1.00000000e-02 5.12749238e-01]
+ [8.00000000e+00 5.00000000e-02 5.15259653e-01]
+ [7.00000000e+00 3.00000000e-02 5.15458535e-01]
+ [1.00000000e+01 7.50000000e-02 5.16067238e-01]
+ [9.50000000e+00 7.50000000e-02 5.16424190e-01]
+ [1.05000000e+01 7.50000000e-02 5.16538185e-01]
+ [1.10000000e+01 7.50000000e-02 5.16892309e-01]
+ [9.00000000e+00 7.50000000e-02 5.17899817e-01]
+ [1.50000000e+01 5.00000000e-02 5.17967205e-01]
+ [1.20000000e+01 7.50000000e-02 5.18029057e-01]
+ [7.00000000e+00 5.00000000e-02 5.19474077e-01]
+ [2.00000000e+01 0.00000000e+00 5.20339881e-01]
+ [2.00000000e+01 1.00000000e-03 5.20597196e-01]
+ [8.00000000e+00 7.50000000e-02 5.22199740e-01]
+ [2.00000000e+01 1.00000000e-02 5.23695771e-01]
+ [1.05000000e+01 1.00000000e-01 5.24887985e-01]
+ [9.50000000e+00 1.00000000e-01 5.24895265e-01]
+ [1.00000000e+01 1.00000000e-01 5.24928185e-01]
+ [9.00000000e+00 1.00000000e-01 5.25595000e-01]
+ [7.00000000e+00 7.50000000e-02 5.25625188e-01]
+ [1.10000000e+01 1.00000000e-01 5.25643566e-01]
+ [1.20000000e+01 1.00000000e-01 5.28161465e-01]
+ [1.50000000e+01 7.50000000e-02 5.28266575e-01]
+ [8.00000000e+00 1.00000000e-01 5.30494059e-01]
+ [7.00000000e+00 1.00000000e-01 5.32477044e-01]
+ [2.00000000e+01 3.00000000e-02 5.32801724e-01]
+ [1.50000000e+01 1.00000000e-01 5.39011655e-01]
+ [2.00000000e+01 5.00000000e-02 5.40087656e-01]
+ [5.00000000e+00 1.00000000e-02 5.41901985e-01]
+ [5.00000000e+00 1.00000000e-03 5.42078403e-01]
+ [5.00000000e+00 0.00000000e+00 5.42140843e-01]
+ [5.00000000e+00 3.00000000e-02 5.44244938e-01]
+ [5.00000000e+00 5.00000000e-02 5.46680664e-01]
+ [2.00000000e+01 7.50000000e-02 5.48856115e-01]
+ [5.00000000e+00 7.50000000e-02 5.49626494e-01]
+ [5.00000000e+00 1.00000000e-01 5.52530872e-01]
+ [2.00000000e+01 1.00000000e-01 5.56293946e-01]
+ [1.00000000e+01 2.00000000e-01 5.63695210e-01]
+ [9.50000000e+00 2.00000000e-01 5.64084232e-01]
+ [1.05000000e+01 2.00000000e-01 5.64172324e-01]
+ [7.00000000e+00 2.00000000e-01 5.64341791e-01]
+ [9.00000000e+00 2.00000000e-01 5.64662033e-01]
+ [1.10000000e+01 2.00000000e-01 5.65109333e-01]
+ [8.00000000e+00 2.00000000e-01 5.66372923e-01]
+ [1.20000000e+01 2.00000000e-01 5.67084621e-01]
+ [1.50000000e+01 2.00000000e-01 5.72896772e-01]
+ [3.00000000e+00 1.00000000e-02 5.73117681e-01]
+ [5.00000000e+00 2.00000000e-01 5.73203659e-01]
+ [3.00000000e+00 1.00000000e-03 5.73457204e-01]
+ [3.00000000e+00 0.00000000e+00 5.73469605e-01]
+ [3.00000000e+00 3.00000000e-02 5.74586244e-01]
+ [3.00000000e+00 5.00000000e-02 5.77093124e-01]
+ [2.00000000e+01 2.00000000e-01 5.79706099e-01]
+ [3.00000000e+00 7.50000000e-02 5.81182014e-01]
+ [5.00000000e+00 3.00000000e-01 5.84283848e-01]
+ [7.00000000e+00 3.00000000e-01 5.84452857e-01]
+ [8.00000000e+00 3.00000000e-01 5.86807928e-01]
+ [9.00000000e+00 3.00000000e-01 5.87613478e-01]
+ [3.00000000e+00 1.00000000e-01 5.88263243e-01]
+ [9.50000000e+00 3.00000000e-01 5.88524914e-01]
+ [1.00000000e+01 3.00000000e-01 5.89241927e-01]
+ [1.05000000e+01 3.00000000e-01 5.89923317e-01]
+ [1.10000000e+01 3.00000000e-01 5.90962087e-01]
+ [1.20000000e+01 3.00000000e-01 5.93142892e-01]
+ [5.00000000e+00 4.00000000e-01 5.93761703e-01]
+ [1.50000000e+01 3.00000000e-01 5.94817230e-01]
+ [2.00000000e+01 3.00000000e-01 6.06385382e-01]
+ [7.00000000e+00 4.00000000e-01 6.07784510e-01]
+ [3.00000000e+00 2.00000000e-01 6.09437665e-01]
+ [8.00000000e+00 4.00000000e-01 6.13372534e-01]
+ [9.00000000e+00 4.00000000e-01 6.17170155e-01]
+ [9.50000000e+00 4.00000000e-01 6.18645450e-01]
+ [1.20000000e+01 4.00000000e-01 6.19791907e-01]
+ [3.00000000e+00 3.00000000e-01 6.20071592e-01]
+ [1.10000000e+01 4.00000000e-01 6.20104833e-01]
+ [3.00000000e+00 4.00000000e-01 6.20230722e-01]
+ [1.00000000e+01 4.00000000e-01 6.20294971e-01]
+ [1.05000000e+01 4.00000000e-01 6.20306741e-01]
+ [1.50000000e+01 4.00000000e-01 6.24218714e-01]
+ [3.00000000e+00 5.50000000e-01 6.31862263e-01]
+ [2.00000000e+01 4.00000000e-01 6.37222429e-01]
+ [5.00000000e+00 5.50000000e-01 6.40286610e-01]
+ [8.00000000e+00 5.50000000e-01 6.55874878e-01]
+ [7.00000000e+00 5.50000000e-01 6.56657029e-01]
+ [9.00000000e+00 5.50000000e-01 6.57736269e-01]
+ [1.00000000e+00 0.00000000e+00 6.58995575e-01]
+ [1.00000000e+00 1.00000000e-03 6.59141609e-01]
+ [9.50000000e+00 5.50000000e-01 6.59550192e-01]
+ [1.00000000e+00 1.00000000e-02 6.60174542e-01]
+ [1.00000000e+01 5.50000000e-01 6.61015479e-01]
+ [5.00000000e+01 3.00000000e-02 6.61533112e-01]
+ [1.00000000e+00 7.50000000e-02 6.61898902e-01]
+ [5.00000000e+01 5.00000000e-02 6.62102062e-01]
+ [1.00000000e+00 1.00000000e-01 6.62132328e-01]
+ [1.10000000e+01 5.50000000e-01 6.62202824e-01]
+ [1.05000000e+01 5.50000000e-01 6.62525720e-01]
+ [1.00000000e+00 3.00000000e-02 6.62780184e-01]
+ [1.00000000e+00 5.00000000e-02 6.62849894e-01]
+ [5.00000000e+01 1.00000000e-02 6.63037431e-01]
+ [5.00000000e+01 1.00000000e-03 6.63951552e-01]
+ [5.00000000e+01 0.00000000e+00 6.64106942e-01]
+ [1.20000000e+01 5.50000000e-01 6.64149055e-01]
+ [5.00000000e+01 7.50000000e-02 6.68496569e-01]
+ [1.50000000e+01 5.50000000e-01 6.71178123e-01]
+ [5.00000000e+01 1.00000000e-01 6.75473842e-01]
+ [1.00000000e+00 2.00000000e-01 6.80838765e-01]
+ [2.00000000e+01 5.50000000e-01 6.85732862e-01]
+ [1.00000000e+00 3.00000000e-01 6.89528400e-01]
+ [1.00000000e+00 4.00000000e-01 6.94980608e-01]
+ [5.00000000e+01 2.00000000e-01 6.95389825e-01]
+ [5.00000000e+01 3.00000000e-01 7.06467371e-01]
+ [1.00000000e+00 5.50000000e-01 7.11095262e-01]
+ [5.00000000e+01 4.00000000e-01 7.24567835e-01]
+ [5.00000000e-01 3.00000000e-02 7.37746899e-01]
+ [5.00000000e-01 1.00000000e-02 7.38901373e-01]
+ [5.00000000e-01 1.00000000e-03 7.39224710e-01]
+ [5.00000000e-01 0.00000000e+00 7.39246176e-01]
+ [5.00000000e-01 5.00000000e-02 7.39548338e-01]
+ [5.00000000e-01 2.00000000e-01 7.41180289e-01]
+ [5.00000000e-01 7.50000000e-02 7.42706662e-01]
+ [5.00000000e-01 3.00000000e-01 7.44380406e-01]
+ [5.00000000e-01 1.00000000e-01 7.46114007e-01]
+ [5.00000000e-01 4.00000000e-01 7.53855263e-01]
+ [5.00000000e+01 5.50000000e-01 7.59797145e-01]
+ [5.00000000e-01 5.50000000e-01 7.87075168e-01]
+ [1.00000000e+02 5.50000000e-01 8.10957039e-01]
+ [1.00000000e+02 4.00000000e-01 8.16794032e-01]
+ [1.00000000e+02 3.00000000e-01 8.24966516e-01]
+ [1.00000000e+02 1.00000000e-03 8.28259243e-01]
+ [1.00000000e+02 0.00000000e+00 8.28288857e-01]
+ [1.00000000e+02 1.00000000e-02 8.28642094e-01]
+ [1.00000000e+02 3.00000000e-02 8.31547536e-01]
+ [1.00000000e+02 5.00000000e-02 8.35332874e-01]
+ [1.00000000e+02 7.50000000e-02 8.39472035e-01]
+ [1.00000000e+02 1.00000000e-01 8.39887109e-01]
+ [1.00000000e+02 2.00000000e-01 8.42694277e-01]
+ [1.00000000e-01 3.00000000e-01 8.75342733e-01]
+ [1.00000000e-01 2.00000000e-01 8.76918331e-01]
+ [1.00000000e-01 4.00000000e-01 8.84021197e-01]
+ [1.00000000e-01 7.50000000e-02 8.90289606e-01]
+ [1.00000000e-01 1.00000000e-01 8.91257991e-01]
+ [1.00000000e-01 5.00000000e-02 8.92289980e-01]
+ [1.00000000e-01 1.00000000e-02 8.93396559e-01]
+ [1.00000000e-01 3.00000000e-02 8.93565020e-01]
+ [1.00000000e-01 1.00000000e-03 8.94187863e-01]
+ [1.00000000e-01 0.00000000e+00 8.94283616e-01]
+ [1.00000000e-01 5.50000000e-01 9.04451381e-01]]
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+final model :
+
+Pipeline(steps=[('scaler', StandardScaler()),
+                ('regressor', SVR(C=11.0, epsilon=0.0))])
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
